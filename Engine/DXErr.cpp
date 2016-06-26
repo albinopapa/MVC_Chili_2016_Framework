@@ -13,7 +13,7 @@
 
 // This version only supports UNICODE.
 
-#include "DXErr.h"
+#include "dxerr.h"
 
 #include <stdio.h>
 #include <algorithm>
@@ -3404,9 +3404,9 @@ const WCHAR* WINAPI DXGetErrorStringW( _In_ HRESULT hr )
 // xapo.h error codes
 // -------------------------------------------------------------
         CHK_ERRA(XAPO_E_FORMAT_UNSUPPORTED)
-    }
 
-    return L"Unknown";
+        default: return L"Unknown error.";
+    }
 }
 
 //--------------------------------------------------------------------------------------
@@ -3418,11 +3418,11 @@ const WCHAR* WINAPI DXGetErrorStringW( _In_ HRESULT hr )
 
 #define  CHK_ERRA(hrchk) \
         case hrchk: \
-             wcscpy_s( desc, count, L#hrchk );
+             wcscpy_s( desc, count, L#hrchk ); break;
 
 #define  CHK_ERR(hrchk, strOut) \
         case hrchk: \
-             wcscpy_s( desc, count, L##strOut );
+             wcscpy_s( desc, count, L##strOut ); break;
 
 
 //--------------------------------------------------------------------------------------
@@ -3680,6 +3680,7 @@ void WINAPI DXGetErrorDescriptionW( _In_ HRESULT hr, _Out_cap_(count) WCHAR* des
         CHK_ERR(D3DERR_UNSUPPORTEDCRYPTO, "Unsupported cryptographic system" )
         CHK_ERR(D3DERR_PRESENT_STATISTICS_DISJOINT, "Presentation statistics are disjoint" )
 
+
 #endif // !WINAPI_FAMILY || WINAPI_FAMILY == WINAPI_FAMILY_DESKTOP_APP
 
 // -------------------------------------------------------------
@@ -3842,6 +3843,8 @@ void WINAPI DXGetErrorDescriptionW( _In_ HRESULT hr, _Out_cap_(count) WCHAR* des
 // xapo.h error codes
 // -------------------------------------------------------------
         CHK_ERR(XAPO_E_FORMAT_UNSUPPORTED, "Requested audio format unsupported.")
+
+        default: wcscpy_s( desc, count, L"Unknown error." ); break;
     }
 }
 
@@ -3856,7 +3859,7 @@ HRESULT WINAPI DXTraceW( _In_z_ const WCHAR* strFile, _In_ DWORD dwLine, _In_ HR
     swprintf_s( strBufferLine, 128, L"%lu", dwLine );
     if( strFile )
     {
-       swprintf_s( strBuffer, BUFFER_SIZE, L"%s(%s): ", strFile, strBufferLine );
+       swprintf_s( strBuffer, BUFFER_SIZE, L"%ls(%ls): ", strFile, strBufferLine );
        OutputDebugStringW( strBuffer );
     }
 
@@ -3867,8 +3870,8 @@ HRESULT WINAPI DXTraceW( _In_z_ const WCHAR* strFile, _In_ DWORD dwLine, _In_ HR
         OutputDebugStringW( L" " );
     }
 
-    swprintf_s( strBufferError, 256, L"%s (0x%0.8x)", DXGetErrorStringW(hr), hr );
-    swprintf_s( strBuffer, BUFFER_SIZE, L"hr=%s", strBufferError );
+    swprintf_s( strBufferError, 256, L"%ls (0x%0.8x)", DXGetErrorStringW(hr), hr );
+    swprintf_s( strBuffer, BUFFER_SIZE, L"hr=%ls", strBufferError );
     OutputDebugStringW( strBuffer );
 
     OutputDebugStringW( L"\n" );
@@ -3884,9 +3887,9 @@ HRESULT WINAPI DXTraceW( _In_z_ const WCHAR* strFile, _In_ DWORD dwLine, _In_ HR
         WCHAR strBufferMsg[1024];
         wcscpy_s( strBufferMsg, 1024, L"" );
         if( nMsgLen > 0 )
-            swprintf_s( strBufferMsg, 1024, L"Calling: %s\n", strMsg );
+            swprintf_s( strBufferMsg, 1024, L"Calling: %ls\n", strMsg );
 
-        swprintf_s( strBuffer, BUFFER_SIZE, L"File: %s\nLine: %s\nError Code: %s\n%sDo you want to debug the application?",
+        swprintf_s( strBuffer, BUFFER_SIZE, L"File: %ls\nLine: %ls\nError Code: %ls\n%lsDo you want to debug the application?",
                     strBufferFile, strBufferLine, strBufferError, strBufferMsg );
 
         int nResult = MessageBoxW( GetForegroundWindow(), strBuffer, L"Unexpected error encountered", MB_YESNO | MB_ICONERROR );

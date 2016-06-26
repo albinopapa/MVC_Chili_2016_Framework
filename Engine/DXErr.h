@@ -13,8 +13,10 @@
 
 // This version only supports UNICODE.
 
-#ifdef _MSC_VER
 #pragma once
+
+#if !defined(NOMINMAX)
+#define NOMINMAX
 #endif
 
 #include "ChiliWin.h"

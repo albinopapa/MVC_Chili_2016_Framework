@@ -21,7 +21,7 @@ Graphics::Graphics( HWNDKey& key )
 	sd.BufferCount = 1;
 	sd.BufferDesc.Width = Graphics::ScreenWidth;
 	sd.BufferDesc.Height = Graphics::ScreenHeight;
-	sd.BufferDesc.Format = DXGI_FORMAT_R8G8B8A8_UNORM; // might be a faster format....
+	sd.BufferDesc.Format = DXGI_FORMAT_B8G8R8A8_UNORM;
 	sd.BufferDesc.RefreshRate.Numerator = 1;
 	sd.BufferDesc.RefreshRate.Denominator = 60;
 	sd.BufferUsage = DXGI_USAGE_RENDER_TARGET_OUTPUT;
@@ -99,7 +99,7 @@ Graphics::Graphics( HWNDKey& key )
 	sysTexDesc.Height = Graphics::ScreenHeight;
 	sysTexDesc.MipLevels = 1;
 	sysTexDesc.ArraySize = 1;
-	sysTexDesc.Format = DXGI_FORMAT_R8G8B8A8_UNORM; // DXGI_FORMAT_B8G8R8A8_UNORM ??
+	sysTexDesc.Format = DXGI_FORMAT_B8G8R8A8_UNORM; // DXGI_FORMAT_B8G8R8A8_UNORM ??
 	sysTexDesc.SampleDesc.Count = 1;
 	sysTexDesc.SampleDesc.Quality = 0;
 	sysTexDesc.Usage = D3D11_USAGE_DYNAMIC;

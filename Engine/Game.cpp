@@ -73,7 +73,7 @@ void Game::ComposeFrame()
 	{
 		for( int x = 100; x < m_x; x++ )
 		{
-			gfx.PutPixel( x,y,Colors::Green );
+			gfx.PutPixel( x,y,Colors::Red );
 		}
 	}
 	const auto end = high_resolution_clock::now();
