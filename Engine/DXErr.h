@@ -15,10 +15,6 @@
 
 #pragma once
 
-#if !defined(NOMINMAX)
-#define NOMINMAX
-#endif
-
 #include "ChiliWin.h"
 #include <sal.h>
 

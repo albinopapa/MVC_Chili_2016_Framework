@@ -99,7 +99,7 @@ Graphics::Graphics( HWNDKey& key )
 	sysTexDesc.Height = Graphics::ScreenHeight;
 	sysTexDesc.MipLevels = 1;
 	sysTexDesc.ArraySize = 1;
-	sysTexDesc.Format = DXGI_FORMAT_B8G8R8A8_UNORM; // DXGI_FORMAT_B8G8R8A8_UNORM ??
+	sysTexDesc.Format = DXGI_FORMAT_B8G8R8A8_UNORM;
 	sysTexDesc.SampleDesc.Count = 1;
 	sysTexDesc.SampleDesc.Quality = 0;
 	sysTexDesc.Usage = D3D11_USAGE_DYNAMIC;
