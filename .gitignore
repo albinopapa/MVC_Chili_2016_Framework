@@ -243,3 +243,5 @@ ModelManifest.xml
 
 # FAKE - F# Make
 .fake/
+/Engine/alog.txt
+*.cso
