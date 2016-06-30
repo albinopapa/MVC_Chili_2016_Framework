@@ -121,8 +121,8 @@ LRESULT MainWindow::HandleMsg( HWND hWnd,UINT msg,WPARAM wParam,LPARAM lParam )
 		// ************ MOUSE MESSAGES ************ //
 	case WM_MOUSEMOVE:
 	{
-		int x = (short)LOWORD( lParam );
-		int y = (short)HIWORD( lParam );
+		int x = LOWORD( lParam );
+		int y = HIWORD( lParam );
 		if( x > 0 && x < Graphics::ScreenWidth && y > 0 && y < Graphics::ScreenHeight )
 		{
 			mouse.OnMouseMove( x,y );
@@ -154,36 +154,36 @@ LRESULT MainWindow::HandleMsg( HWND hWnd,UINT msg,WPARAM wParam,LPARAM lParam )
 	}
 	case WM_LBUTTONDOWN:
 	{
-		int x = (short)LOWORD( lParam );
-		int y = (short)HIWORD( lParam );
+		int x = LOWORD( lParam );
+		int y = HIWORD( lParam );
 		mouse.OnLeftPressed( x,y );
 		break;
 	}
 	case WM_RBUTTONDOWN:
 	{
-		int x = (short)LOWORD( lParam );
-		int y = (short)HIWORD( lParam );
+		int x = LOWORD( lParam );
+		int y = HIWORD( lParam );
 		mouse.OnRightPressed( x,y );
 		break;
 	}
 	case WM_LBUTTONUP:
 	{
-		int x = (short)LOWORD( lParam );
-		int y = (short)HIWORD( lParam );
+		int x = LOWORD( lParam );
+		int y = HIWORD( lParam );
 		mouse.OnLeftReleased( x,y );
 		break;
 	}
 	case WM_RBUTTONUP:
 	{
-		int x = (short)LOWORD( lParam );
-		int y = (short)HIWORD( lParam );
+		int x = LOWORD( lParam );
+		int y = HIWORD( lParam );
 		mouse.OnRightReleased( x,y );
 		break;
 	}
 	case WM_MOUSEWHEEL:
 	{
-		int x = (short)LOWORD( lParam );
-		int y = (short)HIWORD( lParam );
+		int x = LOWORD( lParam );
+		int y = HIWORD( lParam );
 		if( GET_WHEEL_DELTA_WPARAM( wParam ) > 0 )
 		{
 			mouse.OnWheelUp( x,y );
