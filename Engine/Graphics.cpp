@@ -16,8 +16,7 @@ Graphics::Graphics( HWNDKey& key )
 
 	//////////////////////////////////////////////////////
 	// create device and swap chain/get render target view
-	DXGI_SWAP_CHAIN_DESC sd;
-	ZeroMemory( &sd,sizeof( sd ) );
+	DXGI_SWAP_CHAIN_DESC sd = {};
 	sd.BufferCount = 1;
 	sd.BufferDesc.Width = Graphics::ScreenWidth;
 	sd.BufferDesc.Height = Graphics::ScreenHeight;
@@ -112,8 +111,7 @@ Graphics::Graphics( HWNDKey& key )
 		throw CHILI_GFX_EXCEPTION( hr,L"Creating sysbuffer texture" );
 	}
 
-	D3D11_SHADER_RESOURCE_VIEW_DESC srvDesc;
-	memset( &srvDesc,0,sizeof( srvDesc ) );
+	D3D11_SHADER_RESOURCE_VIEW_DESC srvDesc = {};
 	srvDesc.Format = sysTexDesc.Format;
 	srvDesc.ViewDimension = D3D11_SRV_DIMENSION_TEXTURE2D;
 	srvDesc.Texture2D.MipLevels = 1;
@@ -177,14 +175,12 @@ Graphics::Graphics( HWNDKey& key )
 		{ 1.0f,-1.0f,0.5f,1.0f,1.0f },
 		{ -1.0f,-1.0f,0.5f,0.0f,1.0f },
 	};
-	D3D11_BUFFER_DESC bd;
-	ZeroMemory( &bd,sizeof( bd ) );
+	D3D11_BUFFER_DESC bd = {};
 	bd.Usage = D3D11_USAGE_DEFAULT;
 	bd.ByteWidth = sizeof( FSQVertex ) * 6;
 	bd.BindFlags = D3D11_BIND_VERTEX_BUFFER;
 	bd.CPUAccessFlags = 0u;
-	D3D11_SUBRESOURCE_DATA initData;
-	ZeroMemory( &initData,sizeof( initData ) );
+	D3D11_SUBRESOURCE_DATA initData = {};
 	initData.pSysMem = vertices;
 	if( FAILED( hr = pDevice->CreateBuffer( &bd,&initData,&pVertexBuffer ) ) )
 	{
@@ -209,8 +205,7 @@ Graphics::Graphics( HWNDKey& key )
 
 	////////////////////////////////////////////////////
 	// Create sampler state for fullscreen textured quad
-	D3D11_SAMPLER_DESC sampDesc;
-	ZeroMemory( &sampDesc,sizeof( sampDesc ) );
+	D3D11_SAMPLER_DESC sampDesc = {};
 	sampDesc.Filter = D3D11_FILTER_MIN_MAG_MIP_POINT;
 	sampDesc.AddressU = D3D11_TEXTURE_ADDRESS_CLAMP;
 	sampDesc.AddressV = D3D11_TEXTURE_ADDRESS_CLAMP;
