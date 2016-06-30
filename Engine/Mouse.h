@@ -44,21 +44,21 @@ public:
 		int x;
 		int y;
 	public:
-		constexpr Event( Type type,int x,int y )
+		Event( Type type,int x,int y )
 			:
 			type( type ),
 			x( x ),
 			y( y )
 		{}
-		constexpr bool IsValid() const
+		bool IsValid() const
 		{
 			return type != Invalid;
 		}
-		constexpr Type GetType() const
+		Type GetType() const
 		{
 			return type;
 		}
-		constexpr std::pair<int,int> GetPos() const
+		std::pair<int,int> GetPos() const
 		{
 			return{ x,y };
 		}

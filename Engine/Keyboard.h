@@ -39,24 +39,24 @@ public:
 		Type type;
 		unsigned char code;
 	public:
-		constexpr Event( Type type,unsigned char code )
+		Event( Type type,unsigned char code )
 			:
 			type( type ),
 			code( code )
 		{}
-		constexpr bool IsPress() const
+		bool IsPress() const
 		{
 			return type == Press;
 		}
-		constexpr bool IsRelease() const
+		bool IsRelease() const
 		{
 			return type == Release;
 		}
-		constexpr bool IsValid() const
+		bool IsValid() const
 		{
 			return type != Invalid;
 		}
-		constexpr unsigned char GetCode() const
+		unsigned char GetCode() const
 		{
 			return code;
 		}
