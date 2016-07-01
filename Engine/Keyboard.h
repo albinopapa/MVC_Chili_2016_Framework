@@ -39,6 +39,11 @@ public:
 		Type type;
 		unsigned char code;
 	public:
+		Event()
+			:
+			type( Invalid ),
+			code( 0u )
+		{}
 		Event( Type type,unsigned char code )
 			:
 			type( type ),
@@ -64,17 +69,15 @@ public:
 public:
 	bool KeyIsPressed( unsigned char keycode ) const;
 	Event ReadKey();
-	Event PeekKey() const;
-	bool KeyEmpty() const;
+	bool KeyIsEmpty() const;
 	unsigned char ReadChar();
-	unsigned char PeekChar() const;
-	bool CharEmpty() const;
-	void FlushKeyBuffer();
-	void FlushCharBuffer();
-	void FlushBuffers();
+	bool CharIsEmpty() const;
+	void FlushKey();
+	void FlushChar();
+	void Flush();
 	void EnableAutorepeat();
 	void DisableAutorepeat();
-	bool IsAutorepeatEnabled() const;
+	bool AutorepeatIsEnabled() const;
 private:
 	void OnKeyPressed( unsigned char keycode );
 	void OnKeyReleased( unsigned char keycode );
@@ -82,8 +85,8 @@ private:
 	template<typename T>
 	void TrimBuffer( std::queue<T>& buffer );
 private:
-	static constexpr unsigned int nKeys = 256;
-	static constexpr unsigned int bufferSize = 4;
+	static constexpr unsigned int nKeys = 256u;
+	static constexpr unsigned int bufferSize = 4u;
 	bool autorepeatEnabled = false;
 	std::bitset<nKeys> keystates;
 	std::queue<Event> keybuffer;

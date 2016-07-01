@@ -35,23 +35,11 @@ Keyboard::Event Keyboard::ReadKey()
 	}
 	else
 	{
-		return Keyboard::Event( Keyboard::Event::Invalid,0 );
+		return Keyboard::Event();
 	}
 }
 
-Keyboard::Event Keyboard::PeekKey() const
-{	
-	if( keybuffer.size() > 0u )
-	{
-		return keybuffer.front();
-	}
-	else
-	{
-		return Keyboard::Event( Keyboard::Event::Invalid,0 );
-	}
-}
-
-bool Keyboard::KeyEmpty() const
+bool Keyboard::KeyIsEmpty() const
 {
 	return keybuffer.empty();
 }
@@ -70,37 +58,25 @@ unsigned char Keyboard::ReadChar()
 	}
 }
 
-unsigned char Keyboard::PeekChar() const
-{
-	if( charbuffer.size() > 0u )
-	{
-		return charbuffer.front();
-	}
-	else
-	{
-		return 0;
-	}
-}
-
-bool Keyboard::CharEmpty() const
+bool Keyboard::CharIsEmpty() const
 {
 	return charbuffer.empty();
 }
 
-void Keyboard::FlushKeyBuffer()
+void Keyboard::FlushKey()
 {
 	std::swap( keybuffer,std::queue<Event>() );
 }
 
-void Keyboard::FlushCharBuffer()
+void Keyboard::FlushChar()
 {
 	std::swap( charbuffer,std::queue<unsigned char>() );
 }
 
-void Keyboard::FlushBuffers()
+void Keyboard::Flush()
 {
-	FlushKeyBuffer();
-	FlushCharBuffer();
+	FlushKey();
+	FlushChar();
 }
 
 void Keyboard::EnableAutorepeat()
@@ -113,7 +89,7 @@ void Keyboard::DisableAutorepeat()
 	autorepeatEnabled = false;
 }
 
-bool Keyboard::IsAutorepeatEnabled() const
+bool Keyboard::AutorepeatIsEnabled() const
 {
 	return autorepeatEnabled;
 }
