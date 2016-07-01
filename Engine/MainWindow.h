@@ -9,6 +9,11 @@
 class HWNDKey
 {
 	friend Graphics::Graphics( HWNDKey& );
+public:
+	HWNDKey( const HWNDKey& ) = delete;
+	HWNDKey& operator=( HWNDKey& ) = delete;
+protected:
+	HWNDKey() = default;
 protected:
 	HWND hWnd = nullptr;
 };
@@ -17,10 +22,9 @@ class MainWindow : public HWNDKey
 {
 public:
 	MainWindow( HINSTANCE hInst,wchar_t* pArgs );
-	~MainWindow();
 	MainWindow( const MainWindow& ) = delete;
-	MainWindow( MainWindow&& ) = delete;
 	MainWindow& operator=( const MainWindow& ) = delete;
+	~MainWindow();
 	bool IsActive() const;
 	bool IsMinimized() const;
 	void ShowMessageBox( const std::wstring& title,const std::wstring& message ) const;

@@ -14,6 +14,8 @@ private:
 	};
 public:
 	Graphics( class HWNDKey& key );
+	Graphics( const Graphics& ) = delete;
+	Graphics& operator=( const Graphics& ) = delete;
 	void EndFrame();
 	void BeginFrame();
 	void PutPixel( int x,int y,int r,int g,int b )

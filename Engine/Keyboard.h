@@ -67,6 +67,9 @@ public:
 		}
 	};
 public:
+	Keyboard() = default;
+	Keyboard( const Keyboard& ) = delete;
+	Keyboard& operator=( const Keyboard& ) = delete;
 	bool KeyIsPressed( unsigned char keycode ) const;
 	Event ReadKey();
 	bool KeyIsEmpty() const;
