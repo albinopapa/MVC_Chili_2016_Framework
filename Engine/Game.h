@@ -40,7 +40,7 @@ private:
 	Graphics gfx;
 	/********************************/
 	/*  User Variables              */
-	int m_x = 200;
-	int m_y = 200;
+	int m_x = 50;
+	int m_y = 50;
 	/********************************/
 };

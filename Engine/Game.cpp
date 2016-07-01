@@ -40,22 +40,26 @@ void Game::Go()
 
 void Game::UpdateModel()
 {
-	while( !wnd.mouse.BufferIsEmpty() )
+	//while( !wnd.mouse.BufferIsEmpty() )
+	//{
+	//	if( wnd.mouse.LeftIsPressed() )
+	//	{
+	//		const Mouse::Event e = wnd.mouse.ReadMouse();
+	//		if( e.GetType() == Mouse::Event::Move || e.GetType() == Mouse::Event::LPress )
+	//		{
+	//			const auto pt = e.GetPos();
+	//			m_x = pt.first + 1;
+	//			m_y = pt.second + 1;
+	//		}
+	//	}
+	//	else
+	//	{
+	//		wnd.mouse.ClearBuffer();
+	//	}
+	//}
+	if( !wnd.IsMinimized() )
 	{
-		if( wnd.mouse.LeftIsPressed() )
-		{
-			const Mouse::Event e = wnd.mouse.ReadMouse();
-			if( e.GetType() == Mouse::Event::Move || e.GetType() == Mouse::Event::LPress )
-			{
-				const auto pt = e.GetPos();
-				m_x = pt.first + 1;
-				m_y = pt.second + 1;
-			}
-		}
-		else
-		{
-			wnd.mouse.ClearBuffer();
-		}
+		m_x++;
 	}
 	if( wnd.kbd.KeyIsPressed( VK_ESCAPE ) )
 	{
@@ -69,14 +73,11 @@ void Game::ComposeFrame()
 	std::wofstream log( L"alog.txt" );
 
 	const auto start = high_resolution_clock::now();
-	if( wnd.IsActive() )
+	for( int y = m_y; y < m_y + 50; y++ )
 	{
-		for( int y = 100; y < m_y; y++ )
+		for( int x = m_x; x < m_x + 50; x++ )
 		{
-			for( int x = 100; x < m_x; x++ )
-			{
-				gfx.PutPixel( x,y,Colors::Red );
-			}
+			gfx.PutPixel( x,y,Colors::Red );
 		}
 	}
 	const auto end = high_resolution_clock::now();

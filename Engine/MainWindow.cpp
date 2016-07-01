@@ -54,6 +54,11 @@ bool MainWindow::IsActive() const
 	return GetActiveWindow() == hWnd;
 }
 
+bool MainWindow::IsMinimized() const
+{
+	return IsIconic( hWnd ) != 0;
+}
+
 void MainWindow::ShowMessageBox( const std::wstring & title,const std::wstring & message ) const
 {
 	MessageBox( hWnd,message.c_str(),title.c_str(),MB_OK );
