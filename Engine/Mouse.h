@@ -62,9 +62,19 @@ public:
 		{
 			return{ x,y };
 		}
+		int GetPosX() const
+		{
+			return x;
+		}
+		int GetPosY() const
+		{
+			return y;
+		}
 	};
 public:
 	std::pair<int,int> GetPos() const;
+	int GetPosX() const;
+	int GetPosY() const;
 	bool LeftIsPressed() const;
 	bool RightIsPressed() const;
 	bool IsInWindow() const;

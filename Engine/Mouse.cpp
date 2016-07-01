@@ -25,6 +25,14 @@ std::pair<int,int> Mouse::GetPos() const
 {
 	return { x,y };
 }
+ int Mouse::GetPosX() const
+ {
+	 return x;
+ }
+ int Mouse::GetPosY() const
+ {
+	 return y;
+ }
 bool Mouse::LeftIsPressed() const
 {
 	return leftIsPressed;
