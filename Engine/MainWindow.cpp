@@ -49,6 +49,11 @@ MainWindow::~MainWindow()
 	UnregisterClass( wndClassName,hInst );
 }
 
+bool MainWindow::IsActive() const
+{
+	return GetActiveWindow() == hWnd;
+}
+
 void MainWindow::ShowMessageBox( const std::wstring & title,const std::wstring & message ) const
 {
 	MessageBox( hWnd,message.c_str(),title.c_str(),MB_OK );

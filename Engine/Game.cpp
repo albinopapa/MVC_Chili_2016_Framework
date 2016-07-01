@@ -69,11 +69,14 @@ void Game::ComposeFrame()
 	std::wofstream log( L"alog.txt" );
 
 	const auto start = high_resolution_clock::now();
-	for( int y = 100; y < m_y; y++ )
+	if( wnd.IsActive() )
 	{
-		for( int x = 100; x < m_x; x++ )
+		for( int y = 100; y < m_y; y++ )
 		{
-			gfx.PutPixel( x,y,Colors::Red );
+			for( int x = 100; x < m_x; x++ )
+			{
+				gfx.PutPixel( x,y,Colors::Red );
+			}
 		}
 	}
 	const auto end = high_resolution_clock::now();

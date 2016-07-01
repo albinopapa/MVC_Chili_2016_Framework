@@ -21,6 +21,7 @@ public:
 	MainWindow( const MainWindow& ) = delete;
 	MainWindow( MainWindow&& ) = delete;
 	MainWindow& operator=( const MainWindow& ) = delete;
+	bool IsActive() const;
 	void ShowMessageBox( const std::wstring& title,const std::wstring& message ) const;
 	void Kill()
 	{
