@@ -41,14 +41,26 @@ public:
 		};
 	private:
 		Type type;
+		bool leftIsPressed;
+		bool rightIsPressed;
 		int x;
 		int y;
 	public:
-		Event( Type type,int x,int y )
+		Event()
+			:
+			type( Invalid ),
+			leftIsPressed( false ),
+			rightIsPressed( false ),
+			x( 0 ),
+			y( 0 )
+		{}
+		Event( Type type,const Mouse& parent )
 			:
 			type( type ),
-			x( x ),
-			y( y )
+			leftIsPressed( parent.leftIsPressed ),
+			rightIsPressed( parent.rightIsPressed ),
+			x( parent.x ),
+			y( parent.y )
 		{}
 		bool IsValid() const
 		{
@@ -70,6 +82,14 @@ public:
 		{
 			return y;
 		}
+		bool LeftIsPressed() const
+		{
+			return leftIsPressed;
+		}
+		bool RightIsPressed() const
+		{
+			return rightIsPressed;
+		}
 	};
 public:
 	std::pair<int,int> GetPos() const;
@@ -78,9 +98,12 @@ public:
 	bool LeftIsPressed() const;
 	bool RightIsPressed() const;
 	bool IsInWindow() const;
-	Mouse::Event ReadMouse();
-	bool BufferIsEmpty() const;
-	void ClearBuffer();
+	Mouse::Event Read();
+	bool IsEmpty() const
+	{
+		return buffer.empty();
+	}
+	void Flush();
 private:
 	void OnMouseMove( int x,int y );
 	void OnMouseLeave();
