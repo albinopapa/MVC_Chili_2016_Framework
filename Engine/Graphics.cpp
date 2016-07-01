@@ -241,13 +241,13 @@ void Graphics::EndFrame()
 
 	// lock and map the adapter memory for copying over the sysbuffer
 	if( FAILED( hr = pImmediateContext->Map( pSysBufferTexture.Get(),0u,
-		D3D11_MAP_WRITE_DISCARD,0u,&mappedSysBuffer ) ) )
+		D3D11_MAP_WRITE_DISCARD,0u,&mappedSysBufferTexture ) ) )
 	{
 		throw CHILI_GFX_EXCEPTION( hr,L"Mapping sysbuffer" );
 	}
 	// setup parameters for copy operation
-	Color* pDst = reinterpret_cast<Color*>( mappedSysBuffer.pData );
-	const size_t dstPitch = mappedSysBuffer.RowPitch / sizeof( Color );
+	Color* pDst = reinterpret_cast<Color*>(mappedSysBufferTexture.pData );
+	const size_t dstPitch = mappedSysBufferTexture.RowPitch / sizeof( Color );
 	const size_t srcPitch = Graphics::ScreenWidth;
 	const size_t rowBytes = srcPitch * sizeof( Color );
 	// perform the copy line-by-line

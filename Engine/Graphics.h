@@ -34,7 +34,7 @@ private:
 	Microsoft::WRL::ComPtr<ID3D11Buffer>				pVertexBuffer;
 	Microsoft::WRL::ComPtr<ID3D11InputLayout>			pInputLayout;
 	Microsoft::WRL::ComPtr<ID3D11SamplerState>			pSamplerState;
-	D3D11_MAPPED_SUBRESOURCE							mappedSysBuffer;
+	D3D11_MAPPED_SUBRESOURCE							mappedSysBufferTexture;
 	Color*                                              pSysBuffer = nullptr;
 public:
 	static constexpr unsigned int ScreenWidth = 1280u;
