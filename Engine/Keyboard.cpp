@@ -117,7 +117,7 @@ void Keyboard::OnChar( unsigned char character )
 template<typename T>
 void Keyboard::TrimBuffer( std::queue<T>& buffer )
 {
-	if( buffer.size() > bufferSize )
+	while( buffer.size() > bufferSize )
 	{
 		buffer.pop();
 	}
