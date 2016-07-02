@@ -4,7 +4,7 @@
 #include <assert.h>
 #include <string>
 // Ignore the intellisense error "cannot open source file" for .shh files.
-// They will created during the build sequence before the preprocessor runs.
+// They will be created during the build sequence before the preprocessor runs.
 namespace FramebufferShaders
 {
 #include "FramebufferPS.shh"
@@ -264,7 +264,7 @@ void Graphics::EndFrame()
 	pImmediateContext->Draw( 6u,0u );
 
 	// flip back/front buffers
-	if( FAILED( hr = pSwapChain->Present( 0u,0u ) ) )
+	if( FAILED( hr = pSwapChain->Present( 1u,0u ) ) )
 	{
 		throw CHILI_GFX_EXCEPTION( hr,L"Presenting back buffer" );
 	}
