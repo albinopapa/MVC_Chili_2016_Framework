@@ -67,11 +67,14 @@ void MainWindow::ShowMessageBox( const std::wstring & title,const std::wstring &
 bool MainWindow::ProcessMessage()
 {
 	MSG msg;
-	if( PeekMessage( &msg,nullptr,0,0,PM_REMOVE ) )
+	while( PeekMessage( &msg,nullptr,0,0,PM_REMOVE ) )
 	{
 		TranslateMessage( &msg );
 		DispatchMessage( &msg );
-		return msg.message != WM_QUIT;
+		if( msg.message == WM_QUIT )
+		{
+			return false;
+		}
 	}
 	return true;
 }
