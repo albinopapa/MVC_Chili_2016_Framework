@@ -1,12 +1,17 @@
 #include "MainWindow.h"
 #include "Graphics.h"
-#include <d3dcompiler.h>
 #include "ChiliException.h"
 #include <assert.h>
 #include <string>
+// Ignore the intellisense error "cannot open source file" for .shh files.
+// They will created during the build sequence before the preprocessor runs.
+namespace FramebufferShaders
+{
+#include "FramebufferPS.shh"
+#include "FramebufferVS.shh"
+}
 
 #pragma comment( lib,"d3d11.lib" )
-#pragma comment( lib,"d3dcompiler.lib")
 
 using Microsoft::WRL::ComPtr;
 
@@ -125,18 +130,10 @@ Graphics::Graphics( HWNDKey& key )
 
 	////////////////////////////////////////////////
 	// compile and load pixel shader for framebuffer
-	ComPtr<ID3DBlob> pShaderBlob;
-
-	if( FAILED( hr = D3DReadFileToBlob( 
-		L"FramebufferPS.cso",
-		&pShaderBlob ) ) )
-	{
-		throw CHILI_GFX_EXCEPTION( hr,L"Loading pixel shader binary" );
-	}
-
+	// Ignore the intellisense error "namespace has no member"
 	if( FAILED( hr = pDevice->CreatePixelShader(
-		pShaderBlob->GetBufferPointer(),
-		pShaderBlob->GetBufferSize(),
+		FramebufferShaders::FramebufferPSBytecode,
+		sizeof( FramebufferShaders::FramebufferPSBytecode ),
 		nullptr,
 		&pPixelShader ) ) )
 	{
@@ -146,17 +143,10 @@ Graphics::Graphics( HWNDKey& key )
 
 	/////////////////////////////////////////////////
 	// compile and load vertex shader for framebuffer
-
-	if( FAILED( hr = D3DReadFileToBlob(
-		L"FramebufferVS.cso",
-		&pShaderBlob ) ) )
-	{
-		throw CHILI_GFX_EXCEPTION( hr,L"Loading vertex shader binary" );
-	}
-
+	// Ignore the intellisense error "namespace has no member"
 	if( FAILED( hr = pDevice->CreateVertexShader(
-		pShaderBlob->GetBufferPointer(),
-		pShaderBlob->GetBufferSize(),
+		FramebufferShaders::FramebufferVSBytecode,
+		sizeof( FramebufferShaders::FramebufferVSBytecode ),
 		nullptr,
 		&pVertexShader ) ) )
 	{
@@ -196,8 +186,11 @@ Graphics::Graphics( HWNDKey& key )
 		{ "TEXCOORD",0,DXGI_FORMAT_R32G32_FLOAT,0,12,D3D11_INPUT_PER_VERTEX_DATA,0 }
 	};
 
-	if( FAILED( hr = pDevice->CreateInputLayout( ied,2,pShaderBlob->GetBufferPointer(),
-		pShaderBlob->GetBufferSize(),&pInputLayout ) ) )
+	// Ignore the intellisense error "namespace has no member"
+	if( FAILED( hr = pDevice->CreateInputLayout( ied,2,
+		FramebufferShaders::FramebufferVSBytecode,
+		sizeof( FramebufferShaders::FramebufferVSBytecode ),
+		&pInputLayout ) ) )
 	{
 		throw CHILI_GFX_EXCEPTION( hr,L"Creating input layout" );
 	}

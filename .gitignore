@@ -245,3 +245,6 @@ ModelManifest.xml
 .fake/
 /Engine/alog.txt
 *.cso
+
+#chili-added ignores
+*.shh
