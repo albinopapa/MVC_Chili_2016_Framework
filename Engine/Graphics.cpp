@@ -129,7 +129,7 @@ Graphics::Graphics( HWNDKey& key )
 
 
 	////////////////////////////////////////////////
-	// compile and load pixel shader for framebuffer
+	// create pixel shader for framebuffer
 	// Ignore the intellisense error "namespace has no member"
 	if( FAILED( hr = pDevice->CreatePixelShader(
 		FramebufferShaders::FramebufferPSBytecode,
@@ -142,7 +142,7 @@ Graphics::Graphics( HWNDKey& key )
 	
 
 	/////////////////////////////////////////////////
-	// compile and load vertex shader for framebuffer
+	// create vertex shader for framebuffer
 	// Ignore the intellisense error "namespace has no member"
 	if( FAILED( hr = pDevice->CreateVertexShader(
 		FramebufferShaders::FramebufferVSBytecode,
