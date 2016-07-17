@@ -44,7 +44,7 @@ bool Keyboard::KeyIsEmpty() const
 	return keybuffer.empty();
 }
 
-unsigned char Keyboard::ReadChar()
+char Keyboard::ReadChar()
 {
 	if( charbuffer.size() > 0u )
 	{
@@ -70,7 +70,7 @@ void Keyboard::FlushKey()
 
 void Keyboard::FlushChar()
 {
-	std::swap( charbuffer,std::queue<unsigned char>() );
+	std::swap( charbuffer,std::queue<char>() );
 }
 
 void Keyboard::Flush()
@@ -108,7 +108,7 @@ void Keyboard::OnKeyReleased( unsigned char keycode )
 	TrimBuffer( keybuffer );
 }
 
-void Keyboard::OnChar( unsigned char character )
+void Keyboard::OnChar( char character )
 {
 	charbuffer.push( character );
 	TrimBuffer( charbuffer );

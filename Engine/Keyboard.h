@@ -73,7 +73,7 @@ public:
 	bool KeyIsPressed( unsigned char keycode ) const;
 	Event ReadKey();
 	bool KeyIsEmpty() const;
-	unsigned char ReadChar();
+	char ReadChar();
 	bool CharIsEmpty() const;
 	void FlushKey();
 	void FlushChar();
@@ -84,7 +84,7 @@ public:
 private:
 	void OnKeyPressed( unsigned char keycode );
 	void OnKeyReleased( unsigned char keycode );
-	void OnChar( unsigned char character );
+	void OnChar( char character );
 	template<typename T>
 	void TrimBuffer( std::queue<T>& buffer );
 private:
@@ -93,5 +93,5 @@ private:
 	bool autorepeatEnabled = false;
 	std::bitset<nKeys> keystates;
 	std::queue<Event> keybuffer;
-	std::queue<unsigned char> charbuffer;
+	std::queue<char> charbuffer;
 };
