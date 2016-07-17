@@ -42,10 +42,10 @@
     <ClInclude Include="Mouse.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Resource.h">
+    <ClInclude Include="ChiliException.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ChiliException.h">
+    <ClInclude Include="resource.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -84,8 +84,13 @@
     </FxCompile>
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Chili Framework 2016.res">
+    <ResourceCompile Include="Resource.rc">
       <Filter>Resource Files</Filter>
-    </Resource>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Chili.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
   </ItemGroup>
 </Project>
