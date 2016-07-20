@@ -20,13 +20,11 @@
  ******************************************************************************************/
 #include "MainWindow.h"
 #include "Game.h"
-#include <chrono>
 
 Game::Game( MainWindow& wnd )
 	:
 	wnd( wnd ),
-	gfx( wnd ),
-	log( L"alog.txt" )
+	gfx( wnd )
 {
 }
 
@@ -40,38 +38,8 @@ void Game::Go()
 
 void Game::UpdateModel()
 {
-	if( ++m_x + 50 > gfx.ScreenWidth )
-	{
-		m_x = 0;
-		if( (m_y += 50) + 50 > gfx.ScreenHeight )
-		{
-			m_y = 0;
-		}
-	}
-
-	if( wnd.kbd.KeyIsPressed( VK_ESCAPE ) )
-	{
-		wnd.Kill();
-	}
 }
 
 void Game::ComposeFrame()
 {
-	if( wnd.IsActive() )
-	{
-		using namespace std::chrono;
-
-		const auto start = high_resolution_clock::now();
-		for( int y = m_y; y < m_y + 50; y++ )
-		{
-			for( int x = m_x; x < m_x + 50; x++ )
-			{
-				gfx.PutPixel( x,y,Colors::Red );
-			}
-		}
-		const auto end = high_resolution_clock::now();
-		log << L"Operation took "
-			<< duration_cast<microseconds>(end - start).count()
-			<< L" microseconds." << std::endl;
-	}
 }

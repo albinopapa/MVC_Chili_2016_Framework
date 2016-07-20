@@ -23,7 +23,6 @@
 #include "Keyboard.h"
 #include "Mouse.h"
 #include "Graphics.h"
-#include <fstream>
 
 class Game
 {
@@ -43,8 +42,5 @@ private:
 	Graphics gfx;
 	/********************************/
 	/*  User Variables              */
-	int m_x = 0;
-	int m_y = 0;
-	std::wofstream log;
 	/********************************/
 };
