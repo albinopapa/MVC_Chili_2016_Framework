@@ -105,7 +105,7 @@ LRESULT WINAPI MainWindow::_HandleMsgSetup( HWND hWnd,UINT msg,WPARAM wParam,LPA
 	if( msg == WM_NCCREATE )
 	{
 		// extract ptr to window class from creation data
-		LPCREATESTRUCT const pCreate = reinterpret_cast<LPCREATESTRUCT>( lParam );
+		const CREATESTRUCTW* const pCreate = reinterpret_cast<CREATESTRUCTW*>( lParam );
 		MainWindow* const pWnd = reinterpret_cast<MainWindow*>( pCreate->lpCreateParams );
 		// sanity check
 		assert( pWnd != nullptr );
