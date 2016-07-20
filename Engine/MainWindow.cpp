@@ -34,7 +34,7 @@ MainWindow::MainWindow( HINSTANCE hInst,wchar_t * pArgs )
 	// throw exception if something went terribly wrong
 	if( hWnd == nullptr )
 	{
-		throw WindowsException( _CRT_WIDE( __FILE__ ),__LINE__,
+		throw Exception( _CRT_WIDE( __FILE__ ),__LINE__,
 			L"Failed to get valid window handle." );
 	}
 

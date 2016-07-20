@@ -3,6 +3,7 @@
 #include "Graphics.h"
 #include "Keyboard.h"
 #include "Mouse.h"
+#include "ChiliException.h"
 #include <string>
 
 // for granting special access to hWnd only for Graphics constructor
@@ -20,6 +21,14 @@ protected:
 
 class MainWindow : public HWNDKey
 {
+public:
+	class Exception : public ChiliException
+	{
+	public:
+		using ChiliException::ChiliException;
+		virtual std::wstring GetFullMessage() const override { return GetNote() + L"\nAt: " + GetLocation(); }
+		virtual std::wstring GetExceptionType() const override { return L"Windows Exception"; }
+	};
 public:
 	MainWindow( HINSTANCE hInst,wchar_t* pArgs );
 	MainWindow( const MainWindow& ) = delete;

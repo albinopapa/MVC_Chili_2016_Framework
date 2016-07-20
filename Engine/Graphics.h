@@ -1,10 +1,25 @@
 #pragma once
 #include <d3d11.h>
 #include <wrl.h>
+#include "ChiliException.h"
 #include "Colors.h"
+
+#define CHILI_GFX_EXCEPTION( hr,note ) Graphics::Exception( hr,note,_CRT_WIDE(__FILE__),__LINE__ )
 
 class Graphics
 {
+public:
+	class Exception : public ChiliException
+	{
+	public:
+		Exception( HRESULT hr,const std::wstring& note,const wchar_t* file,unsigned int line );
+		std::wstring GetErrorName() const;
+		std::wstring GetErrorDescription() const;
+		virtual std::wstring GetFullMessage() const override;
+		virtual std::wstring GetExceptionType() const override;
+	private:
+		HRESULT hr;
+	};
 private:
 	// vertex format for the framebuffer fullscreen textured quad
 	struct FSQVertex
