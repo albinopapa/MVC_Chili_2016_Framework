@@ -136,25 +136,53 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Camera.h" />
     <ClInclude Include="ChiliException.h" />
     <ClInclude Include="ChiliWin.h" />
     <ClInclude Include="Colors.h" />
+    <ClInclude Include="Entity_Player.h" />
+    <ClInclude Include="IEntity.h" />
+    <ClInclude Include="Includes.h" />
+    <ClInclude Include="Loader_Image.h" />
+    <ClInclude Include="Mesh.h" />
+    <ClInclude Include="Mesh_Textured.h" />
+    <ClInclude Include="Model.h" />
     <ClInclude Include="DXErr.h" />
     <ClInclude Include="Game.h" />
+    <ClInclude Include="GameClient.h" />
+    <ClInclude Include="GameObject.h" />
     <ClInclude Include="Graphics.h" />
+    <ClInclude Include="GraphicsClient.h" />
     <ClInclude Include="Keyboard.h" />
     <ClInclude Include="MainWindow.h" />
     <ClInclude Include="Mouse.h" />
+    <ClInclude Include="PrimitiveMaker.h" />
     <ClInclude Include="Resource.h" />
+    <ClInclude Include="Texture.h" />
+    <ClInclude Include="Timer.h" />
+    <ClInclude Include="Utilities.h" />
+    <ClInclude Include="Wic.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="Entity_Player.cpp" />
+    <ClCompile Include="Loader_Image.cpp" />
+    <ClCompile Include="Mesh.cpp" />
+    <ClCompile Include="Mesh_Textured.cpp" />
+    <ClCompile Include="Model.cpp" />
     <ClCompile Include="DXErr.cpp" />
     <ClCompile Include="Game.cpp" />
+    <ClCompile Include="GameClient.cpp" />
     <ClCompile Include="Graphics.cpp" />
+    <ClCompile Include="GraphicsClient.cpp" />
     <ClCompile Include="Keyboard.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="MainWindow.cpp" />
     <ClCompile Include="Mouse.cpp" />
+    <ClCompile Include="PrimitiveMaker.cpp" />
+    <ClCompile Include="Texture.cpp" />
+    <ClCompile Include="Timer.cpp" />
+    <ClCompile Include="Wic.cpp" />
   </ItemGroup>
   <ItemGroup>
     <FxCompile Include="FramebufferPS.hlsl">

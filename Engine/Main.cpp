@@ -19,6 +19,8 @@
 *	along with The Chili DirectX Framework.  If not, see <http://www.gnu.org/licenses/>.  *
 ******************************************************************************************/
 #include "MainWindow.h"
+#include "Model.h"
+#include "Graphics.h"
 #include "Game.h"
 #include "ChiliException.h"
 
@@ -29,10 +31,14 @@ int WINAPI wWinMain( HINSTANCE hInst,HINSTANCE,LPWSTR pArgs,INT )
 		MainWindow wnd( hInst,pArgs );		
 		try
 		{
-			Game theGame( wnd );
+			Model model;
+			Graphics gfx(wnd, model);
+			Game theGame(wnd, model);
+
 			while( wnd.ProcessMessage() )
 			{
 				theGame.Go();
+				gfx.ComposeFrame();
 			}
 		}
 		catch( const ChiliException& e )

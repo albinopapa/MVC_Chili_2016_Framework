@@ -29,7 +29,7 @@
 // for granting special access to hWnd only for Graphics constructor
 class HWNDKey
 {
-	friend Graphics::Graphics( HWNDKey& );
+	friend Graphics::Graphics( HWNDKey&, class Model & );
 public:
 	HWNDKey( const HWNDKey& ) = delete;
 	HWNDKey& operator=( HWNDKey& ) = delete;
@@ -61,6 +61,7 @@ public:
 	{
 		PostQuitMessage( 0 );
 	}
+	void SetText(const std::wstring &Title);
 	// returns false if quitting
 	bool ProcessMessage();
 	const std::wstring& GetArgs() const

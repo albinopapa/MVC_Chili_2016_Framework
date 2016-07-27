@@ -19,12 +19,18 @@
 *	along with The Chili DirectX Framework.  If not, see <http://www.gnu.org/licenses/>.  *
 ******************************************************************************************/
 #pragma once
-#include <d3d11.h>
-#include <wrl.h>
+#include "Includes.h"
 #include "ChiliException.h"
 #include "Colors.h"
+#include "GraphicsClient.h"
+
 
 #define CHILI_GFX_EXCEPTION( hr,note ) Graphics::Exception( hr,note,_CRT_WIDE(__FILE__),__LINE__ )
+
+struct MatrixTransforms
+{
+	XMMATRIX world, view, projection;
+};
 
 class Graphics
 {
@@ -48,7 +54,7 @@ private:
 		float u,v;			// texcoords
 	};
 public:
-	Graphics( class HWNDKey& key );
+	Graphics( class HWNDKey& key, class Model &TheController );
 	Graphics( const Graphics& ) = delete;
 	Graphics& operator=( const Graphics& ) = delete;
 	void EndFrame();
@@ -58,7 +64,15 @@ public:
 		PutPixel( x,y,{ unsigned char( r ),unsigned char( g ),unsigned char( b ) } );
 	}
 	void PutPixel( int x,int y,Color c );
+	void FilledTriangle(const XMFLOAT3 &P0, const XMFLOAT3 &P1, const XMFLOAT3 &P2, Color C);
+	void FilledRect(int X, int Y, int Width, int Height, Color C);
+
+	void ComposeFrame();
 	~Graphics();
+
+private:
+	void FillFlatTopTriangle(const XMFLOAT3 &P0, const XMFLOAT3 &P1, const XMFLOAT3 &P2, Color C);
+	void FillFlatBottomTriangle(const XMFLOAT3 &P0, const XMFLOAT3 &P1, const XMFLOAT3 &P2, Color C);
 private:
 	Microsoft::WRL::ComPtr<IDXGISwapChain>				pSwapChain;
 	Microsoft::WRL::ComPtr<ID3D11Device>				pDevice;
@@ -73,6 +87,9 @@ private:
 	Microsoft::WRL::ComPtr<ID3D11SamplerState>			pSamplerState;
 	D3D11_MAPPED_SUBRESOURCE							mappedSysBufferTexture;
 	Color*                                              pSysBuffer = nullptr;
+
+	// User variables
+	GraphicsClient m_client;
 public:
 	static constexpr unsigned int ScreenWidth = 800u;
 	static constexpr unsigned int ScreenHeight = 600u;

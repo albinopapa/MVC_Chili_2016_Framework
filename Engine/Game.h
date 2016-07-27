@@ -22,25 +22,25 @@
 
 #include "Keyboard.h"
 #include "Mouse.h"
-#include "Graphics.h"
+#include "GameClient.h"
+#include "Timer.h"
 
 class Game
 {
 public:
-	Game( class MainWindow& wnd );
+	Game( class MainWindow& wnd, Model &TheController);
 	Game( const Game& ) = delete;
 	Game& operator=( const Game& ) = delete;
 	void Go();
 private:
-	void ComposeFrame();
-	void UpdateModel();
 	/********************************/
 	/*  User Functions              */
 	/********************************/
 private:
 	MainWindow& wnd;
-	Graphics gfx;
 	/********************************/
 	/*  User Variables              */
 	/********************************/
+	GameClient m_client;
+	Timer t;
 };

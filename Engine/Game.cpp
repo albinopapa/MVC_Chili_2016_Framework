@@ -20,26 +20,45 @@
  ******************************************************************************************/
 #include "MainWindow.h"
 #include "Game.h"
+#include "Control.h"
+#include <sstream>
 
-Game::Game( MainWindow& wnd )
+/*
+Types of events:
+
+View handled - INPUT EVENTS
+User input events
+AI input events
+
+GAME LOGIC EVENTS
+Timed events
+Collision events
+Triggered game progression events, cutscenes start/end of level
+
+*/
+
+
+
+Game::Game( MainWindow& wnd, Model &TheController)
 	:
 	wnd( wnd ),
-	gfx( wnd )
+	m_client(TheController)
 {
+	
 }
 
 void Game::Go()
 {
-	gfx.BeginFrame();	
-	UpdateModel();
-	ComposeFrame();
-	gfx.EndFrame();
-}
+	t.Stop();
+#ifdef NDEBUG
+	float frameTime = t.GetSeconds();
+#else
+	float frameTime = 0.16f;
+#endif
+	t.Start();
+	std::wstringstream ws;
+	ws << 1.f / frameTime << L"\n";
+	wnd.SetText(ws.str());
+	m_client.Update(frameTime);
 
-void Game::UpdateModel()
-{
-}
-
-void Game::ComposeFrame()
-{
 }

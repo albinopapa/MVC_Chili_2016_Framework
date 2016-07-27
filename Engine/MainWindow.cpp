@@ -84,6 +84,11 @@ void MainWindow::ShowMessageBox( const std::wstring& title,const std::wstring& m
 	MessageBox( hWnd,message.c_str(),title.c_str(),MB_OK );
 }
 
+void MainWindow::SetText(const std::wstring & Title)
+{
+	SetWindowText(hWnd, Title.c_str());
+}
+
 bool MainWindow::ProcessMessage()
 {
 	MSG msg;

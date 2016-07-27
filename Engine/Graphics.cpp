@@ -22,9 +22,7 @@
 #include "Graphics.h"
 #include "DXErr.h"
 #include "ChiliException.h"
-#include <assert.h>
-#include <string>
-#include <array>
+#include "Includes.h"
 
 // Ignore the intellisense error "cannot open source file" for .shh files.
 // They will be created during the build sequence before the preprocessor runs.
@@ -36,9 +34,12 @@ namespace FramebufferShaders
 
 #pragma comment( lib,"d3d11.lib" )
 
+using namespace DirectX;
 using Microsoft::WRL::ComPtr;
 
-Graphics::Graphics( HWNDKey& key )
+Graphics::Graphics( HWNDKey& key, Model &TheModel)
+	:
+	m_client(TheModel)
 {
 	assert( key.hWnd != nullptr );
 
@@ -251,6 +252,54 @@ Graphics::~Graphics()
 	if( pImmediateContext ) pImmediateContext->ClearState();
 }
 
+void Graphics::FillFlatTopTriangle(const XMFLOAT3 & P0, const XMFLOAT3 & P1, const XMFLOAT3 & P2, Color C)
+{
+	// Calculate slopes from bottom point ( P2 ) to each top points ( P0 and P1 )
+	float m0 = (P2.x - P0.x) / (P2.y - P0.y);
+	float m1 = (P2.x - P1.x) / (P2.y - P1.y);
+
+	int yStart = static_cast<int>(std::max(0.f, ceilf(P0.y)));
+	int yEnd = static_cast<int>(std::min(static_cast<float>(ScreenHeight - 1), ceilf(P2.y) - 1.f));
+
+	for (int y = yStart; y <= yEnd; ++y)
+	{
+		float px0 = m0 * (y - P0.y) + P0.x;
+		float px1 = m1 * (y - P1.y) + P1.x;
+		
+		int xStart = static_cast<int>(std::max(0.f, ceilf(px0)));
+		int xEnd = static_cast<int>(std::min(static_cast<float>(ScreenWidth - 1), ceilf(px1) - 1.f));
+		
+		for (int x = xStart; x <= xEnd; ++x)
+		{
+			PutPixel(x, y, C);
+		}
+	}
+}
+
+void Graphics::FillFlatBottomTriangle(const XMFLOAT3 & P0, const XMFLOAT3 & P1, const XMFLOAT3 & P2, Color C)
+{
+	// Calculate slopes from top point ( P0 ) to each bottom points ( P1 and P2 )
+	float m0 = (P1.x - P0.x) / (P1.y - P0.y);
+	float m1 = (P2.x - P0.x) / (P2.y - P0.y);
+
+	int yStart = static_cast<int>(std::max(0.f, ceilf(P0.y)));
+	int yEnd = static_cast<int>(std::min(static_cast<float>(ScreenHeight - 1), ceilf(P2.y) - 1.f));
+
+	for (int y = yStart; y <= yEnd; ++y)
+	{
+		float px0 = m0 * (y - P0.y) + P0.x;
+		float px1 = m1 * (y - P0.y) + P0.x;
+
+		int xStart = static_cast<int>(std::max(0.f, ceilf(px0)));
+		int xEnd = static_cast<int>(std::min(static_cast<float>(ScreenWidth - 1), ceilf(px1) - 1.f));
+
+		for (int x = xStart; x <= xEnd; ++x)
+		{
+			PutPixel(x, y, C);
+		}
+	}
+}
+
 void Graphics::EndFrame()
 {
 	HRESULT hr;
@@ -287,7 +336,7 @@ void Graphics::EndFrame()
 	pImmediateContext->Draw( 6u,0u );
 
 	// flip back/front buffers
-	if( FAILED( hr = pSwapChain->Present( 1u,0u ) ) )
+	if( FAILED( hr = pSwapChain->Present( 0u,0u ) ) )
 	{
 		throw CHILI_GFX_EXCEPTION( hr,L"Presenting back buffer" );
 	}
@@ -306,6 +355,133 @@ void Graphics::PutPixel( int x,int y,Color c )
 	assert( y >= 0 );
 	assert( y < int( Graphics::ScreenHeight ) );
 	pSysBuffer[Graphics::ScreenWidth * y + x] = c;
+}
+
+void Graphics::FilledTriangle(const XMFLOAT3 & P0, const XMFLOAT3 & P1, const XMFLOAT3 & P2, Color C)
+{
+	// Order the points from top to bottom
+	XMFLOAT3 p0(P0), p1(P1), p2(P2);
+	if (p0.y > p1.y)
+	{
+		std::swap(p0, p1);
+	}
+	if (p2.y < p1.y)
+	{
+		std::swap(p1, p2);
+	}
+	if (p0.y > p1.y)
+	{
+		std::swap(p0, p1);
+	}
+
+	// Test for flat top triangle
+	if (p0.y == p1.y)
+	{
+		if (p0.x > p1.x)
+		{
+			std::swap(p0, p1);
+		}
+		FillFlatTopTriangle(p0, p1, p2, C);
+	}
+	else if (p1.y == p2.y)
+	{
+		if (p1.x > p2.x)
+		{
+			std::swap(p1, p2);
+		}
+		FillFlatBottomTriangle(p0, p1, p2, C);
+	}
+	else
+	{
+		// Calculate intermediate vertex point on major segment
+		const XMFLOAT3 p3 = { ((p2.x - p0.x) / (p2.y - p0.y)) *
+			(p1.y - p0.y) + p0.x, p1.y, p0.z };
+
+		// If major right
+		if (p1.x < p3.x)
+		{
+			FillFlatBottomTriangle(p0, p1, p3, C);
+			FillFlatTopTriangle(p1, p3, p2, C);
+		}
+		else
+		{
+			FillFlatBottomTriangle(p0, p3, p1, C);
+			FillFlatTopTriangle(p3, p1, p2, C);
+		}
+	}
+}
+
+void Graphics::FilledRect(int X, int Y, int Width, int Height, Color C)
+{
+	for (int y = Y; y < Y + Height; ++y)
+	{
+		for (int x = X; x < X + Width; ++x)
+		{
+			this->PutPixel(x, y, C);
+		}
+	}
+}
+
+void Graphics::ComposeFrame()
+{
+	// Get camera to move to view space
+	auto &cam = m_client.GetCamera();
+	auto viewMatrix = cam.GetViewMatrix();
+	auto orthoMatrix = cam.GetOrthoMatrix();
+
+	// Create transform for screen space
+	auto screenResHalf = XMFLOAT4(ScreenWidth * 0.5f, ScreenHeight * 0.5f, 0.f, 0.f);
+	auto xmScreenResHalf = XMLoadFloat4(&screenResHalf);
+
+	auto screenOffset = XMMatrixIdentity();
+	screenOffset.r[0] = screenOffset.r[0] * xmScreenResHalf;
+	screenOffset.r[1] = screenOffset.r[1] * xmScreenResHalf;
+	screenOffset.r[3] = screenOffset.r[3] + xmScreenResHalf;
+
+
+	// BeginFrame clears the drawing buffer
+	BeginFrame();
+
+	//////////////////////////// Drawing code goes here /////////////////////////////
+	
+	// Get position of each object and transform their positions to screen space
+	auto worldMatrix = m_client.GetPlayer().GetWorldMatrix();
+
+	auto wvp = (worldMatrix * viewMatrix * orthoMatrix) * screenOffset;
+	
+	auto pos = m_client.GetPlayer().GetPosition();
+	auto playerVertexList = m_client.GetPlayer().GetMesh()->VertexList();
+	auto playerFloatColor = playerVertexList[0].color;
+	auto playerIntColor = Color(
+		static_cast<unsigned char>(playerFloatColor.x * 255.f),
+		static_cast<unsigned char>(playerFloatColor.y * 255.f),
+		static_cast<unsigned char>(playerFloatColor.z * 255.f)
+	);
+
+	for (int i = 0; i < playerVertexList.size(); i += 3)
+	{
+		auto xmVerts0 = XMLoadFloat3(&playerVertexList[i + 0].position);
+		auto xmVerts1 = XMLoadFloat3(&playerVertexList[i + 1].position);
+		auto xmVerts2 = XMLoadFloat3(&playerVertexList[i + 2].position);
+
+		xmVerts0 = XMVector3TransformCoord(xmVerts0, wvp);
+		xmVerts1 = XMVector3TransformCoord(xmVerts1, wvp);
+		xmVerts2 = XMVector3TransformCoord(xmVerts2, wvp);
+
+		XMFLOAT3 p0, p1, p2;
+		XMStoreFloat3(&p0, xmVerts0);
+		XMStoreFloat3(&p1, xmVerts1);
+		XMStoreFloat3(&p2, xmVerts2);
+
+		FilledTriangle(p0, p1, p2, playerIntColor);
+	}
+
+
+
+	////////////////////////////// End of drawing code //////////////////////////////
+
+	// EndFrame renders the drawing buffer to the back buffer
+	EndFrame();
 }
 
 
