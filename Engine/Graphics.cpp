@@ -308,6 +308,41 @@ void Graphics::PutPixel( int x,int y,Color c )
 	pSysBuffer[Graphics::ScreenWidth * y + x] = c;
 }
 
+void Graphics::DrawTriangle( const Triangle & T, Color C )
+{
+	Vec2 pixPos;
+
+	const int xStart =	std::min( T.a.x, std::min( T.b.x, T.c.x ) );
+	const int xEnd =	std::max( T.a.x, std::max( T.b.x, T.c.x ) );
+	const int yStart =	std::min( T.a.y, std::min( T.b.y, T.c.y ) );
+	const int yEnd =	std::max( T.a.y, std::max( T.b.y, T.c.y ) );
+
+	for( int y = yStart; y < yEnd; ++y )
+	{
+		pixPos.y = static_cast<float>( y + .5f );
+		for( int x = xStart; x < xEnd; ++x )
+		{
+			// Calculate barycentric coordinates
+			pixPos.x = static_cast<float>( x + .5f );
+			auto baryCoordinates = T.CalculateBarycentricCoordinates( pixPos );
+
+			// If barycentric, fill pixel
+			if( baryCoordinates.x >= 0.f && baryCoordinates.y >= 0.f && baryCoordinates.z >= 0.f )
+			{
+				unsigned char rScale = static_cast<unsigned char>( baryCoordinates.x * 255.f );
+				unsigned char gScale = static_cast<unsigned char>( baryCoordinates.y * 255.f );
+				unsigned char bScale = static_cast<unsigned char>( baryCoordinates.z * 255.f );
+
+				unsigned char b = ( C.GetB() * bScale ) >> 8u;
+				unsigned char g = ( C.GetG() * gScale ) >> 8u;
+				unsigned char r = ( C.GetR() * rScale ) >> 8u;
+
+				PutPixel( x, y, { r, g, b } );
+			}
+		}
+	}
+}
+
 
 //////////////////////////////////////////////////
 //           Graphics Exception

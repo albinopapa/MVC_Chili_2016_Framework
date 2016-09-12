@@ -24,6 +24,11 @@
 #include "Mouse.h"
 #include "Graphics.h"
 
+/*User includes*/
+#include <memory>
+#include "Triangle.h"
+#include "Vec3.h"
+
 class Game
 {
 public:
@@ -36,11 +41,17 @@ private:
 	void UpdateModel();
 	/********************************/
 	/*  User Functions              */
+
 	/********************************/
 private:
 	MainWindow& wnd;
 	Graphics gfx;
 	/********************************/
 	/*  User Variables              */
+	static constexpr int m_triCountWidth = 40;
+	static constexpr int m_triCountHeight = 20;
+	static constexpr int m_triangleCount = m_triCountWidth * m_triCountHeight;
+	std::unique_ptr<Triangle[]> m_pTriangles;
+	Triangle m_triangle;
 	/********************************/
 };

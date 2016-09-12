@@ -1,0 +1,1145 @@
+Array of Structures SSE: 0.025252
+Array of Structures x86: 0.298815
+Structure of Arrays SSE: 0.032354
+Structure of Arrays x86: 0.025778
+
+Array of Structures SSE: 0.046821
+Array of Structures x86: 0.161507
+Structure of Arrays SSE: 0.028409
+Structure of Arrays x86: 0.030775
+
+Array of Structures SSE: 0.022622
+Array of Structures x86: 0.092064
+Structure of Arrays SSE: 0.018939
+Structure of Arrays x86: 0.021307
+
+Array of Structures SSE: 0.046032
+Array of Structures x86: 0.13836
+Structure of Arrays SSE: 0.017624
+Structure of Arrays x86: 0.019991
+
+Array of Structures SSE: 0.043402
+Array of Structures x86: 0.156772
+Structure of Arrays SSE: 0.025252
+Structure of Arrays x86: 0.023674
+
+Array of Structures SSE: 0.053135
+Array of Structures x86: 0.141516
+Structure of Arrays SSE: 0.030513
+Structure of Arrays x86: 0.033406
+
+Array of Structures SSE: 0.057606
+Array of Structures x86: 0.169135
+Structure of Arrays SSE: 0.026567
+Structure of Arrays x86: 0.031302
+
+Array of Structures SSE: 0.04761
+Array of Structures x86: 0.176238
+Structure of Arrays SSE: 0.024988
+Structure of Arrays x86: 0.028935
+
+Array of Structures SSE: 0.050504
+Array of Structures x86: 0.152301
+Structure of Arrays SSE: 0.070495
+Structure of Arrays x86: 0.036562
+
+Array of Structures SSE: 0.048137
+Array of Structures x86: 0.140201
+Structure of Arrays SSE: 0.029986
+Structure of Arrays x86: 0.033143
+
+Array of Structures SSE: 0.057343
+Array of Structures x86: 0.165453
+Structure of Arrays SSE: 0.032617
+Structure of Arrays x86: 0.03288
+
+Array of Structures SSE: 0.052345
+Array of Structures x86: 0.157035
+Structure of Arrays SSE: 0.027619
+Structure of Arrays x86: 0.031565
+
+Array of Structures SSE: 0.051556
+Array of Structures x86: 0.15046
+Structure of Arrays SSE: 0.024199
+Structure of Arrays x86: 0.026831
+
+Array of Structures SSE: 0.05103
+Array of Structures x86: 0.153879
+Structure of Arrays SSE: 0.030513
+Structure of Arrays x86: 0.033143
+
+Array of Structures SSE: 0.052871
+Array of Structures x86: 0.172818
+Structure of Arrays SSE: 0.028935
+Structure of Arrays x86: 0.031565
+
+Array of Structures SSE: 0.052609
+Array of Structures x86: 0.147566
+Structure of Arrays SSE: 0.022884
+Structure of Arrays x86: 0.024989
+
+Array of Structures SSE: 0.042086
+Array of Structures x86: 0.110477
+Structure of Arrays SSE: 0.023148
+Structure of Arrays x86: 0.022885
+
+Array of Structures SSE: 0.047348
+Array of Structures x86: 0.153879
+Structure of Arrays SSE: 0.030513
+Structure of Arrays x86: 0.035247
+
+Array of Structures SSE: 0.052345
+Array of Structures x86: 0.135466
+Structure of Arrays SSE: 0.03025
+Structure of Arrays x86: 0.034195
+
+Array of Structures SSE: 0.045506
+Array of Structures x86: 0.184655
+Structure of Arrays SSE: 0.02762
+Structure of Arrays x86: 0.032617
+
+Array of Structures SSE: 0.037352
+Array of Structures x86: 0.169135
+Structure of Arrays SSE: 0.027883
+Structure of Arrays x86: 0.028671
+
+Array of Structures SSE: 0.047085
+Array of Structures x86: 0.35984
+Structure of Arrays SSE: 0.031302
+Structure of Arrays x86: 0.033932
+
+Array of Structures SSE: 0.051293
+Array of Structures x86: 0.261989
+Structure of Arrays SSE: 0.032091
+Structure of Arrays x86: 0.034984
+
+Array of Structures SSE: 0.101008
+Array of Structures x86: 0.325645
+Structure of Arrays SSE: 0.038141
+Structure of Arrays x86: 0.039982
+
+Array of Structures SSE: 0.044191
+Array of Structures x86: 0.148355
+Structure of Arrays SSE: 0.022621
+Structure of Arrays x86: 0.024463
+
+Array of Structures SSE: 0.05366
+Array of Structures x86: 0.182024
+Structure of Arrays SSE: 0.019728
+Structure of Arrays x86: 0.022359
+
+Array of Structures SSE: 0.11416
+Array of Structures x86: 0.374044
+Structure of Arrays SSE: 0.055502
+Structure of Arrays x86: 0.062603
+
+Array of Structures SSE: 0.054187
+Array of Structures x86: 0.174922
+Structure of Arrays SSE: 0.033932
+Structure of Arrays x86: 0.034985
+
+Array of Structures SSE: 0.047611
+Array of Structures x86: 0.180709
+Structure of Arrays SSE: 0.033932
+Structure of Arrays x86: 0.03288
+
+Array of Structures SSE: 0.05366
+Array of Structures x86: 0.124681
+Structure of Arrays SSE: 0.020518
+Structure of Arrays x86: 0.022358
+
+Array of Structures SSE: 0.051819
+Array of Structures x86: 0.21017
+Structure of Arrays SSE: 0.084436
+Structure of Arrays x86: 0.037615
+
+Array of Structures SSE: 0.046821
+Array of Structures x86: 0.235159
+Structure of Arrays SSE: 0.027356
+Structure of Arrays x86: 0.029198
+
+Array of Structures SSE: 0.032354
+Array of Structures x86: 0.169662
+Structure of Arrays SSE: 0.098903
+Structure of Arrays x86: 0.037089
+
+Array of Structures SSE: 0.051819
+Array of Structures x86: 0.234107
+Structure of Arrays SSE: 0.034195
+Structure of Arrays x86: 0.03288
+
+Array of Structures SSE: 0.048663
+Array of Structures x86: 0.127838
+Structure of Arrays SSE: 0.018413
+Structure of Arrays x86: 0.021043
+
+Array of Structures SSE: 0.056554
+Array of Structures x86: 0.155194
+Structure of Arrays SSE: 0.0242
+Structure of Arrays x86: 0.024989
+
+Array of Structures SSE: 0.05445
+Array of Structures x86: 0.404557
+Structure of Arrays SSE: 0.053923
+Structure of Arrays x86: 0.052345
+
+Array of Structures SSE: 0.048925
+Array of Structures x86: 0.177816
+Structure of Arrays SSE: 0.022096
+Structure of Arrays x86: 0.023936
+
+Array of Structures SSE: 0.054187
+Array of Structures x86: 0.381672
+Structure of Arrays SSE: 0.057342
+Structure of Arrays x86: 0.057869
+
+Array of Structures SSE: 0.04761
+Array of Structures x86: 0.151249
+Structure of Arrays SSE: 0.023147
+Structure of Arrays x86: 0.022096
+
+Array of Structures SSE: 0.116264
+Array of Structures x86: 0.298815
+Structure of Arrays SSE: 0.041824
+Structure of Arrays x86: 0.045506
+
+Array of Structures SSE: 0.089697
+Array of Structures x86: 0.14967
+Structure of Arrays SSE: 0.02762
+Structure of Arrays x86: 0.031565
+
+Array of Structures SSE: 0.09338
+Array of Structures x86: 0.341427
+Structure of Arrays SSE: 0.049189
+Structure of Arrays x86: 0.049978
+
+Array of Structures SSE: 0.052082
+Array of Structures x86: 0.182024
+Structure of Arrays SSE: 0.026304
+Structure of Arrays x86: 0.027093
+
+Array of Structures SSE: 0.046032
+Array of Structures x86: 0.202541
+Structure of Arrays SSE: 0.023937
+Structure of Arrays x86: 0.022622
+
+Array of Structures SSE: 0.05366
+Array of Structures x86: 0.174396
+Structure of Arrays SSE: 0.025252
+Structure of Arrays x86: 0.024463
+
+Array of Structures SSE: 0.102849
+Array of Structures x86: 0.324856
+Structure of Arrays SSE: 0.040508
+Structure of Arrays x86: 0.04235
+
+Array of Structures SSE: 0.051293
+Array of Structures x86: 0.166505
+Structure of Arrays SSE: 0.019465
+Structure of Arrays x86: 0.024462
+
+Array of Structures SSE: 0.033143
+Array of Structures x86: 0.124682
+Structure of Arrays SSE: 0.021832
+Structure of Arrays x86: 0.026304
+
+Array of Structures SSE: 0.057869
+Array of Structures x86: 0.265935
+Structure of Arrays SSE: 0.040771
+Structure of Arrays x86: 0.03893
+
+Array of Structures SSE: 0.051556
+Array of Structures x86: 0.205698
+Structure of Arrays SSE: 0.017361
+Structure of Arrays x86: 0.02078
+
+Array of Structures SSE: 0.046821
+Array of Structures x86: 0.130468
+Structure of Arrays SSE: 0.017624
+Structure of Arrays x86: 0.020254
+
+Array of Structures SSE: 0.05103
+Array of Structures x86: 0.10548
+Structure of Arrays SSE: 0.017623
+Structure of Arrays x86: 0.019729
+
+Array of Structures SSE: 0.052871
+Array of Structures x86: 0.161244
+Structure of Arrays SSE: 0.026041
+Structure of Arrays x86: 0.026831
+
+Array of Structures SSE: 0.049977
+Array of Structures x86: 0.156246
+Structure of Arrays SSE: 0.065497
+Structure of Arrays x86: 0.033932
+
+Array of Structures SSE: 0.057606
+Array of Structures x86: 0.163348
+Structure of Arrays SSE: 0.023937
+Structure of Arrays x86: 0.027356
+
+Array of Structures SSE: 0.049715
+Array of Structures x86: 0.144672
+Structure of Arrays SSE: 0.022096
+Structure of Arrays x86: 0.021569
+
+Array of Structures SSE: 0.058658
+Array of Structures x86: 0.141779
+Structure of Arrays SSE: 0.023937
+Structure of Arrays x86: 0.02341
+
+Array of Structures SSE: 0.026304
+Array of Structures x86: 0.105217
+Structure of Arrays SSE: 0.019991
+Structure of Arrays x86: 0.023936
+
+Array of Structures SSE: 0.053134
+Array of Structures x86: 0.152038
+Structure of Arrays SSE: 0.024463
+Structure of Arrays x86: 0.02683
+
+Array of Structures SSE: 0.044717
+Array of Structures x86: 0.156247
+Structure of Arrays SSE: 0.023147
+Structure of Arrays x86: 0.027883
+
+Array of Structures SSE: 0.050767
+Array of Structures x86: 0.161244
+Structure of Arrays SSE: 0.024463
+Structure of Arrays x86: 0.027619
+
+Array of Structures SSE: 0.0363
+Array of Structures x86: 0.158088
+Structure of Arrays SSE: 0.023147
+Structure of Arrays x86: 0.032091
+
+Array of Structures SSE: 0.046032
+Array of Structures x86: 0.156246
+Structure of Arrays SSE: 0.027883
+Structure of Arrays x86: 0.055501
+
+Array of Structures SSE: 0.037878
+Array of Structures x86: 0.143357
+Structure of Arrays SSE: 0.064182
+Structure of Arrays x86: 0.040246
+
+Array of Structures SSE: 0.043401
+Array of Structures x86: 0.160455
+Structure of Arrays SSE: 0.025252
+Structure of Arrays x86: 0.026041
+
+Array of Structures SSE: 0.060499
+Array of Structures x86: 0.158351
+Structure of Arrays SSE: 0.02341
+Structure of Arrays x86: 0.024989
+
+Array of Structures SSE: 0.051819
+Array of Structures x86: 0.160192
+Structure of Arrays SSE: 0.060762
+Structure of Arrays x86: 0.032091
+
+Array of Structures SSE: 0.073652
+Array of Structures x86: 0.230423
+Structure of Arrays SSE: 0.022096
+Structure of Arrays x86: 0.022095
+
+Array of Structures SSE: 0.057343
+Array of Structures x86: 0.204646
+Structure of Arrays SSE: 0.034458
+Structure of Arrays x86: 0.022884
+
+Array of Structures SSE: 0.044717
+Array of Structures x86: 0.184655
+Structure of Arrays SSE: 0.034195
+Structure of Arrays x86: 0.033933
+
+Array of Structures SSE: 0.045243
+Array of Structures x86: 0.159666
+Structure of Arrays SSE: 0.024463
+Structure of Arrays x86: 0.028934
+
+Array of Structures SSE: 0.042086
+Array of Structures x86: 0.152827
+Structure of Arrays SSE: 0.024989
+Structure of Arrays x86: 0.025515
+
+Array of Structures SSE: 0.034984
+Array of Structures x86: 0.113634
+Structure of Arrays SSE: 0.027093
+Structure of Arrays x86: 0.042613
+
+Array of Structures SSE: 0.06313
+Array of Structures x86: 0.154142
+Structure of Arrays SSE: 0.028408
+Structure of Arrays x86: 0.042876
+
+Array of Structures SSE: 0.048662
+Array of Structures x86: 0.183077
+Structure of Arrays SSE: 0.028408
+Structure of Arrays x86: 0.031302
+
+Array of Structures SSE: 0.040246
+Array of Structures x86: 0.09864
+Structure of Arrays SSE: 0.018413
+Structure of Arrays x86: 0.024726
+
+Array of Structures SSE: 0.050767
+Array of Structures x86: 0.174922
+Structure of Arrays SSE: 0.021569
+Structure of Arrays x86: 0.027882
+
+Array of Structures SSE: 0.105216
+Array of Structures x86: 0.174396
+Structure of Arrays SSE: 0.02762
+Structure of Arrays x86: 0.042349
+
+Array of Structures SSE: 0.036826
+Array of Structures x86: 0.119421
+Structure of Arrays SSE: 0.02683
+Structure of Arrays x86: 0.042876
+
+Array of Structures SSE: 0.039457
+Array of Structures x86: 0.175974
+Structure of Arrays SSE: 0.027619
+Structure of Arrays x86: 0.032091
+
+Array of Structures SSE: 0.05103
+Array of Structures x86: 0.117317
+Structure of Arrays SSE: 0.018413
+Structure of Arrays x86: 0.024988
+
+Array of Structures SSE: 0.051293
+Array of Structures x86: 0.154142
+Structure of Arrays SSE: 0.026041
+Structure of Arrays x86: 0.02762
+
+Array of Structures SSE: 0.044717
+Array of Structures x86: 0.161244
+Structure of Arrays SSE: 0.024726
+Structure of Arrays x86: 0.027619
+
+Array of Structures SSE: 0.042612
+Array of Structures x86: 0.093643
+Structure of Arrays SSE: 0.019202
+Structure of Arrays x86: 0.020254
+
+Array of Structures SSE: 0.04235
+Array of Structures x86: 0.157035
+Structure of Arrays SSE: 0.023937
+Structure of Arrays x86: 0.020254
+
+Array of Structures SSE: 0.050241
+Array of Structures x86: 0.113897
+Structure of Arrays SSE: 0.018149
+Structure of Arrays x86: 0.024463
+
+Array of Structures SSE: 0.023674
+Array of Structures x86: 0.090749
+Structure of Arrays SSE: 0.018413
+Structure of Arrays x86: 0.025251
+
+Array of Structures SSE: 0.050241
+Array of Structures x86: 0.194387
+Structure of Arrays SSE: 0.027357
+Structure of Arrays x86: 0.031565
+
+Array of Structures SSE: 0.0605
+Array of Structures x86: 0.338007
+Structure of Arrays SSE: 0.027357
+Structure of Arrays x86: 0.022358
+
+Array of Structures SSE: 0.043139
+Array of Structures x86: 0.202278
+Structure of Arrays SSE: 0.029987
+Structure of Arrays x86: 0.033143
+
+Array of Structures SSE: 0.050504
+Array of Structures x86: 0.172555
+Structure of Arrays SSE: 0.023147
+Structure of Arrays x86: 0.02683
+
+Array of Structures SSE: 0.066286
+Array of Structures x86: 0.173344
+Structure of Arrays SSE: 0.024726
+Structure of Arrays x86: 0.02683
+
+Array of Structures SSE: 0.04156
+Array of Structures x86: 0.148882
+Structure of Arrays SSE: 0.024462
+Structure of Arrays x86: 0.026831
+
+Array of Structures SSE: 0.052608
+Array of Structures x86: 0.180973
+Structure of Arrays SSE: 0.017886
+Structure of Arrays x86: 0.02157
+
+Array of Structures SSE: 0.04498
+Array of Structures x86: 0.174133
+Structure of Arrays SSE: 0.026041
+Structure of Arrays x86: 0.027093
+
+Array of Structures SSE: 0.0484
+Array of Structures x86: 0.123366
+Structure of Arrays SSE: 0.02683
+Structure of Arrays x86: 0.030513
+
+Array of Structures SSE: 0.044454
+Array of Structures x86: 0.139148
+Structure of Arrays SSE: 0.018413
+Structure of Arrays x86: 0.020255
+
+Array of Structures SSE: 0.047873
+Array of Structures x86: 0.159666
+Structure of Arrays SSE: 0.025515
+Structure of Arrays x86: 0.028408
+
+Array of Structures SSE: 0.051556
+Array of Structures x86: 0.167295
+Structure of Arrays SSE: 0.025778
+Structure of Arrays x86: 0.022621
+
+Array of Structures SSE: 0.040771
+Array of Structures x86: 0.157299
+Structure of Arrays SSE: 0.016834
+Structure of Arrays x86: 0.021307
+
+Array of Structures SSE: 0.036299
+Array of Structures x86: 0.176764
+Structure of Arrays SSE: 0.027619
+Structure of Arrays x86: 0.02683
+
+Array of Structures SSE: 0.042613
+Array of Structures x86: 0.149407
+Structure of Arrays SSE: 0.026304
+Structure of Arrays x86: 0.026304
+
+Array of Structures SSE: 0.044717
+Array of Structures x86: 0.157824
+Structure of Arrays SSE: 0.024463
+Structure of Arrays x86: 0.02683
+
+Array of Structures SSE: 0.053923
+Array of Structures x86: 0.142569
+Structure of Arrays SSE: 0.031038
+Structure of Arrays x86: 0.024989
+
+Array of Structures SSE: 0.04235
+Array of Structures x86: 0.149933
+Structure of Arrays SSE: 0.023411
+Structure of Arrays x86: 0.025515
+
+Array of Structures SSE: 0.044454
+Array of Structures x86: 0.170451
+Structure of Arrays SSE: 0.024462
+Structure of Arrays x86: 0.026304
+
+Array of Structures SSE: 0.052872
+Array of Structures x86: 0.157298
+Structure of Arrays SSE: 0.023937
+Structure of Arrays x86: 0.026567
+
+Array of Structures SSE: 0.04235
+Array of Structures x86: 0.147303
+Structure of Arrays SSE: 0.025778
+Structure of Arrays x86: 0.027619
+
+Array of Structures SSE: 0.044191
+Array of Structures x86: 0.157824
+Structure of Arrays SSE: 0.018676
+Structure of Arrays x86: 0.023937
+
+Array of Structures SSE: 0.034196
+Array of Structures x86: 0.158087
+Structure of Arrays SSE: 0.031565
+Structure of Arrays x86: 0.035248
+
+Array of Structures SSE: 0.053134
+Array of Structures x86: 0.159666
+Structure of Arrays SSE: 0.022622
+Structure of Arrays x86: 0.02683
+
+Array of Structures SSE: 0.034459
+Array of Structures x86: 0.157035
+Structure of Arrays SSE: 0.024726
+Structure of Arrays x86: 0.027356
+
+Array of Structures SSE: 0.044454
+Array of Structures x86: 0.154931
+Structure of Arrays SSE: 0.024989
+Structure of Arrays x86: 0.025252
+
+Array of Structures SSE: 0.051556
+Array of Structures x86: 0.162559
+Structure of Arrays SSE: 0.031565
+Structure of Arrays x86: 0.029724
+
+Array of Structures SSE: 0.049451
+Array of Structures x86: 0.133099
+Structure of Arrays SSE: 0.028409
+Structure of Arrays x86: 0.02078
+
+Array of Structures SSE: 0.042612
+Array of Structures x86: 0.155458
+Structure of Arrays SSE: 0.023147
+Structure of Arrays x86: 0.026304
+
+Array of Structures SSE: 0.043927
+Array of Structures x86: 0.127049
+Structure of Arrays SSE: 0.019728
+Structure of Arrays x86: 0.019991
+
+Array of Structures SSE: 0.052871
+Array of Structures x86: 0.15309
+Structure of Arrays SSE: 0.023674
+Structure of Arrays x86: 0.027882
+
+Array of Structures SSE: 0.044191
+Array of Structures x86: 0.152563
+Structure of Arrays SSE: 0.026304
+Structure of Arrays x86: 0.02683
+
+Array of Structures SSE: 0.045769
+Array of Structures x86: 0.135993
+Structure of Arrays SSE: 0.016834
+Structure of Arrays x86: 0.019991
+
+Array of Structures SSE: 0.035248
+Array of Structures x86: 0.166768
+Structure of Arrays SSE: 0.025515
+Structure of Arrays x86: 0.027619
+
+Array of Structures SSE: 0.048926
+Array of Structures x86: 0.194124
+Structure of Arrays SSE: 0.023674
+Structure of Arrays x86: 0.02683
+
+Array of Structures SSE: 0.05103
+Array of Structures x86: 0.172292
+Structure of Arrays SSE: 0.01736
+Structure of Arrays x86: 0.031565
+
+Array of Structures SSE: 0.042086
+Array of Structures x86: 0.157825
+Structure of Arrays SSE: 0.022884
+Structure of Arrays x86: 0.025778
+
+Array of Structures SSE: 0.038404
+Array of Structures x86: 0.198859
+Structure of Arrays SSE: 0.031039
+Structure of Arrays x86: 0.032354
+
+Array of Structures SSE: 0.048137
+Array of Structures x86: 0.229108
+Structure of Arrays SSE: 0.027883
+Structure of Arrays x86: 0.028934
+
+Array of Structures SSE: 0.034722
+Array of Structures x86: 0.163611
+Structure of Arrays SSE: 0.023937
+Structure of Arrays x86: 0.02683
+
+Array of Structures SSE: 0.044191
+Array of Structures x86: 0.175974
+Structure of Arrays SSE: 0.016046
+Structure of Arrays x86: 0.018939
+
+Array of Structures SSE: 0.074178
+Array of Structures x86: 0.079438
+Structure of Arrays SSE: 0.014994
+Structure of Arrays x86: 0.019465
+
+Array of Structures SSE: 0.044191
+Array of Structures x86: 0.145725
+Structure of Arrays SSE: 0.020517
+Structure of Arrays x86: 0.019991
+
+Array of Structures SSE: 0.043402
+Array of Structures x86: 0.168346
+Structure of Arrays SSE: 0.024989
+Structure of Arrays x86: 0.026567
+
+Array of Structures SSE: 0.043139
+Array of Structures x86: 0.118368
+Structure of Arrays SSE: 0.017624
+Structure of Arrays x86: 0.019202
+
+Array of Structures SSE: 0.044191
+Array of Structures x86: 0.15651
+Structure of Arrays SSE: 0.017097
+Structure of Arrays x86: 0.022622
+
+Array of Structures SSE: 0.050241
+Array of Structures x86: 0.168609
+Structure of Arrays SSE: 0.031039
+Structure of Arrays x86: 0.034721
+
+Array of Structures SSE: 0.043664
+Array of Structures x86: 0.151249
+Structure of Arrays SSE: 0.016308
+Structure of Arrays x86: 0.020255
+
+Array of Structures SSE: 0.043139
+Array of Structures x86: 0.145462
+Structure of Arrays SSE: 0.017623
+Structure of Arrays x86: 0.019991
+
+Array of Structures SSE: 0.028671
+Array of Structures x86: 0.150723
+Structure of Arrays SSE: 0.0242
+Structure of Arrays x86: 0.026041
+
+Array of Structures SSE: 0.061026
+Array of Structures x86: 0.174396
+Structure of Arrays SSE: 0.029461
+Structure of Arrays x86: 0.042612
+
+Array of Structures SSE: 0.034984
+Array of Structures x86: 0.117053
+Structure of Arrays SSE: 0.027094
+Structure of Arrays x86: 0.04761
+
+Array of Structures SSE: 0.060499
+Array of Structures x86: 0.157299
+Structure of Arrays SSE: 0.028671
+Structure of Arrays x86: 0.043139
+
+Array of Structures SSE: 0.036037
+Array of Structures x86: 0.116264
+Structure of Arrays SSE: 0.026567
+Structure of Arrays x86: 0.043139
+
+Array of Structures SSE: 0.034984
+Array of Structures x86: 0.11416
+Structure of Arrays SSE: 0.027356
+Structure of Arrays x86: 0.042086
+
+Array of Structures SSE: 0.048663
+Array of Structures x86: 0.192809
+Structure of Arrays SSE: 0.030776
+Structure of Arrays x86: 0.030512
+
+Array of Structures SSE: 0.045506
+Array of Structures x86: 0.124155
+Structure of Arrays SSE: 0.017098
+Structure of Arrays x86: 0.029461
+
+Array of Structures SSE: 0.057606
+Array of Structures x86: 0.168347
+Structure of Arrays SSE: 0.031828
+Structure of Arrays x86: 0.033669
+
+Array of Structures SSE: 0.046822
+Array of Structures x86: 0.148881
+Structure of Arrays SSE: 0.022621
+Structure of Arrays x86: 0.026041
+
+Array of Structures SSE: 0.043928
+Array of Structures x86: 0.154142
+Structure of Arrays SSE: 0.021832
+Structure of Arrays x86: 0.020517
+
+Array of Structures SSE: 0.040508
+Array of Structures x86: 0.144673
+Structure of Arrays SSE: 0.025778
+Structure of Arrays x86: 0.027093
+
+Array of Structures SSE: 0.046296
+Array of Structures x86: 0.25778
+Structure of Arrays SSE: 0.057343
+Structure of Arrays x86: 0.021043
+
+Array of Structures SSE: 0.042875
+Array of Structures x86: 0.152564
+Structure of Arrays SSE: 0.023937
+Structure of Arrays x86: 0.024989
+
+Array of Structures SSE: 0.049978
+Array of Structures x86: 0.147829
+Structure of Arrays SSE: 0.035774
+Structure of Arrays x86: 0.033406
+
+Array of Structures SSE: 0.04498
+Array of Structures x86: 0.156772
+Structure of Arrays SSE: 0.016045
+Structure of Arrays x86: 0.019202
+
+Array of Structures SSE: 0.050504
+Array of Structures x86: 0.151248
+Structure of Arrays SSE: 0.021832
+Structure of Arrays x86: 0.019728
+
+Array of Structures SSE: 0.027093
+Array of Structures x86: 0.173608
+Structure of Arrays SSE: 0.031827
+Structure of Arrays x86: 0.029987
+
+Array of Structures SSE: 0.049978
+Array of Structures x86: 0.14362
+Structure of Arrays SSE: 0.022358
+Structure of Arrays x86: 0.059185
+
+Array of Structures SSE: 0.048136
+Array of Structures x86: 0.165979
+Structure of Arrays SSE: 0.031302
+Structure of Arrays x86: 0.024989
+
+Array of Structures SSE: 0.048663
+Array of Structures x86: 0.204383
+Structure of Arrays SSE: 0.033406
+Structure of Arrays x86: 0.030776
+
+Array of Structures SSE: 0.023147
+Array of Structures x86: 0.087593
+Structure of Arrays SSE: 0.019202
+Structure of Arrays x86: 0.021833
+
+Array of Structures SSE: 0.039193
+Array of Structures x86: 0.087066
+Structure of Arrays SSE: 0.016309
+Structure of Arrays x86: 0.019728
+
+Array of Structures SSE: 0.052082
+Array of Structures x86: 0.180446
+Structure of Arrays SSE: 0.026567
+Structure of Arrays x86: 0.023674
+
+Array of Structures SSE: 0.043401
+Array of Structures x86: 0.101008
+Structure of Arrays SSE: 0.016309
+Structure of Arrays x86: 0.019465
+
+Array of Structures SSE: 0.043402
+Array of Structures x86: 0.159929
+Structure of Arrays SSE: 0.022621
+Structure of Arrays x86: 0.021044
+
+Array of Structures SSE: 0.052608
+Array of Structures x86: 0.163875
+Structure of Arrays SSE: 0.025778
+Structure of Arrays x86: 0.036299
+
+Array of Structures SSE: 0.044454
+Array of Structures x86: 0.15835
+Structure of Arrays SSE: 0.019465
+Structure of Arrays x86: 0.022885
+
+Array of Structures SSE: 0.046558
+Array of Structures x86: 0.163349
+Structure of Arrays SSE: 0.024989
+Structure of Arrays x86: 0.027356
+
+Array of Structures SSE: 0.042612
+Array of Structures x86: 0.154405
+Structure of Arrays SSE: 0.024463
+Structure of Arrays x86: 0.026041
+
+Array of Structures SSE: 0.05103
+Array of Structures x86: 0.14704
+Structure of Arrays SSE: 0.01815
+Structure of Arrays x86: 0.02078
+
+Array of Structures SSE: 0.048663
+Array of Structures x86: 0.209117
+Structure of Arrays SSE: 0.024463
+Structure of Arrays x86: 0.022096
+
+Array of Structures SSE: 0.025252
+Array of Structures x86: 0.101534
+Structure of Arrays SSE: 0.016045
+Structure of Arrays x86: 0.020517
+
+Array of Structures SSE: 0.044454
+Array of Structures x86: 0.152038
+Structure of Arrays SSE: 0.018413
+Structure of Arrays x86: 0.022621
+
+Array of Structures SSE: 0.020254
+Array of Structures x86: 0.090486
+Structure of Arrays SSE: 0.016045
+Structure of Arrays x86: 0.019991
+
+Array of Structures SSE: 0.04498
+Array of Structures x86: 0.15572
+Structure of Arrays SSE: 0.048137
+Structure of Arrays x86: 0.062341
+
+Array of Structures SSE: 0.053923
+Array of Structures x86: 0.188864
+Structure of Arrays SSE: 0.02341
+Structure of Arrays x86: 0.037615
+
+Array of Structures SSE: 0.026304
+Array of Structures x86: 0.085488
+Structure of Arrays SSE: 0.021043
+Structure of Arrays x86: 0.021044
+
+Array of Structures SSE: 0.042875
+Array of Structures x86: 0.092591
+Structure of Arrays SSE: 0.016045
+Structure of Arrays x86: 0.019728
+
+Array of Structures SSE: 0.04235
+Array of Structures x86: 0.148881
+Structure of Arrays SSE: 0.017098
+Structure of Arrays x86: 0.019728
+
+Array of Structures SSE: 0.020781
+Array of Structures x86: 0.084699
+Structure of Arrays SSE: 0.015782
+Structure of Arrays x86: 0.019991
+
+Array of Structures SSE: 0.050504
+Array of Structures x86: 0.152301
+Structure of Arrays SSE: 0.030512
+Structure of Arrays x86: 0.025252
+
+Array of Structures SSE: 0.04761
+Array of Structures x86: 0.154931
+Structure of Arrays SSE: 0.023937
+Structure of Arrays x86: 0.024726
+
+Array of Structures SSE: 0.047873
+Array of Structures x86: 0.21017
+Structure of Arrays SSE: 0.025252
+Structure of Arrays x86: 0.025778
+
+Array of Structures SSE: 0.067339
+Array of Structures x86: 0.08128
+Structure of Arrays SSE: 0.015256
+Structure of Arrays x86: 0.022358
+
+Array of Structures SSE: 0.041823
+Array of Structures x86: 0.199912
+Structure of Arrays SSE: 0.024199
+Structure of Arrays x86: 0.029987
+
+Array of Structures SSE: 0.043928
+Array of Structures x86: 0.136518
+Structure of Arrays SSE: 0.038141
+Structure of Arrays x86: 0.05971
+
+Array of Structures SSE: 0.031039
+Array of Structures x86: 0.225426
+Structure of Arrays SSE: 0.034722
+Structure of Arrays x86: 0.034721
+
+Array of Structures SSE: 0.184128
+Array of Structures x86: 0.089697
+Structure of Arrays SSE: 0.018413
+Structure of Arrays x86: 0.02157
+
+Array of Structures SSE: 0.056028
+Array of Structures x86: 0.107057
+Structure of Arrays SSE: 0.017098
+Structure of Arrays x86: 0.020254
+
+Array of Structures SSE: 0.04235
+Array of Structures x86: 0.132573
+Structure of Arrays SSE: 0.015519
+Structure of Arrays x86: 0.020254
+
+Array of Structures SSE: 0.04235
+Array of Structures x86: 0.163085
+Structure of Arrays SSE: 0.019202
+Structure of Arrays x86: 0.023148
+
+Array of Structures SSE: 0.044454
+Array of Structures x86: 0.108899
+Structure of Arrays SSE: 0.015783
+Structure of Arrays x86: 0.020254
+
+Array of Structures SSE: 0.045244
+Array of Structures x86: 0.121524
+Structure of Arrays SSE: 0.026831
+Structure of Arrays x86: 0.021832
+
+Array of Structures SSE: 0.034721
+Array of Structures x86: 0.167557
+Structure of Arrays SSE: 0.024726
+Structure of Arrays x86: 0.027093
+
+Array of Structures SSE: 0.044191
+Array of Structures x86: 0.158614
+Structure of Arrays SSE: 0.026304
+Structure of Arrays x86: 0.027882
+
+Array of Structures SSE: 0.057869
+Array of Structures x86: 0.159929
+Structure of Arrays SSE: 0.0242
+Structure of Arrays x86: 0.027882
+
+Array of Structures SSE: 0.047873
+Array of Structures x86: 0.156246
+Structure of Arrays SSE: 0.025252
+Structure of Arrays x86: 0.026567
+
+Array of Structures SSE: 0.041824
+Array of Structures x86: 0.163348
+Structure of Arrays SSE: 0.030513
+Structure of Arrays x86: 0.033669
+
+Array of Structures SSE: 0.020254
+Array of Structures x86: 0.083384
+Structure of Arrays SSE: 0.016045
+Structure of Arrays x86: 0.019992
+
+Array of Structures SSE: 0.041035
+Array of Structures x86: 0.155457
+Structure of Arrays SSE: 0.018413
+Structure of Arrays x86: 0.019991
+
+Array of Structures SSE: 0.023147
+Array of Structures x86: 0.137045
+Structure of Arrays SSE: 0.024725
+Structure of Arrays x86: 0.026831
+
+Array of Structures SSE: 0.043928
+Array of Structures x86: 0.159403
+Structure of Arrays SSE: 0.023673
+Structure of Arrays x86: 0.027357
+
+Array of Structures SSE: 0.044454
+Array of Structures x86: 0.154405
+Structure of Arrays SSE: 0.027619
+Structure of Arrays x86: 0.027356
+
+Array of Structures SSE: 0.044717
+Array of Structures x86: 0.162822
+Structure of Arrays SSE: 0.023674
+Structure of Arrays x86: 0.043928
+
+Array of Structures SSE: 0.045506
+Array of Structures x86: 0.154405
+Structure of Arrays SSE: 0.024989
+Structure of Arrays x86: 0.046295
+
+Array of Structures SSE: 0.044454
+Array of Structures x86: 0.184391
+Structure of Arrays SSE: 0.015782
+Structure of Arrays x86: 0.025778
+
+Array of Structures SSE: 0.051556
+Array of Structures x86: 0.12968
+Structure of Arrays SSE: 0.016045
+Structure of Arrays x86: 0.019465
+
+Array of Structures SSE: 0.044191
+Array of Structures x86: 0.168873
+Structure of Arrays SSE: 0.016834
+Structure of Arrays x86: 0.020517
+
+Array of Structures SSE: 0.020517
+Array of Structures x86: 0.170187
+Structure of Arrays SSE: 0.032354
+Structure of Arrays x86: 0.033933
+
+Array of Structures SSE: 0.041823
+Array of Structures x86: 0.160455
+Structure of Arrays SSE: 0.024989
+Structure of Arrays x86: 0.026304
+
+Array of Structures SSE: 0.043138
+Array of Structures x86: 0.155195
+Structure of Arrays SSE: 0.02341
+Structure of Arrays x86: 0.026304
+
+Array of Structures SSE: 0.04235
+Array of Structures x86: 0.140727
+Structure of Arrays SSE: 0.024199
+Structure of Arrays x86: 0.027883
+
+Array of Structures SSE: 0.044454
+Array of Structures x86: 0.161244
+Structure of Arrays SSE: 0.022885
+Structure of Arrays x86: 0.026041
+
+Array of Structures SSE: 0.052871
+Array of Structures x86: 0.305128
+Structure of Arrays SSE: 0.019991
+Structure of Arrays x86: 0.022884
+
+Array of Structures SSE: 0.050767
+Array of Structures x86: 0.176501
+Structure of Arrays SSE: 0.025515
+Structure of Arrays x86: 0.026567
+
+Array of Structures SSE: 0.023147
+Array of Structures x86: 0.084963
+Structure of Arrays SSE: 0.016308
+Structure of Arrays x86: 0.025252
+
+Array of Structures SSE: 0.054449
+Array of Structures x86: 0.193862
+Structure of Arrays SSE: 0.03893
+Structure of Arrays x86: 0.028934
+
+Array of Structures SSE: 0.049715
+Array of Structures x86: 0.155457
+Structure of Arrays SSE: 0.024463
+Structure of Arrays x86: 0.026304
+
+Array of Structures SSE: 0.036037
+Array of Structures x86: 0.088119
+Structure of Arrays SSE: 0.016045
+Structure of Arrays x86: 0.019991
+
+Array of Structures SSE: 0.033932
+Array of Structures x86: 0.162296
+Structure of Arrays SSE: 0.024726
+Structure of Arrays x86: 0.027093
+
+Array of Structures SSE: 0.061288
+Array of Structures x86: 0.18597
+Structure of Arrays SSE: 0.024726
+Structure of Arrays x86: 0.026041
+
+Array of Structures SSE: 0.043402
+Array of Structures x86: 0.145461
+Structure of Arrays SSE: 0.021307
+Structure of Arrays x86: 0.02341
+
+Array of Structures SSE: 0.077071
+Array of Structures x86: 0.17387
+Structure of Arrays SSE: 0.023936
+Structure of Arrays x86: 0.026304
+
+Array of Structures SSE: 0.044454
+Array of Structures x86: 0.147566
+Structure of Arrays SSE: 0.023674
+Structure of Arrays x86: 0.02683
+
+Array of Structures SSE: 0.039719
+Array of Structures x86: 0.179394
+Structure of Arrays SSE: 0.03288
+Structure of Arrays x86: 0.033932
+
+Array of Structures SSE: 0.035248
+Array of Structures x86: 0.082595
+Structure of Arrays SSE: 0.015782
+Structure of Arrays x86: 0.019991
+
+Array of Structures SSE: 0.049452
+Array of Structures x86: 0.165452
+Structure of Arrays SSE: 0.020254
+Structure of Arrays x86: 0.022885
+
+Array of Structures SSE: 0.034196
+Array of Structures x86: 0.157298
+Structure of Arrays SSE: 0.025515
+Structure of Arrays x86: 0.02762
+
+Array of Structures SSE: 0.041034
+Array of Structures x86: 0.153879
+Structure of Arrays SSE: 0.0242
+Structure of Arrays x86: 0.026041
+
+Array of Structures SSE: 0.027093
+Array of Structures x86: 0.084436
+Structure of Arrays SSE: 0.01552
+Structure of Arrays x86: 0.026567
+
+Array of Structures SSE: 0.043401
+Array of Structures x86: 0.157036
+Structure of Arrays SSE: 0.025778
+Structure of Arrays x86: 0.028145
+

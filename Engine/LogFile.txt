@@ -1,0 +1,3606 @@
+Array of Structures SSE: 0.024989
+Array of Structures x86: 0.306706
+Structure of Arrays SSE: 0.024726
+Structure of Arrays x86: 0.023673
+Time taken to draw one frame: 12.0454
+
+Array of Structures SSE: 0.046296
+Array of Structures x86: 0.152827
+Structure of Arrays SSE: 0.026567
+Structure of Arrays x86: 0.028408
+Time taken to draw one frame: 6.26748
+
+Array of Structures SSE: 0.04156
+Array of Structures x86: 0.160981
+Structure of Arrays SSE: 0.023674
+Structure of Arrays x86: 0.025515
+Time taken to draw one frame: 5.56568
+
+Array of Structures SSE: 0.066286
+Array of Structures x86: 0.141253
+Structure of Arrays SSE: 0.022358
+Structure of Arrays x86: 0.025778
+Time taken to draw one frame: 5.41128
+
+Array of Structures SSE: 0.048926
+Array of Structures x86: 0.144146
+Structure of Arrays SSE: 0.028935
+Structure of Arrays x86: 0.029987
+Time taken to draw one frame: 7.69658
+
+Array of Structures SSE: 0.054186
+Array of Structures x86: 0.179657
+Structure of Arrays SSE: 0.023148
+Structure of Arrays x86: 0.027619
+Time taken to draw one frame: 5.36472
+
+Array of Structures SSE: 0.039193
+Array of Structures x86: 0.152301
+Structure of Arrays SSE: 0.022095
+Structure of Arrays x86: 0.026568
+Time taken to draw one frame: 12.2995
+
+Array of Structures SSE: 0.04498
+Array of Structures x86: 0.144673
+Structure of Arrays SSE: 0.024989
+Structure of Arrays x86: 0.027619
+Time taken to draw one frame: 7.79022
+
+Array of Structures SSE: 0.038667
+Array of Structures x86: 0.151775
+Structure of Arrays SSE: 0.027619
+Structure of Arrays x86: 0.029461
+Time taken to draw one frame: 7.22679
+
+Array of Structures SSE: 0.043138
+Array of Structures x86: 0.155984
+Structure of Arrays SSE: 0.023673
+Structure of Arrays x86: 0.027094
+Time taken to draw one frame: 6.51
+
+Array of Structures SSE: 0.042612
+Array of Structures x86: 0.140727
+Structure of Arrays SSE: 0.023674
+Structure of Arrays x86: 0.027882
+Time taken to draw one frame: 12.3948
+
+Array of Structures SSE: 0.047873
+Array of Structures x86: 0.152564
+Structure of Arrays SSE: 0.0242
+Structure of Arrays x86: 0.025778
+Time taken to draw one frame: 6.34165
+
+Array of Structures SSE: 0.041824
+Array of Structures x86: 0.146777
+Structure of Arrays SSE: 0.023937
+Structure of Arrays x86: 0.027093
+Time taken to draw one frame: 8.15822
+
+Array of Structures SSE: 0.041561
+Array of Structures x86: 0.147303
+Structure of Arrays SSE: 0.018939
+Structure of Arrays x86: 0.025778
+Time taken to draw one frame: 6.60917
+
+Array of Structures SSE: 0.046558
+Array of Structures x86: 0.154142
+Structure of Arrays SSE: 0.031302
+Structure of Arrays x86: 0.030513
+Time taken to draw one frame: 6.61417
+
+Array of Structures SSE: 0.048926
+Array of Structures x86: 0.151249
+Structure of Arrays SSE: 0.018939
+Structure of Arrays x86: 0.032617
+Time taken to draw one frame: 5.08037
+
+Array of Structures SSE: 0.049715
+Array of Structures x86: 0.124681
+Structure of Arrays SSE: 0.024989
+Structure of Arrays x86: 0.025515
+Time taken to draw one frame: 4.94833
+
+Array of Structures SSE: 0.046821
+Array of Structures x86: 0.132047
+Structure of Arrays SSE: 0.021569
+Structure of Arrays x86: 0.025778
+Time taken to draw one frame: 5.1343
+
+Array of Structures SSE: 0.045769
+Array of Structures x86: 0.106794
+Structure of Arrays SSE: 0.046033
+Structure of Arrays x86: 0.043401
+Time taken to draw one frame: 14.1258
+
+Array of Structures SSE: 0.022359
+Array of Structures x86: 0.081279
+Structure of Arrays SSE: 0.019991
+Structure of Arrays x86: 0.0242
+Time taken to draw one frame: 5.58331
+
+Array of Structures SSE: 0.04156
+Array of Structures x86: 0.146514
+Structure of Arrays SSE: 0.01552
+Structure of Arrays x86: 0.019202
+Time taken to draw one frame: 4.83601
+
+Array of Structures SSE: 0.038404
+Array of Structures x86: 0.263567
+Structure of Arrays SSE: 0.032091
+Structure of Arrays x86: 0.028146
+Time taken to draw one frame: 5.06985
+
+Array of Structures SSE: 0.041035
+Array of Structures x86: 0.146513
+Structure of Arrays SSE: 0.025515
+Structure of Arrays x86: 0.031565
+Time taken to draw one frame: 5.1898
+
+Array of Structures SSE: 0.019465
+Array of Structures x86: 0.081016
+Structure of Arrays SSE: 0.014994
+Structure of Arrays x86: 0.019202
+Time taken to draw one frame: 4.85547
+
+Array of Structures SSE: 0.066813
+Array of Structures x86: 0.318805
+Structure of Arrays SSE: 0.026042
+Structure of Arrays x86: 0.049714
+Time taken to draw one frame: 5.25503
+
+Array of Structures SSE: 0.043139
+Array of Structures x86: 0.151775
+Structure of Arrays SSE: 0.024462
+Structure of Arrays x86: 0.0484
+Time taken to draw one frame: 12.1417
+
+Array of Structures SSE: 0.150196
+Array of Structures x86: 0.148092
+Structure of Arrays SSE: 0.02157
+Structure of Arrays x86: 0.026304
+Time taken to draw one frame: 8.15427
+
+Array of Structures SSE: 0.0484
+Array of Structures x86: 0.155194
+Structure of Arrays SSE: 0.025252
+Structure of Arrays x86: 0.027619
+Time taken to draw one frame: 10.3964
+
+Array of Structures SSE: 0.044454
+Array of Structures x86: 0.145462
+Structure of Arrays SSE: 0.018676
+Structure of Arrays x86: 0.020254
+Time taken to draw one frame: 6.97243
+
+Array of Structures SSE: 0.045243
+Array of Structures x86: 0.106269
+Structure of Arrays SSE: 0.015256
+Structure of Arrays x86: 0.019202
+Time taken to draw one frame: 4.79787
+
+Array of Structures SSE: 0.043928
+Array of Structures x86: 0.115475
+Structure of Arrays SSE: 0.025252
+Structure of Arrays x86: 0.026567
+Time taken to draw one frame: 4.96516
+
+Array of Structures SSE: 0.042349
+Array of Structures x86: 0.155194
+Structure of Arrays SSE: 0.023937
+Structure of Arrays x86: 0.026567
+Time taken to draw one frame: 4.96937
+
+Array of Structures SSE: 0.040508
+Array of Structures x86: 0.144935
+Structure of Arrays SSE: 0.024989
+Structure of Arrays x86: 0.025515
+Time taken to draw one frame: 4.96542
+
+Array of Structures SSE: 0.044717
+Array of Structures x86: 0.138359
+Structure of Arrays SSE: 0.017361
+Structure of Arrays x86: 0.019728
+Time taken to draw one frame: 4.91203
+
+Array of Structures SSE: 0.043665
+Array of Structures x86: 0.152563
+Structure of Arrays SSE: 0.023674
+Structure of Arrays x86: 0.02683
+Time taken to draw one frame: 4.95359
+
+Array of Structures SSE: 0.041297
+Array of Structures x86: 0.143358
+Structure of Arrays SSE: 0.024462
+Structure of Arrays x86: 0.027357
+Time taken to draw one frame: 4.8873
+
+Array of Structures SSE: 0.072599
+Array of Structures x86: 0.154405
+Structure of Arrays SSE: 0.017624
+Structure of Arrays x86: 0.041823
+Time taken to draw one frame: 4.85889
+
+Array of Structures SSE: 0.043928
+Array of Structures x86: 0.15572
+Structure of Arrays SSE: 0.025515
+Structure of Arrays x86: 0.019728
+Time taken to draw one frame: 5.04092
+
+Array of Structures SSE: 0.03893
+Array of Structures x86: 0.22832
+Structure of Arrays SSE: 0.076019
+Structure of Arrays x86: 0.021306
+Time taken to draw one frame: 4.9741
+
+Array of Structures SSE: 0.043139
+Array of Structures x86: 0.118368
+Structure of Arrays SSE: 0.01815
+Structure of Arrays x86: 0.019465
+Time taken to draw one frame: 4.85626
+
+Array of Structures SSE: 0.041824
+Array of Structures x86: 0.140464
+Structure of Arrays SSE: 0.023673
+Structure of Arrays x86: 0.027883
+Time taken to draw one frame: 4.97358
+
+Array of Structures SSE: 0.043402
+Array of Structures x86: 0.135203
+Structure of Arrays SSE: 0.022884
+Structure of Arrays x86: 0.026568
+Time taken to draw one frame: 4.76709
+
+Array of Structures SSE: 0.043665
+Array of Structures x86: 0.129942
+Structure of Arrays SSE: 0.01552
+Structure of Arrays x86: 0.018939
+Time taken to draw one frame: 6.15016
+
+Array of Structures SSE: 0.044454
+Array of Structures x86: 0.151775
+Structure of Arrays SSE: 0.016834
+Structure of Arrays x86: 0.020255
+Time taken to draw one frame: 5.31474
+
+Array of Structures SSE: 0.048137
+Array of Structures x86: 0.150459
+Structure of Arrays SSE: 0.016835
+Structure of Arrays x86: 0.046821
+Time taken to draw one frame: 5.82899
+
+Array of Structures SSE: 0.034459
+Array of Structures x86: 0.118631
+Structure of Arrays SSE: 0.026304
+Structure of Arrays x86: 0.053661
+Time taken to draw one frame: 13.4814
+
+Array of Structures SSE: 0.039719
+Array of Structures x86: 0.118369
+Structure of Arrays SSE: 0.026567
+Structure of Arrays x86: 0.041823
+Time taken to draw one frame: 6.65336
+
+Array of Structures SSE: 0.049715
+Array of Structures x86: 0.156773
+Structure of Arrays SSE: 0.027882
+Structure of Arrays x86: 0.033143
+Time taken to draw one frame: 7.16287
+
+Array of Structures SSE: 0.052345
+Array of Structures x86: 0.125997
+Structure of Arrays SSE: 0.01815
+Structure of Arrays x86: 0.0242
+Time taken to draw one frame: 6.06572
+
+Array of Structures SSE: 0.051556
+Array of Structures x86: 0.183603
+Structure of Arrays SSE: 0.02341
+Structure of Arrays x86: 0.026568
+Time taken to draw one frame: 6.1762
+
+Array of Structures SSE: 0.045769
+Array of Structures x86: 0.154931
+Structure of Arrays SSE: 0.045769
+Structure of Arrays x86: 0.020517
+Time taken to draw one frame: 10.2368
+
+Array of Structures SSE: 0.042349
+Array of Structures x86: 0.13836
+Structure of Arrays SSE: 0.014993
+Structure of Arrays x86: 0.019465
+Time taken to draw one frame: 4.88204
+
+Array of Structures SSE: 0.09522
+Array of Structures x86: 0.160192
+Structure of Arrays SSE: 0.038931
+Structure of Arrays x86: 0.020517
+Time taken to draw one frame: 4.79024
+
+Array of Structures SSE: 0.042349
+Array of Structures x86: 0.159666
+Structure of Arrays SSE: 0.016309
+Structure of Arrays x86: 0.022884
+Time taken to draw one frame: 5.10273
+
+Array of Structures SSE: 0.043928
+Array of Structures x86: 0.223059
+Structure of Arrays SSE: 0.022884
+Structure of Arrays x86: 0.042613
+Time taken to draw one frame: 4.97016
+
+Array of Structures SSE: 0.044717
+Array of Structures x86: 0.170713
+Structure of Arrays SSE: 0.017361
+Structure of Arrays x86: 0.019728
+Time taken to draw one frame: 5.18822
+
+Array of Structures SSE: 0.04235
+Array of Structures x86: 0.147829
+Structure of Arrays SSE: 0.034458
+Structure of Arrays x86: 0.03025
+Time taken to draw one frame: 8.88684
+
+Array of Structures SSE: 0.040771
+Array of Structures x86: 0.162823
+Structure of Arrays SSE: 0.028145
+Structure of Arrays x86: 0.033932
+Time taken to draw one frame: 5.5186
+
+Array of Structures SSE: 0.050767
+Array of Structures x86: 0.1644
+Structure of Arrays SSE: 0.066287
+Structure of Arrays x86: 0.032091
+Time taken to draw one frame: 5.32816
+
+Array of Structures SSE: 0.042087
+Array of Structures x86: 0.175711
+Structure of Arrays SSE: 0.047348
+Structure of Arrays x86: 0.02683
+Time taken to draw one frame: 5.22636
+
+Array of Structures SSE: 0.046296
+Array of Structures x86: 0.182287
+Structure of Arrays SSE: 0.046821
+Structure of Arrays x86: 0.026567
+Time taken to draw one frame: 5.6175
+
+Array of Structures SSE: 0.047347
+Array of Structures x86: 0.15309
+Structure of Arrays SSE: 0.0242
+Structure of Arrays x86: 0.027093
+Time taken to draw one frame: 5.5407
+
+Array of Structures SSE: 0.0242
+Array of Structures x86: 0.08996
+Structure of Arrays SSE: 0.017623
+Structure of Arrays x86: 0.022096
+Time taken to draw one frame: 5.14771
+
+Array of Structures SSE: 0.042613
+Array of Structures x86: 0.149144
+Structure of Arrays SSE: 0.023937
+Structure of Arrays x86: 0.026567
+Time taken to draw one frame: 4.92518
+
+Array of Structures SSE: 0.052082
+Array of Structures x86: 0.186759
+Structure of Arrays SSE: 0.024989
+Structure of Arrays x86: 0.021833
+Time taken to draw one frame: 4.95964
+
+Array of Structures SSE: 0.048925
+Array of Structures x86: 0.127838
+Structure of Arrays SSE: 0.014467
+Structure of Arrays x86: 0.01815
+Time taken to draw one frame: 4.9165
+
+Array of Structures SSE: 0.040245
+Array of Structures x86: 0.165453
+Structure of Arrays SSE: 0.02946
+Structure of Arrays x86: 0.03367
+Time taken to draw one frame: 4.99147
+
+Array of Structures SSE: 0.042087
+Array of Structures x86: 0.121525
+Structure of Arrays SSE: 0.033669
+Structure of Arrays x86: 0.030776
+Time taken to draw one frame: 5.64486
+
+Array of Structures SSE: 0.040771
+Array of Structures x86: 0.192283
+Structure of Arrays SSE: 0.056028
+Structure of Arrays x86: 0.02683
+Time taken to draw one frame: 6.91508
+
+Array of Structures SSE: 0.043138
+Array of Structures x86: 0.148619
+Structure of Arrays SSE: 0.023936
+Structure of Arrays x86: 0.026567
+Time taken to draw one frame: 5.03276
+
+Array of Structures SSE: 0.041034
+Array of Structures x86: 0.122841
+Structure of Arrays SSE: 0.032091
+Structure of Arrays x86: 0.029723
+Time taken to draw one frame: 5.09852
+
+Array of Structures SSE: 0.042086
+Array of Structures x86: 0.240946
+Structure of Arrays SSE: 0.025515
+Structure of Arrays x86: 0.026304
+Time taken to draw one frame: 5.81347
+
+Array of Structures SSE: 0.04235
+Array of Structures x86: 0.165979
+Structure of Arrays SSE: 0.030776
+Structure of Arrays x86: 0.036036
+Time taken to draw one frame: 4.98015
+
+Array of Structures SSE: 0.043138
+Array of Structures x86: 0.147303
+Structure of Arrays SSE: 0.03288
+Structure of Arrays x86: 0.034196
+Time taken to draw one frame: 6.14437
+
+Array of Structures SSE: 0.044191
+Array of Structures x86: 0.170187
+Structure of Arrays SSE: 0.023148
+Structure of Arrays x86: 0.027093
+Time taken to draw one frame: 5.56832
+
+Array of Structures SSE: 0.050767
+Array of Structures x86: 0.155983
+Structure of Arrays SSE: 0.022885
+Structure of Arrays x86: 0.02683
+Time taken to draw one frame: 5.01987
+
+Array of Structures SSE: 0.032617
+Array of Structures x86: 0.401138
+Structure of Arrays SSE: 0.024989
+Structure of Arrays x86: 0.043139
+Time taken to draw one frame: 5.00015
+
+Array of Structures SSE: 0.040771
+Array of Structures x86: 0.181235
+Structure of Arrays SSE: 0.047348
+Structure of Arrays x86: 0.026041
+Time taken to draw one frame: 4.95569
+
+Array of Structures SSE: 0.048926
+Array of Structures x86: 0.202278
+Structure of Arrays SSE: 0.019991
+Structure of Arrays x86: 0.020781
+Time taken to draw one frame: 12.3884
+
+Array of Structures SSE: 0.041824
+Array of Structures x86: 0.148355
+Structure of Arrays SSE: 0.022358
+Structure of Arrays x86: 0.026041
+Time taken to draw one frame: 5.05223
+
+Array of Structures SSE: 0.050504
+Array of Structures x86: 0.180972
+Structure of Arrays SSE: 0.036826
+Structure of Arrays x86: 0.038404
+Time taken to draw one frame: 5.40181
+
+Array of Structures SSE: 0.043139
+Array of Structures x86: 0.15309
+Structure of Arrays SSE: 0.029198
+Structure of Arrays x86: 0.027882
+Time taken to draw one frame: 5.04907
+
+Array of Structures SSE: 0.043138
+Array of Structures x86: 0.12626
+Structure of Arrays SSE: 0.015783
+Structure of Arrays x86: 0.019202
+Time taken to draw one frame: 10.2815
+
+Array of Structures SSE: 0.034721
+Array of Structures x86: 0.117843
+Structure of Arrays SSE: 0.026567
+Structure of Arrays x86: 0.042086
+Time taken to draw one frame: 10.8912
+
+Array of Structures SSE: 0.034722
+Array of Structures x86: 0.118105
+Structure of Arrays SSE: 0.026041
+Structure of Arrays x86: 0.041298
+Time taken to draw one frame: 10.1544
+
+Array of Structures SSE: 0.061288
+Array of Structures x86: 0.179131
+Structure of Arrays SSE: 0.026567
+Structure of Arrays x86: 0.041824
+Time taken to draw one frame: 10.5708
+
+Array of Structures SSE: 0.043402
+Array of Structures x86: 0.152564
+Structure of Arrays SSE: 0.023937
+Structure of Arrays x86: 0.033143
+Time taken to draw one frame: 4.89966
+
+Array of Structures SSE: 0.042613
+Array of Structures x86: 0.141516
+Structure of Arrays SSE: 0.027093
+Structure of Arrays x86: 0.027356
+Time taken to draw one frame: 4.87047
+
+Array of Structures SSE: 0.046558
+Array of Structures x86: 0.152038
+Structure of Arrays SSE: 0.024463
+Structure of Arrays x86: 0.027619
+Time taken to draw one frame: 9.10753
+
+Array of Structures SSE: 0.043665
+Array of Structures x86: 0.1523
+Structure of Arrays SSE: 0.022622
+Structure of Arrays x86: 0.02683
+Time taken to draw one frame: 5.17796
+
+Array of Structures SSE: 0.045243
+Array of Structures x86: 0.143095
+Structure of Arrays SSE: 0.015782
+Structure of Arrays x86: 0.018939
+Time taken to draw one frame: 5.07248
+
+Array of Structures SSE: 0.042087
+Array of Structures x86: 0.122314
+Structure of Arrays SSE: 0.015256
+Structure of Arrays x86: 0.018939
+Time taken to draw one frame: 4.91808
+
+Array of Structures SSE: 0.044191
+Array of Structures x86: 0.151248
+Structure of Arrays SSE: 0.016046
+Structure of Arrays x86: 0.019465
+Time taken to draw one frame: 4.69923
+
+Array of Structures SSE: 0.052608
+Array of Structures x86: 0.237789
+Structure of Arrays SSE: 0.025778
+Structure of Arrays x86: 0.02683
+Time taken to draw one frame: 4.99068
+
+Array of Structures SSE: 0.041297
+Array of Structures x86: 0.144673
+Structure of Arrays SSE: 0.024199
+Structure of Arrays x86: 0.027094
+Time taken to draw one frame: 4.94806
+
+Array of Structures SSE: 0.033932
+Array of Structures x86: 0.123103
+Structure of Arrays SSE: 0.026304
+Structure of Arrays x86: 0.04235
+Time taken to draw one frame: 10.277
+
+Array of Structures SSE: 0.064182
+Array of Structures x86: 0.140727
+Structure of Arrays SSE: 0.028146
+Structure of Arrays x86: 0.04156
+Time taken to draw one frame: 11.33
+
+Array of Structures SSE: 0.051819
+Array of Structures x86: 0.176764
+Structure of Arrays SSE: 0.022358
+Structure of Arrays x86: 0.034722
+Time taken to draw one frame: 5.81952
+
+Array of Structures SSE: 0.048663
+Array of Structures x86: 0.178341
+Structure of Arrays SSE: 0.017887
+Structure of Arrays x86: 0.02078
+Time taken to draw one frame: 5.38287
+
+Array of Structures SSE: 0.043401
+Array of Structures x86: 0.154931
+Structure of Arrays SSE: 0.035247
+Structure of Arrays x86: 0.054713
+Time taken to draw one frame: 5.60409
+
+Array of Structures SSE: 0.040771
+Array of Structures x86: 0.17466
+Structure of Arrays SSE: 0.048925
+Structure of Arrays x86: 0.027356
+Time taken to draw one frame: 4.94122
+
+Array of Structures SSE: 0.043139
+Array of Structures x86: 0.150985
+Structure of Arrays SSE: 0.023937
+Structure of Arrays x86: 0.027093
+Time taken to draw one frame: 4.97489
+
+Array of Structures SSE: 0.041823
+Array of Structures x86: 0.152301
+Structure of Arrays SSE: 0.023411
+Structure of Arrays x86: 0.025515
+Time taken to draw one frame: 5.59488
+
+Array of Structures SSE: 0.047873
+Array of Structures x86: 0.161507
+Structure of Arrays SSE: 0.017624
+Structure of Arrays x86: 0.021043
+Time taken to draw one frame: 5.08721
+
+Array of Structures SSE: 0.052082
+Array of Structures x86: 0.154931
+Structure of Arrays SSE: 0.027357
+Structure of Arrays x86: 0.029723
+Time taken to draw one frame: 5.20926
+
+Array of Structures SSE: 0.040508
+Array of Structures x86: 0.291713
+Structure of Arrays SSE: 0.020517
+Structure of Arrays x86: 0.035511
+Time taken to draw one frame: 5.05591
+
+Array of Structures SSE: 0.048925
+Array of Structures x86: 0.193335
+Structure of Arrays SSE: 0.034459
+Structure of Arrays x86: 0.054712
+Time taken to draw one frame: 8.08641
+
+Array of Structures SSE: 0.04235
+Array of Structures x86: 0.167294
+Structure of Arrays SSE: 0.015782
+Structure of Arrays x86: 0.018413
+Time taken to draw one frame: 4.95911
+
+Array of Structures SSE: 0.101797
+Array of Structures x86: 0.163874
+Structure of Arrays SSE: 0.017624
+Structure of Arrays x86: 0.019465
+Time taken to draw one frame: 4.90782
+
+Array of Structures SSE: 0.040771
+Array of Structures x86: 0.15309
+Structure of Arrays SSE: 0.023411
+Structure of Arrays x86: 0.027619
+Time taken to draw one frame: 4.96095
+
+Array of Structures SSE: 0.042087
+Array of Structures x86: 0.144936
+Structure of Arrays SSE: 0.023147
+Structure of Arrays x86: 0.027093
+Time taken to draw one frame: 4.98568
+
+Array of Structures SSE: 0.038667
+Array of Structures x86: 0.119683
+Structure of Arrays SSE: 0.026567
+Structure of Arrays x86: 0.042087
+Time taken to draw one frame: 10.5298
+
+Array of Structures SSE: 0.034458
+Array of Structures x86: 0.117053
+Structure of Arrays SSE: 0.026041
+Structure of Arrays x86: 0.041297
+Time taken to draw one frame: 10.0216
+
+Array of Structures SSE: 0.054976
+Array of Structures x86: 0.266197
+Structure of Arrays SSE: 0.025778
+Structure of Arrays x86: 0.040772
+Time taken to draw one frame: 6.20066
+
+Array of Structures SSE: 0.049715
+Array of Structures x86: 0.083384
+Structure of Arrays SSE: 0.016045
+Structure of Arrays x86: 0.019465
+Time taken to draw one frame: 4.70922
+
+Array of Structures SSE: 0.043664
+Array of Structures x86: 0.157299
+Structure of Arrays SSE: 0.017624
+Structure of Arrays x86: 0.019728
+Time taken to draw one frame: 5.24609
+
+Array of Structures SSE: 0.046822
+Array of Structures x86: 0.329853
+Structure of Arrays SSE: 0.02683
+Structure of Arrays x86: 0.026304
+Time taken to draw one frame: 5.57989
+
+Array of Structures SSE: 0.020254
+Array of Structures x86: 0.08391
+Structure of Arrays SSE: 0.01473
+Structure of Arrays x86: 0.019991
+Time taken to draw one frame: 4.76946
+
+Array of Structures SSE: 0.042875
+Array of Structures x86: 0.157299
+Structure of Arrays SSE: 0.022621
+Structure of Arrays x86: 0.018938
+Time taken to draw one frame: 4.94359
+
+Array of Structures SSE: 0.042612
+Array of Structures x86: 0.149934
+Structure of Arrays SSE: 0.024463
+Structure of Arrays x86: 0.027356
+Time taken to draw one frame: 5.06433
+
+Array of Structures SSE: 0.033932
+Array of Structures x86: 0.119684
+Structure of Arrays SSE: 0.025778
+Structure of Arrays x86: 0.041297
+Time taken to draw one frame: 11.567
+
+Array of Structures SSE: 0.034195
+Array of Structures x86: 0.119421
+Structure of Arrays SSE: 0.02683
+Structure of Arrays x86: 0.041561
+Time taken to draw one frame: 10.0613
+
+Array of Structures SSE: 0.069443
+Array of Structures x86: 0.261199
+Structure of Arrays SSE: 0.028672
+Structure of Arrays x86: 0.029724
+Time taken to draw one frame: 5.52728
+
+Array of Structures SSE: 0.052082
+Array of Structures x86: 0.18255
+Structure of Arrays SSE: 0.01815
+Structure of Arrays x86: 0.020517
+Time taken to draw one frame: 5.1606
+
+Array of Structures SSE: 0.028408
+Array of Structures x86: 0.153879
+Structure of Arrays SSE: 0.023148
+Structure of Arrays x86: 0.028408
+Time taken to draw one frame: 4.98042
+
+Array of Structures SSE: 0.043665
+Array of Structures x86: 0.147303
+Structure of Arrays SSE: 0.016045
+Structure of Arrays x86: 0.019202
+Time taken to draw one frame: 5.0425
+
+Array of Structures SSE: 0.046558
+Array of Structures x86: 0.147566
+Structure of Arrays SSE: 0.024463
+Structure of Arrays x86: 0.03025
+Time taken to draw one frame: 5.00883
+
+Array of Structures SSE: 0.046032
+Array of Structures x86: 0.174397
+Structure of Arrays SSE: 0.023673
+Structure of Arrays x86: 0.028409
+Time taken to draw one frame: 5.20558
+
+Array of Structures SSE: 0.04156
+Array of Structures x86: 0.177816
+Structure of Arrays SSE: 0.046558
+Structure of Arrays x86: 0.026041
+Time taken to draw one frame: 5.84188
+
+Array of Structures SSE: 0.054186
+Array of Structures x86: 0.15309
+Structure of Arrays SSE: 0.025515
+Structure of Arrays x86: 0.028146
+Time taken to draw one frame: 4.84732
+
+Array of Structures SSE: 0.095747
+Array of Structures x86: 0.146251
+Structure of Arrays SSE: 0.023937
+Structure of Arrays x86: 0.109425
+Time taken to draw one frame: 6.00891
+
+Array of Structures SSE: 0.041034
+Array of Structures x86: 0.176501
+Structure of Arrays SSE: 0.046295
+Structure of Arrays x86: 0.028145
+Time taken to draw one frame: 4.90913
+
+Array of Structures SSE: 0.042876
+Array of Structures x86: 0.162033
+Structure of Arrays SSE: 0.029461
+Structure of Arrays x86: 0.032617
+Time taken to draw one frame: 5.335
+
+Array of Structures SSE: 0.019991
+Array of Structures x86: 0.089697
+Structure of Arrays SSE: 0.03893
+Structure of Arrays x86: 0.024726
+Time taken to draw one frame: 4.66082
+
+Array of Structures SSE: 0.0363
+Array of Structures x86: 0.199122
+Structure of Arrays SSE: 0.024199
+Structure of Arrays x86: 0.026568
+Time taken to draw one frame: 5.14377
+
+Array of Structures SSE: 0.039719
+Array of Structures x86: 0.159403
+Structure of Arrays SSE: 0.026041
+Structure of Arrays x86: 0.037351
+Time taken to draw one frame: 4.90124
+
+Array of Structures SSE: 0.05708
+Array of Structures x86: 0.213589
+Structure of Arrays SSE: 0.077334
+Structure of Arrays x86: 0.037352
+Time taken to draw one frame: 5.02803
+
+Array of Structures SSE: 0.039193
+Array of Structures x86: 0.166242
+Structure of Arrays SSE: 0.023937
+Structure of Arrays x86: 0.026041
+Time taken to draw one frame: 5.51492
+
+Array of Structures SSE: 0.048926
+Array of Structures x86: 0.168872
+Structure of Arrays SSE: 0.029461
+Structure of Arrays x86: 0.028145
+Time taken to draw one frame: 14.3707
+
+Array of Structures SSE: 0.021306
+Array of Structures x86: 0.230424
+Structure of Arrays SSE: 0.01815
+Structure of Arrays x86: 0.021306
+Time taken to draw one frame: 6.61259
+
+Array of Structures SSE: 0.048663
+Array of Structures x86: 0.152827
+Structure of Arrays SSE: 0.022884
+Structure of Arrays x86: 0.019991
+Time taken to draw one frame: 5.00672
+
+Array of Structures SSE: 0.043402
+Array of Structures x86: 0.14967
+Structure of Arrays SSE: 0.023674
+Structure of Arrays x86: 0.026567
+Time taken to draw one frame: 4.82023
+
+Array of Structures SSE: 0.021569
+Array of Structures x86: 0.145725
+Structure of Arrays SSE: 0.022359
+Structure of Arrays x86: 0.025251
+Time taken to draw one frame: 4.9115
+
+Array of Structures SSE: 0.043139
+Array of Structures x86: 0.145987
+Structure of Arrays SSE: 0.014205
+Structure of Arrays x86: 0.018939
+Time taken to draw one frame: 4.88151
+
+Array of Structures SSE: 0.091538
+Array of Structures x86: 0.150197
+Structure of Arrays SSE: 0.03893
+Structure of Arrays x86: 0.019728
+Time taken to draw one frame: 4.94017
+
+Array of Structures SSE: 0.039982
+Array of Structures x86: 0.134151
+Structure of Arrays SSE: 0.024989
+Structure of Arrays x86: 0.026567
+Time taken to draw one frame: 10.464
+
+Array of Structures SSE: 0.033932
+Array of Structures x86: 0.121788
+Structure of Arrays SSE: 0.026831
+Structure of Arrays x86: 0.04156
+Time taken to draw one frame: 10.13
+
+Array of Structures SSE: 0.043402
+Array of Structures x86: 0.156247
+Structure of Arrays SSE: 0.024199
+Structure of Arrays x86: 0.028146
+Time taken to draw one frame: 4.89598
+
+Array of Structures SSE: 0.037352
+Array of Structures x86: 0.140464
+Structure of Arrays SSE: 0.0242
+Structure of Arrays x86: 0.028145
+Time taken to draw one frame: 5.1222
+
+Array of Structures SSE: 0.042876
+Array of Structures x86: 0.154931
+Structure of Arrays SSE: 0.023936
+Structure of Arrays x86: 0.026568
+Time taken to draw one frame: 4.79603
+
+Array of Structures SSE: 0.041561
+Array of Structures x86: 0.116264
+Structure of Arrays SSE: 0.024726
+Structure of Arrays x86: 0.025778
+Time taken to draw one frame: 5.03408
+
+Array of Structures SSE: 0.045506
+Array of Structures x86: 0.142832
+Structure of Arrays SSE: 0.024199
+Structure of Arrays x86: 0.025515
+Time taken to draw one frame: 5.13167
+
+Array of Structures SSE: 0.043928
+Array of Structures x86: 0.113108
+Structure of Arrays SSE: 0.015256
+Structure of Arrays x86: 0.018939
+Time taken to draw one frame: 5.07117
+
+Array of Structures SSE: 0.045243
+Array of Structures x86: 0.160455
+Structure of Arrays SSE: 0.023148
+Structure of Arrays x86: 0.05103
+Time taken to draw one frame: 5.29896
+
+Array of Structures SSE: 0.039983
+Array of Structures x86: 0.149407
+Structure of Arrays SSE: 0.015782
+Structure of Arrays x86: 0.019465
+Time taken to draw one frame: 4.97095
+
+Array of Structures SSE: 0.042613
+Array of Structures x86: 0.151774
+Structure of Arrays SSE: 0.024463
+Structure of Arrays x86: 0.028145
+Time taken to draw one frame: 4.71922
+
+Array of Structures SSE: 0.027356
+Array of Structures x86: 0.123103
+Structure of Arrays SSE: 0.023148
+Structure of Arrays x86: 0.025515
+Time taken to draw one frame: 4.9407
+
+Array of Structures SSE: 0.042875
+Array of Structures x86: 0.159929
+Structure of Arrays SSE: 0.02078
+Structure of Arrays x86: 0.019991
+Time taken to draw one frame: 4.84258
+
+Array of Structures SSE: 0.040771
+Array of Structures x86: 0.172555
+Structure of Arrays SSE: 0.022621
+Structure of Arrays x86: 0.026831
+Time taken to draw one frame: 5.77691
+
+Array of Structures SSE: 0.048926
+Array of Structures x86: 0.143883
+Structure of Arrays SSE: 0.031302
+Structure of Arrays x86: 0.028934
+Time taken to draw one frame: 4.98699
+
+Array of Structures SSE: 0.06313
+Array of Structures x86: 0.209118
+Structure of Arrays SSE: 0.026041
+Structure of Arrays x86: 0.062866
+Time taken to draw one frame: 11.3891
+
+Array of Structures SSE: 0.034458
+Array of Structures x86: 0.118105
+Structure of Arrays SSE: 0.043665
+Structure of Arrays x86: 0.046558
+Time taken to draw one frame: 11.2284
+
+Array of Structures SSE: 0.036562
+Array of Structures x86: 0.143884
+Structure of Arrays SSE: 0.031828
+Structure of Arrays x86: 0.044191
+Time taken to draw one frame: 10.6279
+
+Array of Structures SSE: 0.043664
+Array of Structures x86: 0.180184
+Structure of Arrays SSE: 0.024988
+Structure of Arrays x86: 0.028409
+Time taken to draw one frame: 5.22268
+
+Array of Structures SSE: 0.045769
+Array of Structures x86: 0.176501
+Structure of Arrays SSE: 0.024726
+Structure of Arrays x86: 0.028408
+Time taken to draw one frame: 5.22531
+
+Array of Structures SSE: 0.054187
+Array of Structures x86: 0.176763
+Structure of Arrays SSE: 0.032617
+Structure of Arrays x86: 0.028935
+Time taken to draw one frame: 5.30159
+
+Array of Structures SSE: 0.050241
+Array of Structures x86: 0.157035
+Structure of Arrays SSE: 0.045243
+Structure of Arrays x86: 0.022622
+Time taken to draw one frame: 9.35532
+
+Array of Structures SSE: 0.039719
+Array of Structures x86: 0.187286
+Structure of Arrays SSE: 0.025515
+Structure of Arrays x86: 0.028671
+Time taken to draw one frame: 5.45968
+
+Array of Structures SSE: 0.050504
+Array of Structures x86: 0.142042
+Structure of Arrays SSE: 0.016309
+Structure of Arrays x86: 0.019465
+Time taken to draw one frame: 5.04013
+
+Array of Structures SSE: 0.047347
+Array of Structures x86: 0.151512
+Structure of Arrays SSE: 0.016571
+Structure of Arrays x86: 0.019991
+Time taken to draw one frame: 4.93807
+
+Array of Structures SSE: 0.044191
+Array of Structures x86: 0.163611
+Structure of Arrays SSE: 0.025515
+Structure of Arrays x86: 0.031565
+Time taken to draw one frame: 7.28045
+
+Array of Structures SSE: 0.061552
+Array of Structures x86: 0.127575
+Structure of Arrays SSE: 0.025515
+Structure of Arrays x86: 0.04156
+Time taken to draw one frame: 10.2333
+
+Array of Structures SSE: 0.047085
+Array of Structures x86: 0.181761
+Structure of Arrays SSE: 0.02078
+Structure of Arrays x86: 0.021833
+Time taken to draw one frame: 5.44863
+
+Array of Structures SSE: 0.073125
+Array of Structures x86: 0.170451
+Structure of Arrays SSE: 0.024199
+Structure of Arrays x86: 0.046032
+Time taken to draw one frame: 5.64696
+
+Array of Structures SSE: 0.020517
+Array of Structures x86: 0.088382
+Structure of Arrays SSE: 0.016308
+Structure of Arrays x86: 0.021043
+Time taken to draw one frame: 10.1781
+
+Array of Structures SSE: 0.020517
+Array of Structures x86: 0.086015
+Structure of Arrays SSE: 0.016308
+Structure of Arrays x86: 0.021043
+Time taken to draw one frame: 5.29975
+
+Array of Structures SSE: 0.019991
+Array of Structures x86: 0.178868
+Structure of Arrays SSE: 0.024989
+Structure of Arrays x86: 0.027093
+Time taken to draw one frame: 5.64881
+
+Array of Structures SSE: 0.041034
+Array of Structures x86: 0.170977
+Structure of Arrays SSE: 0.017097
+Structure of Arrays x86: 0.020255
+Time taken to draw one frame: 5.18559
+
+Array of Structures SSE: 0.019465
+Array of Structures x86: 0.166242
+Structure of Arrays SSE: 0.015256
+Structure of Arrays x86: 0.018939
+Time taken to draw one frame: 6.57576
+
+Array of Structures SSE: 0.028408
+Array of Structures x86: 0.15309
+Structure of Arrays SSE: 0.022885
+Structure of Arrays x86: 0.02683
+Time taken to draw one frame: 4.96332
+
+Array of Structures SSE: 0.044454
+Array of Structures x86: 0.138097
+Structure of Arrays SSE: 0.016308
+Structure of Arrays x86: 0.019465
+Time taken to draw one frame: 5.19532
+
+Array of Structures SSE: 0.034721
+Array of Structures x86: 0.120473
+Structure of Arrays SSE: 0.02683
+Structure of Arrays x86: 0.04156
+Time taken to draw one frame: 10.3536
+
+Array of Structures SSE: 0.033932
+Array of Structures x86: 0.116527
+Structure of Arrays SSE: 0.026568
+Structure of Arrays x86: 0.041823
+Time taken to draw one frame: 10.2478
+
+Array of Structures SSE: 0.043402
+Array of Structures x86: 0.139149
+Structure of Arrays SSE: 0.016834
+Structure of Arrays x86: 0.021307
+Time taken to draw one frame: 4.82601
+
+Array of Structures SSE: 0.043402
+Array of Structures x86: 0.167031
+Structure of Arrays SSE: 0.014993
+Structure of Arrays x86: 0.019728
+Time taken to draw one frame: 4.86337
+
+Array of Structures SSE: 0.050767
+Array of Structures x86: 0.103112
+Structure of Arrays SSE: 0.032354
+Structure of Arrays x86: 0.032091
+Time taken to draw one frame: 9.56785
+
+Array of Structures SSE: 0.040245
+Array of Structures x86: 0.157299
+Structure of Arrays SSE: 0.024463
+Structure of Arrays x86: 0.028145
+Time taken to draw one frame: 5.05065
+
+Array of Structures SSE: 0.043138
+Array of Structures x86: 0.15309
+Structure of Arrays SSE: 0.023674
+Structure of Arrays x86: 0.026041
+Time taken to draw one frame: 4.96043
+
+Array of Structures SSE: 0.045769
+Array of Structures x86: 0.155983
+Structure of Arrays SSE: 0.023937
+Structure of Arrays x86: 0.026567
+Time taken to draw one frame: 6.47607
+
+Array of Structures SSE: 0.043664
+Array of Structures x86: 0.151775
+Structure of Arrays SSE: 0.022095
+Structure of Arrays x86: 0.028672
+Time taken to draw one frame: 8.60512
+
+Array of Structures SSE: 0.042087
+Array of Structures x86: 0.079701
+Structure of Arrays SSE: 0.013678
+Structure of Arrays x86: 0.018939
+Time taken to draw one frame: 4.88073
+
+Array of Structures SSE: 0.080227
+Array of Structures x86: 0.174396
+Structure of Arrays SSE: 0.017098
+Structure of Arrays x86: 0.019465
+Time taken to draw one frame: 5.19164
+
+Array of Structures SSE: 0.04235
+Array of Structures x86: 0.148881
+Structure of Arrays SSE: 0.042613
+Structure of Arrays x86: 0.022095
+Time taken to draw one frame: 5.13877
+
+Array of Structures SSE: 0.046295
+Array of Structures x86: 0.157561
+Structure of Arrays SSE: 0.02762
+Structure of Arrays x86: 0.033932
+Time taken to draw one frame: 5.13088
+
+Array of Structures SSE: 0.042876
+Array of Structures x86: 0.147303
+Structure of Arrays SSE: 0.02341
+Structure of Arrays x86: 0.02683
+Time taken to draw one frame: 5.03776
+
+Array of Structures SSE: 0.044717
+Array of Structures x86: 0.153616
+Structure of Arrays SSE: 0.021306
+Structure of Arrays x86: 0.057343
+Time taken to draw one frame: 4.87336
+
+Array of Structures SSE: 0.042613
+Array of Structures x86: 0.165978
+Structure of Arrays SSE: 0.022885
+Structure of Arrays x86: 0.027356
+Time taken to draw one frame: 4.91992
+
+Array of Structures SSE: 0.042613
+Array of Structures x86: 0.149144
+Structure of Arrays SSE: 0.023937
+Structure of Arrays x86: 0.025778
+Time taken to draw one frame: 5.07643
+
+Array of Structures SSE: 0.052872
+Array of Structures x86: 0.157824
+Structure of Arrays SSE: 0.030513
+Structure of Arrays x86: 0.032354
+Time taken to draw one frame: 5.63407
+
+Array of Structures SSE: 0.04235
+Array of Structures x86: 0.151511
+Structure of Arrays SSE: 0.023937
+Structure of Arrays x86: 0.026041
+Time taken to draw one frame: 4.97963
+
+Array of Structures SSE: 0.058658
+Array of Structures x86: 0.150986
+Structure of Arrays SSE: 0.024199
+Structure of Arrays x86: 0.027094
+Time taken to draw one frame: 5.07853
+
+Array of Structures SSE: 0.042876
+Array of Structures x86: 0.156773
+Structure of Arrays SSE: 0.023936
+Structure of Arrays x86: 0.026304
+Time taken to draw one frame: 4.94096
+
+Array of Structures SSE: 0.043139
+Array of Structures x86: 0.138097
+Structure of Arrays SSE: 0.022884
+Structure of Arrays x86: 0.027356
+Time taken to draw one frame: 5.00725
+
+Array of Structures SSE: 0.043402
+Array of Structures x86: 0.124945
+Structure of Arrays SSE: 0.01473
+Structure of Arrays x86: 0.019465
+Time taken to draw one frame: 4.97884
+
+Array of Structures SSE: 0.044717
+Array of Structures x86: 0.158614
+Structure of Arrays SSE: 0.089434
+Structure of Arrays x86: 0.026041
+Time taken to draw one frame: 4.9578
+
+Array of Structures SSE: 0.040508
+Array of Structures x86: 0.148882
+Structure of Arrays SSE: 0.024462
+Structure of Arrays x86: 0.027357
+Time taken to draw one frame: 4.92176
+
+Array of Structures SSE: 0.043138
+Array of Structures x86: 0.157299
+Structure of Arrays SSE: 0.023147
+Structure of Arrays x86: 0.025252
+Time taken to draw one frame: 5.09721
+
+Array of Structures SSE: 0.029723
+Array of Structures x86: 0.148355
+Structure of Arrays SSE: 0.022622
+Structure of Arrays x86: 0.026567
+Time taken to draw one frame: 4.98173
+
+Array of Structures SSE: 0.021306
+Array of Structures x86: 0.080491
+Structure of Arrays SSE: 0.015519
+Structure of Arrays x86: 0.019202
+Time taken to draw one frame: 4.86047
+
+Array of Structures SSE: 0.047874
+Array of Structures x86: 0.146777
+Structure of Arrays SSE: 0.013941
+Structure of Arrays x86: 0.018676
+Time taken to draw one frame: 4.95622
+
+Array of Structures SSE: 0.034721
+Array of Structures x86: 0.118631
+Structure of Arrays SSE: 0.026305
+Structure of Arrays x86: 0.041297
+Time taken to draw one frame: 17.8418
+
+Array of Structures SSE: 0.034195
+Array of Structures x86: 0.125734
+Structure of Arrays SSE: 0.028408
+Structure of Arrays x86: 0.051819
+Time taken to draw one frame: 8.72034
+
+Array of Structures SSE: 0.042613
+Array of Structures x86: 0.176763
+Structure of Arrays SSE: 0.024989
+Structure of Arrays x86: 0.029198
+Time taken to draw one frame: 5.26476
+
+Array of Structures SSE: 0.053134
+Array of Structures x86: 0.154405
+Structure of Arrays SSE: 0.027093
+Structure of Arrays x86: 0.028409
+Time taken to draw one frame: 9.90849
+
+Array of Structures SSE: 0.047611
+Array of Structures x86: 0.169398
+Structure of Arrays SSE: 0.021044
+Structure of Arrays x86: 0.021306
+Time taken to draw one frame: 4.977
+
+Array of Structures SSE: 0.033407
+Array of Structures x86: 0.1765
+Structure of Arrays SSE: 0.025252
+Structure of Arrays x86: 0.027882
+Time taken to draw one frame: 5.0709
+
+Array of Structures SSE: 0.049189
+Array of Structures x86: 0.166505
+Structure of Arrays SSE: 0.043665
+Structure of Arrays x86: 0.022095
+Time taken to draw one frame: 5.06591
+
+Array of Structures SSE: 0.047085
+Array of Structures x86: 0.141253
+Structure of Arrays SSE: 0.019465
+Structure of Arrays x86: 0.028408
+Time taken to draw one frame: 5.4723
+
+Array of Structures SSE: 0.039983
+Array of Structures x86: 0.170713
+Structure of Arrays SSE: 0.026567
+Structure of Arrays x86: 0.029198
+Time taken to draw one frame: 4.96306
+
+Array of Structures SSE: 0.048399
+Array of Structures x86: 0.123104
+Structure of Arrays SSE: 0.019465
+Structure of Arrays x86: 0.020254
+Time taken to draw one frame: 4.94649
+
+Array of Structures SSE: 0.048925
+Array of Structures x86: 0.172029
+Structure of Arrays SSE: 0.017361
+Structure of Arrays x86: 0.019465
+Time taken to draw one frame: 5.41049
+
+Array of Structures SSE: 0.05366
+Array of Structures x86: 0.155457
+Structure of Arrays SSE: 0.0242
+Structure of Arrays x86: 0.027619
+Time taken to draw one frame: 4.77419
+
+Array of Structures SSE: 0.044191
+Array of Structures x86: 0.140201
+Structure of Arrays SSE: 0.015519
+Structure of Arrays x86: 0.018939
+Time taken to draw one frame: 4.90414
+
+Array of Structures SSE: 0.062077
+Array of Structures x86: 0.151775
+Structure of Arrays SSE: 0.023937
+Structure of Arrays x86: 0.027619
+Time taken to draw one frame: 4.96858
+
+Array of Structures SSE: 0.043139
+Array of Structures x86: 0.149407
+Structure of Arrays SSE: 0.0242
+Structure of Arrays x86: 0.027093
+Time taken to draw one frame: 5.00146
+
+Array of Structures SSE: 0.020254
+Array of Structures x86: 0.082858
+Structure of Arrays SSE: 0.015256
+Structure of Arrays x86: 0.019465
+Time taken to draw one frame: 4.78498
+
+Array of Structures SSE: 0.042876
+Array of Structures x86: 0.169135
+Structure of Arrays SSE: 0.015783
+Structure of Arrays x86: 0.020254
+Time taken to draw one frame: 5.22163
+
+Array of Structures SSE: 0.044191
+Array of Structures x86: 0.250152
+Structure of Arrays SSE: 0.021306
+Structure of Arrays x86: 0.019465
+Time taken to draw one frame: 5.04249
+
+Array of Structures SSE: 0.043665
+Array of Structures x86: 0.14967
+Structure of Arrays SSE: 0.022885
+Structure of Arrays x86: 0.027093
+Time taken to draw one frame: 4.82575
+
+Array of Structures SSE: 0.04761
+Array of Structures x86: 0.300919
+Structure of Arrays SSE: 0.024726
+Structure of Arrays x86: 0.028145
+Time taken to draw one frame: 5.00514
+
+Array of Structures SSE: 0.045506
+Array of Structures x86: 0.150986
+Structure of Arrays SSE: 0.02341
+Structure of Arrays x86: 0.024726
+Time taken to draw one frame: 4.90703
+
+Array of Structures SSE: 0.061551
+Array of Structures x86: 0.076808
+Structure of Arrays SSE: 0.014468
+Structure of Arrays x86: 0.019202
+Time taken to draw one frame: 5.23294
+
+Array of Structures SSE: 0.043928
+Array of Structures x86: 0.156247
+Structure of Arrays SSE: 0.016045
+Structure of Arrays x86: 0.019728
+Time taken to draw one frame: 4.72474
+
+Array of Structures SSE: 0.041823
+Array of Structures x86: 0.163612
+Structure of Arrays SSE: 0.027882
+Structure of Arrays x86: 0.031302
+Time taken to draw one frame: 5.83662
+
+Array of Structures SSE: 0.043664
+Array of Structures x86: 0.156509
+Structure of Arrays SSE: 0.033143
+Structure of Arrays x86: 0.035774
+Time taken to draw one frame: 6.04758
+
+Array of Structures SSE: 0.040508
+Array of Structures x86: 0.196228
+Structure of Arrays SSE: 0.023411
+Structure of Arrays x86: 0.026304
+Time taken to draw one frame: 4.81996
+
+Array of Structures SSE: 0.022621
+Array of Structures x86: 0.088645
+Structure of Arrays SSE: 0.015783
+Structure of Arrays x86: 0.019202
+Time taken to draw one frame: 5.12141
+
+Array of Structures SSE: 0.042876
+Array of Structures x86: 0.143094
+Structure of Arrays SSE: 0.133625
+Structure of Arrays x86: 0.034458
+Time taken to draw one frame: 5.14587
+
+Array of Structures SSE: 0.048662
+Array of Structures x86: 0.159929
+Structure of Arrays SSE: 0.018676
+Structure of Arrays x86: 0.0363
+Time taken to draw one frame: 4.95569
+
+Array of Structures SSE: 0.023937
+Array of Structures x86: 0.150196
+Structure of Arrays SSE: 0.029724
+Structure of Arrays x86: 0.027356
+Time taken to draw one frame: 5.4076
+
+Array of Structures SSE: 0.053134
+Array of Structures x86: 0.164401
+Structure of Arrays SSE: 0.0242
+Structure of Arrays x86: 0.026041
+Time taken to draw one frame: 5.95946
+
+Array of Structures SSE: 0.03893
+Array of Structures x86: 0.152301
+Structure of Arrays SSE: 0.023147
+Structure of Arrays x86: 0.025778
+Time taken to draw one frame: 4.83022
+
+Array of Structures SSE: 0.043928
+Array of Structures x86: 0.244891
+Structure of Arrays SSE: 0.015783
+Structure of Arrays x86: 0.018413
+Time taken to draw one frame: 4.87967
+
+Array of Structures SSE: 0.043664
+Array of Structures x86: 0.139937
+Structure of Arrays SSE: 0.015783
+Structure of Arrays x86: 0.026041
+Time taken to draw one frame: 5.16139
+
+Array of Structures SSE: 0.041034
+Array of Structures x86: 0.164927
+Structure of Arrays SSE: 0.029724
+Structure of Arrays x86: 0.033932
+Time taken to draw one frame: 4.94701
+
+Array of Structures SSE: 0.070495
+Array of Structures x86: 0.149144
+Structure of Arrays SSE: 0.020254
+Structure of Arrays x86: 0.024463
+Time taken to draw one frame: 6.02127
+
+Array of Structures SSE: 0.046295
+Array of Structures x86: 0.166505
+Structure of Arrays SSE: 0.02683
+Structure of Arrays x86: 0.027356
+Time taken to draw one frame: 4.86915
+
+Array of Structures SSE: 0.041034
+Array of Structures x86: 0.200964
+Structure of Arrays SSE: 0.02341
+Structure of Arrays x86: 0.026567
+Time taken to draw one frame: 5.03171
+
+Array of Structures SSE: 0.048136
+Array of Structures x86: 0.159666
+Structure of Arrays SSE: 0.033669
+Structure of Arrays x86: 0.032354
+Time taken to draw one frame: 6.10544
+
+Array of Structures SSE: 0.042087
+Array of Structures x86: 0.15914
+Structure of Arrays SSE: 0.027093
+Structure of Arrays x86: 0.031828
+Time taken to draw one frame: 5.19164
+
+Array of Structures SSE: 0.041823
+Array of Structures x86: 0.160455
+Structure of Arrays SSE: 0.025778
+Structure of Arrays x86: 0.037089
+Time taken to draw one frame: 6.03916
+
+Array of Structures SSE: 0.046032
+Array of Structures x86: 0.279087
+Structure of Arrays SSE: 0.019991
+Structure of Arrays x86: 0.116527
+Time taken to draw one frame: 5.06512
+
+Array of Structures SSE: 0.050504
+Array of Structures x86: 0.194913
+Structure of Arrays SSE: 0.028409
+Structure of Arrays x86: 0.029723
+Time taken to draw one frame: 5.22952
+
+Array of Structures SSE: 0.047874
+Array of Structures x86: 0.151774
+Structure of Arrays SSE: 0.019728
+Structure of Arrays x86: 0.052609
+Time taken to draw one frame: 5.0738
+
+Array of Structures SSE: 0.044191
+Array of Structures x86: 0.154931
+Structure of Arrays SSE: 0.031565
+Structure of Arrays x86: 0.03288
+Time taken to draw one frame: 5.48388
+
+Array of Structures SSE: 0.049715
+Array of Structures x86: 0.194387
+Structure of Arrays SSE: 0.028934
+Structure of Arrays x86: 0.032617
+Time taken to draw one frame: 5.02698
+
+Array of Structures SSE: 0.063656
+Array of Structures x86: 0.223059
+Structure of Arrays SSE: 0.016045
+Structure of Arrays x86: 0.018939
+Time taken to draw one frame: 5.12404
+
+Array of Structures SSE: 0.02683
+Array of Structures x86: 0.200437
+Structure of Arrays SSE: 0.031565
+Structure of Arrays x86: 0.031828
+Time taken to draw one frame: 5.10378
+
+Array of Structures SSE: 0.051293
+Array of Structures x86: 0.086014
+Structure of Arrays SSE: 0.017624
+Structure of Arrays x86: 0.019728
+Time taken to draw one frame: 10.5895
+
+Array of Structures SSE: 0.043402
+Array of Structures x86: 0.084436
+Structure of Arrays SSE: 0.015256
+Structure of Arrays x86: 0.019465
+Time taken to draw one frame: 4.91913
+
+Array of Structures SSE: 0.043928
+Array of Structures x86: 0.114159
+Structure of Arrays SSE: 0.023411
+Structure of Arrays x86: 0.026041
+Time taken to draw one frame: 5.18743
+
+Array of Structures SSE: 0.043665
+Array of Structures x86: 0.140201
+Structure of Arrays SSE: 0.015256
+Structure of Arrays x86: 0.019728
+Time taken to draw one frame: 5.26608
+
+Array of Structures SSE: 0.035511
+Array of Structures x86: 0.159403
+Structure of Arrays SSE: 0.023673
+Structure of Arrays x86: 0.026568
+Time taken to draw one frame: 5.35841
+
+Array of Structures SSE: 0.044717
+Array of Structures x86: 0.15835
+Structure of Arrays SSE: 0.023411
+Structure of Arrays x86: 0.027619
+Time taken to draw one frame: 4.94307
+
+Array of Structures SSE: 0.04156
+Array of Structures x86: 0.227268
+Structure of Arrays SSE: 0.039456
+Structure of Arrays x86: 0.022885
+Time taken to draw one frame: 5.65801
+
+Array of Structures SSE: 0.097062
+Array of Structures x86: 0.155194
+Structure of Arrays SSE: 0.037352
+Structure of Arrays x86: 0.020517
+Time taken to draw one frame: 5.1948
+
+Array of Structures SSE: 0.043402
+Array of Structures x86: 0.151511
+Structure of Arrays SSE: 0.015783
+Structure of Arrays x86: 0.019202
+Time taken to draw one frame: 4.88441
+
+Array of Structures SSE: 0.043139
+Array of Structures x86: 0.152826
+Structure of Arrays SSE: 0.028935
+Structure of Arrays x86: 0.019728
+Time taken to draw one frame: 5.01514
+
+Array of Structures SSE: 0.033143
+Array of Structures x86: 0.206224
+Structure of Arrays SSE: 0.023148
+Structure of Arrays x86: 0.025515
+Time taken to draw one frame: 4.86258
+
+Array of Structures SSE: 0.045769
+Array of Structures x86: 0.315123
+Structure of Arrays SSE: 0.025778
+Structure of Arrays x86: 0.024989
+Time taken to draw one frame: 5.07222
+
+Array of Structures SSE: 0.067076
+Array of Structures x86: 0.168083
+Structure of Arrays SSE: 0.015256
+Structure of Arrays x86: 0.018939
+Time taken to draw one frame: 4.87941
+
+Array of Structures SSE: 0.044716
+Array of Structures x86: 0.162034
+Structure of Arrays SSE: 0.024199
+Structure of Arrays x86: 0.022095
+Time taken to draw one frame: 4.861
+
+Array of Structures SSE: 0.049978
+Array of Structures x86: 0.148355
+Structure of Arrays SSE: 0.025252
+Structure of Arrays x86: 0.023937
+Time taken to draw one frame: 5.07196
+
+Array of Structures SSE: 0.043402
+Array of Structures x86: 0.129153
+Structure of Arrays SSE: 0.030776
+Structure of Arrays x86: 0.047347
+Time taken to draw one frame: 10.6913
+
+Array of Structures SSE: 0.034195
+Array of Structures x86: 0.121262
+Structure of Arrays SSE: 0.02683
+Structure of Arrays x86: 0.041561
+Time taken to draw one frame: 11.1006
+
+Array of Structures SSE: 0.042087
+Array of Structures x86: 0.122051
+Structure of Arrays SSE: 0.027093
+Structure of Arrays x86: 0.041823
+Time taken to draw one frame: 11.5927
+
+Array of Structures SSE: 0.034195
+Array of Structures x86: 0.118106
+Structure of Arrays SSE: 0.026304
+Structure of Arrays x86: 0.04156
+Time taken to draw one frame: 6.91298
+
+Array of Structures SSE: 0.021043
+Array of Structures x86: 0.080754
+Structure of Arrays SSE: 0.016835
+Structure of Arrays x86: 0.021306
+Time taken to draw one frame: 5.36393
+
+Array of Structures SSE: 0.049977
+Array of Structures x86: 0.148093
+Structure of Arrays SSE: 0.023673
+Structure of Arrays x86: 0.025515
+Time taken to draw one frame: 5.90369
+
+Array of Structures SSE: 0.043665
+Array of Structures x86: 0.151511
+Structure of Arrays SSE: 0.0242
+Structure of Arrays x86: 0.028145
+Time taken to draw one frame: 4.92281
+
+Array of Structures SSE: 0.034459
+Array of Structures x86: 0.119946
+Structure of Arrays SSE: 0.026041
+Structure of Arrays x86: 0.041561
+Time taken to draw one frame: 10.4201
+
+Array of Structures SSE: 0.034722
+Array of Structures x86: 0.121525
+Structure of Arrays SSE: 0.026041
+Structure of Arrays x86: 0.041823
+Time taken to draw one frame: 10.2599
+
+Array of Structures SSE: 0.034459
+Array of Structures x86: 0.120209
+Structure of Arrays SSE: 0.025778
+Structure of Arrays x86: 0.041561
+Time taken to draw one frame: 10.5022
+
+Array of Structures SSE: 0.037878
+Array of Structures x86: 0.127838
+Structure of Arrays SSE: 0.029986
+Structure of Arrays x86: 0.043402
+Time taken to draw one frame: 8.527
+
+Array of Structures SSE: 0.049189
+Array of Structures x86: 0.169398
+Structure of Arrays SSE: 0.020254
+Structure of Arrays x86: 0.020781
+Time taken to draw one frame: 5.09852
+
+Array of Structures SSE: 0.049978
+Array of Structures x86: 0.151249
+Structure of Arrays SSE: 0.016308
+Structure of Arrays x86: 0.019991
+Time taken to draw one frame: 5.39655
+
+Array of Structures SSE: 0.025252
+Array of Structures x86: 0.133362
+Structure of Arrays SSE: 0.023147
+Structure of Arrays x86: 0.026567
+Time taken to draw one frame: 5.12062
+
+Array of Structures SSE: 0.051556
+Array of Structures x86: 0.13757
+Structure of Arrays SSE: 0.026567
+Structure of Arrays x86: 0.030513
+Time taken to draw one frame: 12.5865
+
+Array of Structures SSE: 0.034196
+Array of Structures x86: 0.116527
+Structure of Arrays SSE: 0.026304
+Structure of Arrays x86: 0.058132
+Time taken to draw one frame: 10.3912
+
+Array of Structures SSE: 0.05103
+Array of Structures x86: 0.181761
+Structure of Arrays SSE: 0.017887
+Structure of Arrays x86: 0.024726
+Time taken to draw one frame: 6.20198
+
+Array of Structures SSE: 0.049714
+Array of Structures x86: 0.117843
+Structure of Arrays SSE: 0.018939
+Structure of Arrays x86: 0.0242
+Time taken to draw one frame: 6.26327
+
+Array of Structures SSE: 0.042086
+Array of Structures x86: 0.164926
+Structure of Arrays SSE: 0.023937
+Structure of Arrays x86: 0.027356
+Time taken to draw one frame: 5.49387
+
+Array of Structures SSE: 0.041298
+Array of Structures x86: 0.145462
+Structure of Arrays SSE: 0.026304
+Structure of Arrays x86: 0.028145
+Time taken to draw one frame: 4.9699
+
+Array of Structures SSE: 0.044717
+Array of Structures x86: 0.151512
+Structure of Arrays SSE: 0.040771
+Structure of Arrays x86: 0.021043
+Time taken to draw one frame: 5.21505
+
+Array of Structures SSE: 0.018939
+Array of Structures x86: 0.079965
+Structure of Arrays SSE: 0.013941
+Structure of Arrays x86: 0.018676
+Time taken to draw one frame: 4.9307
+
+Array of Structures SSE: 0.042613
+Array of Structures x86: 0.169924
+Structure of Arrays SSE: 0.042087
+Structure of Arrays x86: 0.036562
+Time taken to draw one frame: 5.6225
+
+Array of Structures SSE: 0.046032
+Array of Structures x86: 0.162559
+Structure of Arrays SSE: 0.026305
+Structure of Arrays x86: 0.029197
+Time taken to draw one frame: 9.68149
+
+Array of Structures SSE: 0.04156
+Array of Structures x86: 0.173607
+Structure of Arrays SSE: 0.047874
+Structure of Arrays x86: 0.025515
+Time taken to draw one frame: 4.88441
+
+Array of Structures SSE: 0.039456
+Array of Structures x86: 0.158877
+Structure of Arrays SSE: 0.02946
+Structure of Arrays x86: 0.032091
+Time taken to draw one frame: 5.35972
+
+Array of Structures SSE: 0.040508
+Array of Structures x86: 0.17729
+Structure of Arrays SSE: 0.046558
+Structure of Arrays x86: 0.026304
+Time taken to draw one frame: 4.87283
+
+Array of Structures SSE: 0.047347
+Array of Structures x86: 0.198333
+Structure of Arrays SSE: 0.029987
+Structure of Arrays x86: 0.034195
+Time taken to draw one frame: 5.1001
+
+Array of Structures SSE: 0.042349
+Array of Structures x86: 0.142305
+Structure of Arrays SSE: 0.0242
+Structure of Arrays x86: 0.025778
+Time taken to draw one frame: 4.93912
+
+Array of Structures SSE: 0.041823
+Array of Structures x86: 0.161771
+Structure of Arrays SSE: 0.02683
+Structure of Arrays x86: 0.040771
+Time taken to draw one frame: 5.05644
+
+Array of Structures SSE: 0.044717
+Array of Structures x86: 0.174922
+Structure of Arrays SSE: 0.023937
+Structure of Arrays x86: 0.027356
+Time taken to draw one frame: 5.06827
+
+Array of Structures SSE: 0.054186
+Array of Structures x86: 0.155194
+Structure of Arrays SSE: 0.02157
+Structure of Arrays x86: 0.027093
+Time taken to draw one frame: 4.91387
+
+Array of Structures SSE: 0.046032
+Array of Structures x86: 0.156246
+Structure of Arrays SSE: 0.023937
+Structure of Arrays x86: 0.025252
+Time taken to draw one frame: 4.91045
+
+Array of Structures SSE: 0.049715
+Array of Structures x86: 0.171766
+Structure of Arrays SSE: 0.025515
+Structure of Arrays x86: 0.026567
+Time taken to draw one frame: 5.39655
+
+Array of Structures SSE: 0.048926
+Array of Structures x86: 0.15914
+Structure of Arrays SSE: 0.031302
+Structure of Arrays x86: 0.025515
+Time taken to draw one frame: 5.81952
+
+Array of Structures SSE: 0.044454
+Array of Structures x86: 0.154142
+Structure of Arrays SSE: 0.027619
+Structure of Arrays x86: 0.032354
+Time taken to draw one frame: 5.43311
+
+Array of Structures SSE: 0.049189
+Array of Structures x86: 0.150722
+Structure of Arrays SSE: 0.022095
+Structure of Arrays x86: 0.025251
+Time taken to draw one frame: 6.03626
+
+Array of Structures SSE: 0.0484
+Array of Structures x86: 0.133361
+Structure of Arrays SSE: 0.017887
+Structure of Arrays x86: 0.019991
+Time taken to draw one frame: 5.00567
+
+Array of Structures SSE: 0.049714
+Array of Structures x86: 0.162034
+Structure of Arrays SSE: 0.023673
+Structure of Arrays x86: 0.026304
+Time taken to draw one frame: 4.96306
+
+Array of Structures SSE: 0.047873
+Array of Structures x86: 0.150197
+Structure of Arrays SSE: 0.040771
+Structure of Arrays x86: 0.030513
+Time taken to draw one frame: 5.14903
+
+Array of Structures SSE: 0.040245
+Array of Structures x86: 0.153879
+Structure of Arrays SSE: 0.0242
+Structure of Arrays x86: 0.027882
+Time taken to draw one frame: 4.85416
+
+Array of Structures SSE: 0.042087
+Array of Structures x86: 0.169398
+Structure of Arrays SSE: 0.030513
+Structure of Arrays x86: 0.05103
+Time taken to draw one frame: 5.23609
+
+Array of Structures SSE: 0.02078
+Array of Structures x86: 0.197281
+Structure of Arrays SSE: 0.028671
+Structure of Arrays x86: 0.031828
+Time taken to draw one frame: 5.23241
+
+Array of Structures SSE: 0.040246
+Array of Structures x86: 0.200174
+Structure of Arrays SSE: 0.023937
+Structure of Arrays x86: 0.028145
+Time taken to draw one frame: 4.92439
+
+Array of Structures SSE: 0.042086
+Array of Structures x86: 0.159666
+Structure of Arrays SSE: 0.061289
+Structure of Arrays x86: 0.03893
+Time taken to draw one frame: 10.5711
+
+Array of Structures SSE: 0.04761
+Array of Structures x86: 0.143094
+Structure of Arrays SSE: 0.03025
+Structure of Arrays x86: 0.035248
+Time taken to draw one frame: 7.11158
+
+Array of Structures SSE: 0.044191
+Array of Structures x86: 0.142042
+Structure of Arrays SSE: 0.015782
+Structure of Arrays x86: 0.019466
+Time taken to draw one frame: 4.91466
+
+Array of Structures SSE: 0.042087
+Array of Structures x86: 0.14441
+Structure of Arrays SSE: 0.024725
+Structure of Arrays x86: 0.027357
+Time taken to draw one frame: 5.39629
+
+Array of Structures SSE: 0.043928
+Array of Structures x86: 0.14362
+Structure of Arrays SSE: 0.022358
+Structure of Arrays x86: 0.027883
+Time taken to draw one frame: 7.39066
+
+Array of Structures SSE: 0.034195
+Array of Structures x86: 0.117842
+Structure of Arrays SSE: 0.026041
+Structure of Arrays x86: 0.041035
+Time taken to draw one frame: 10.9696
+
+Array of Structures SSE: 0.034722
+Array of Structures x86: 0.121262
+Structure of Arrays SSE: 0.026567
+Structure of Arrays x86: 0.041823
+Time taken to draw one frame: 10.816
+
+Array of Structures SSE: 0.035248
+Array of Structures x86: 0.123892
+Structure of Arrays SSE: 0.026041
+Structure of Arrays x86: 0.041824
+Time taken to draw one frame: 10.3446
+
+Array of Structures SSE: 0.041298
+Array of Structures x86: 0.084436
+Structure of Arrays SSE: 0.014467
+Structure of Arrays x86: 0.019991
+Time taken to draw one frame: 5.02961
+
+Array of Structures SSE: 0.044717
+Array of Structures x86: 0.153353
+Structure of Arrays SSE: 0.023411
+Structure of Arrays x86: 0.02683
+Time taken to draw one frame: 4.99068
+
+Array of Structures SSE: 0.074178
+Array of Structures x86: 0.183865
+Structure of Arrays SSE: 0.035774
+Structure of Arrays x86: 0.046295
+Time taken to draw one frame: 10.7768
+
+Array of Structures SSE: 0.033933
+Array of Structures x86: 0.116527
+Structure of Arrays SSE: 0.026041
+Structure of Arrays x86: 0.041297
+Time taken to draw one frame: 7.94542
+
+Array of Structures SSE: 0.043138
+Array of Structures x86: 0.15651
+Structure of Arrays SSE: 0.024989
+Structure of Arrays x86: 0.029723
+Time taken to draw one frame: 4.94622
+
+Array of Structures SSE: 0.047873
+Array of Structures x86: 0.130206
+Structure of Arrays SSE: 0.015256
+Structure of Arrays x86: 0.019991
+Time taken to draw one frame: 5.25661
+
+Array of Structures SSE: 0.036825
+Array of Structures x86: 0.150986
+Structure of Arrays SSE: 0.022885
+Structure of Arrays x86: 0.027882
+Time taken to draw one frame: 4.94385
+
+Array of Structures SSE: 0.026567
+Array of Structures x86: 0.152038
+Structure of Arrays SSE: 0.0242
+Structure of Arrays x86: 0.027356
+Time taken to draw one frame: 5.01567
+
+Array of Structures SSE: 0.071284
+Array of Structures x86: 0.146514
+Structure of Arrays SSE: 0.039719
+Structure of Arrays x86: 0.019728
+Time taken to draw one frame: 10.5758
+
+Array of Structures SSE: 0.040772
+Array of Structures x86: 0.236211
+Structure of Arrays SSE: 0.03893
+Structure of Arrays x86: 0.020254
+Time taken to draw one frame: 4.85968
+
+Array of Structures SSE: 0.043139
+Array of Structures x86: 0.152827
+Structure of Arrays SSE: 0.017097
+Structure of Arrays x86: 0.030513
+Time taken to draw one frame: 4.88046
+
+Array of Structures SSE: 0.040771
+Array of Structures x86: 0.170714
+Structure of Arrays SSE: 0.026304
+Structure of Arrays x86: 0.025778
+Time taken to draw one frame: 4.89335
+
+Array of Structures SSE: 0.041297
+Array of Structures x86: 0.167821
+Structure of Arrays SSE: 0.029986
+Structure of Arrays x86: 0.03288
+Time taken to draw one frame: 14.2958
+
+Array of Structures SSE: 0.034195
+Array of Structures x86: 0.119158
+Structure of Arrays SSE: 0.025515
+Structure of Arrays x86: 0.041823
+Time taken to draw one frame: 11.1737
+
+Array of Structures SSE: 0.046032
+Array of Structures x86: 0.14441
+Structure of Arrays SSE: 0.03288
+Structure of Arrays x86: 0.045506
+Time taken to draw one frame: 6.71675
+
+Array of Structures SSE: 0.046558
+Array of Structures x86: 0.170187
+Structure of Arrays SSE: 0.024726
+Structure of Arrays x86: 0.048926
+Time taken to draw one frame: 5.89185
+
+Array of Structures SSE: 0.046821
+Array of Structures x86: 0.124155
+Structure of Arrays SSE: 0.022622
+Structure of Arrays x86: 0.034721
+Time taken to draw one frame: 5.88923
+
+Array of Structures SSE: 0.049715
+Array of Structures x86: 0.175448
+Structure of Arrays SSE: 0.029987
+Structure of Arrays x86: 0.027619
+Time taken to draw one frame: 5.48467
+
+Array of Structures SSE: 0.0484
+Array of Structures x86: 0.164401
+Structure of Arrays SSE: 0.016834
+Structure of Arrays x86: 0.02157
+Time taken to draw one frame: 5.65906
+
+Array of Structures SSE: 0.048399
+Array of Structures x86: 0.119946
+Structure of Arrays SSE: 0.029461
+Structure of Arrays x86: 0.041297
+Time taken to draw one frame: 6.20619
+
+Array of Structures SSE: 0.05103
+Array of Structures x86: 0.129943
+Structure of Arrays SSE: 0.073914
+Structure of Arrays x86: 0.023148
+Time taken to draw one frame: 5.54938
+
+Array of Structures SSE: 0.053924
+Array of Structures x86: 0.169924
+Structure of Arrays SSE: 0.034984
+Structure of Arrays x86: 0.032618
+Time taken to draw one frame: 5.78559
+
+Array of Structures SSE: 0.045244
+Array of Structures x86: 0.161244
+Structure of Arrays SSE: 0.022621
+Structure of Arrays x86: 0.02683
+Time taken to draw one frame: 4.8852
+
+Array of Structures SSE: 0.04156
+Array of Structures x86: 0.161507
+Structure of Arrays SSE: 0.022622
+Structure of Arrays x86: 0.026304
+Time taken to draw one frame: 4.99041
+
+Array of Structures SSE: 0.049715
+Array of Structures x86: 0.156246
+Structure of Arrays SSE: 0.0242
+Structure of Arrays x86: 0.026041
+Time taken to draw one frame: 5.65091
+
+Array of Structures SSE: 0.040245
+Array of Structures x86: 0.152301
+Structure of Arrays SSE: 0.023674
+Structure of Arrays x86: 0.026567
+Time taken to draw one frame: 5.12378
+
+Array of Structures SSE: 0.0363
+Array of Structures x86: 0.167031
+Structure of Arrays SSE: 0.022621
+Structure of Arrays x86: 0.027356
+Time taken to draw one frame: 5.62829
+
+Array of Structures SSE: 0.043139
+Array of Structures x86: 0.124155
+Structure of Arrays SSE: 0.032354
+Structure of Arrays x86: 0.032091
+Time taken to draw one frame: 6.0218
+
+Array of Structures SSE: 0.10206
+Array of Structures x86: 0.159666
+Structure of Arrays SSE: 0.015256
+Structure of Arrays x86: 0.116001
+Time taken to draw one frame: 4.77209
+
+Array of Structures SSE: 0.045769
+Array of Structures x86: 0.144146
+Structure of Arrays SSE: 0.022359
+Structure of Arrays x86: 0.025515
+Time taken to draw one frame: 4.93938
+
+Array of Structures SSE: 0.042613
+Array of Structures x86: 0.129942
+Structure of Arrays SSE: 0.020517
+Structure of Arrays x86: 0.035248
+Time taken to draw one frame: 5.07485
+
+Array of Structures SSE: 0.043665
+Array of Structures x86: 0.151511
+Structure of Arrays SSE: 0.014468
+Structure of Arrays x86: 0.019202
+Time taken to draw one frame: 4.92334
+
+Array of Structures SSE: 0.023674
+Array of Structures x86: 0.148355
+Structure of Arrays SSE: 0.022359
+Structure of Arrays x86: 0.025252
+Time taken to draw one frame: 5.18664
+
+Array of Structures SSE: 0.044191
+Array of Structures x86: 0.163874
+Structure of Arrays SSE: 0.024726
+Structure of Arrays x86: 0.026304
+Time taken to draw one frame: 5.0425
+
+Array of Structures SSE: 0.049189
+Array of Structures x86: 0.154931
+Structure of Arrays SSE: 0.022885
+Structure of Arrays x86: 0.021043
+Time taken to draw one frame: 4.82996
+
+Array of Structures SSE: 0.073126
+Array of Structures x86: 0.090486
+Structure of Arrays SSE: 0.020254
+Structure of Arrays x86: 0.018676
+Time taken to draw one frame: 5.04697
+
+Array of Structures SSE: 0.043665
+Array of Structures x86: 0.123892
+Structure of Arrays SSE: 0.014731
+Structure of Arrays x86: 0.034721
+Time taken to draw one frame: 5.15113
+
+Array of Structures SSE: 0.043665
+Array of Structures x86: 0.147829
+Structure of Arrays SSE: 0.023147
+Structure of Arrays x86: 0.025252
+Time taken to draw one frame: 5.07906
+
+Array of Structures SSE: 0.034984
+Array of Structures x86: 0.124682
+Structure of Arrays SSE: 0.039982
+Structure of Arrays x86: 0.035774
+Time taken to draw one frame: 5.1343
+
+Array of Structures SSE: 0.043138
+Array of Structures x86: 0.143358
+Structure of Arrays SSE: 0.125996
+Structure of Arrays x86: 0.033407
+Time taken to draw one frame: 5.12246
+
+Array of Structures SSE: 0.026041
+Array of Structures x86: 0.155457
+Structure of Arrays SSE: 0.022885
+Structure of Arrays x86: 0.026041
+Time taken to draw one frame: 5.557
+
+Array of Structures SSE: 0.027882
+Array of Structures x86: 0.13231
+Structure of Arrays SSE: 0.022359
+Structure of Arrays x86: 0.025778
+Time taken to draw one frame: 5.95472
+
+Array of Structures SSE: 0.049451
+Array of Structures x86: 0.191231
+Structure of Arrays SSE: 0.057869
+Structure of Arrays x86: 0.03288
+Time taken to draw one frame: 6.14858
+
+Array of Structures SSE: 0.046558
+Array of Structures x86: 0.224111
+Structure of Arrays SSE: 0.02683
+Structure of Arrays x86: 0.023411
+Time taken to draw one frame: 5.92342
+
+Array of Structures SSE: 0.052871
+Array of Structures x86: 0.273826
+Structure of Arrays SSE: 0.026041
+Structure of Arrays x86: 0.09601
+Time taken to draw one frame: 5.57594
+
+Array of Structures SSE: 0.04235
+Array of Structures x86: 0.118105
+Structure of Arrays SSE: 0.029724
+Structure of Arrays x86: 0.031828
+Time taken to draw one frame: 5.19874
+
+Array of Structures SSE: 0.039719
+Array of Structures x86: 0.196755
+Structure of Arrays SSE: 0.022358
+Structure of Arrays x86: 0.026304
+Time taken to draw one frame: 4.95043
+
+Array of Structures SSE: 0.041298
+Array of Structures x86: 0.164663
+Structure of Arrays SSE: 0.028935
+Structure of Arrays x86: 0.034721
+Time taken to draw one frame: 4.84863
+
+Array of Structures SSE: 0.110741
+Array of Structures x86: 0.079701
+Structure of Arrays SSE: 0.01473
+Structure of Arrays x86: 0.019202
+Time taken to draw one frame: 4.73579
+
+Array of Structures SSE: 0.0847
+Array of Structures x86: 0.184654
+Structure of Arrays SSE: 0.028409
+Structure of Arrays x86: 0.023147
+Time taken to draw one frame: 5.59172
+
+Array of Structures SSE: 0.041034
+Array of Structures x86: 0.163612
+Structure of Arrays SSE: 0.022621
+Structure of Arrays x86: 0.02683
+Time taken to draw one frame: 5.06617
+
+Array of Structures SSE: 0.042086
+Array of Structures x86: 0.122051
+Structure of Arrays SSE: 0.01552
+Structure of Arrays x86: 0.019202
+Time taken to draw one frame: 4.76446
+
+Array of Structures SSE: 0.023674
+Array of Structures x86: 0.152301
+Structure of Arrays SSE: 0.023936
+Structure of Arrays x86: 0.026041
+Time taken to draw one frame: 4.92965
+
+Array of Structures SSE: 0.047347
+Array of Structures x86: 0.163875
+Structure of Arrays SSE: 0.028671
+Structure of Arrays x86: 0.037615
+Time taken to draw one frame: 5.36709
+
+Array of Structures SSE: 0.042613
+Array of Structures x86: 0.146777
+Structure of Arrays SSE: 0.024726
+Structure of Arrays x86: 0.027356
+Time taken to draw one frame: 5.33552
+
+Array of Structures SSE: 0.039456
+Array of Structures x86: 0.163086
+Structure of Arrays SSE: 0.022884
+Structure of Arrays x86: 0.047348
+Time taken to draw one frame: 5.2403
+
+Array of Structures SSE: 0.043665
+Array of Structures x86: 0.138359
+Structure of Arrays SSE: 0.015783
+Structure of Arrays x86: 0.019465
+Time taken to draw one frame: 4.73237
+
+Array of Structures SSE: 0.043139
+Array of Structures x86: 0.139675
+Structure of Arrays SSE: 0.01473
+Structure of Arrays x86: 0.019465
+Time taken to draw one frame: 5.34841
+
+Array of Structures SSE: 0.046032
+Array of Structures x86: 0.168083
+Structure of Arrays SSE: 0.026567
+Structure of Arrays x86: 0.030513
+Time taken to draw one frame: 4.9983
+
+Array of Structures SSE: 0.040771
+Array of Structures x86: 0.150196
+Structure of Arrays SSE: 0.028672
+Structure of Arrays x86: 0.026041
+Time taken to draw one frame: 5.07511
+
+Array of Structures SSE: 0.024463
+Array of Structures x86: 0.082069
+Structure of Arrays SSE: 0.015519
+Structure of Arrays x86: 0.019202
+Time taken to draw one frame: 4.74605
+
+Array of Structures SSE: 0.059711
+Array of Structures x86: 0.153353
+Structure of Arrays SSE: 0.023936
+Structure of Arrays x86: 0.026567
+Time taken to draw one frame: 5.00856
+
+Array of Structures SSE: 0.04235
+Array of Structures x86: 0.146514
+Structure of Arrays SSE: 0.021043
+Structure of Arrays x86: 0.02683
+Time taken to draw one frame: 5.04302
+
+Array of Structures SSE: 0.043928
+Array of Structures x86: 0.138359
+Structure of Arrays SSE: 0.016309
+Structure of Arrays x86: 0.023148
+Time taken to draw one frame: 5.00435
+
+Array of Structures SSE: 0.041561
+Array of Structures x86: 0.15309
+Structure of Arrays SSE: 0.023147
+Structure of Arrays x86: 0.027094
+Time taken to draw one frame: 4.77051
+
+Array of Structures SSE: 0.03025
+Array of Structures x86: 0.139411
+Structure of Arrays SSE: 0.022096
+Structure of Arrays x86: 0.027356
+Time taken to draw one frame: 5.06538
+
+Array of Structures SSE: 0.043928
+Array of Structures x86: 0.136255
+Structure of Arrays SSE: 0.01473
+Structure of Arrays x86: 0.019465
+Time taken to draw one frame: 4.91597
+
+Array of Structures SSE: 0.048925
+Array of Structures x86: 0.142832
+Structure of Arrays SSE: 0.017886
+Structure of Arrays x86: 0.019465
+Time taken to draw one frame: 4.7763
+
+Array of Structures SSE: 0.04235
+Array of Structures x86: 0.148881
+Structure of Arrays SSE: 0.022885
+Structure of Arrays x86: 0.02683
+Time taken to draw one frame: 8.41126
+
+Array of Structures SSE: 0.034458
+Array of Structures x86: 0.118894
+Structure of Arrays SSE: 0.025778
+Structure of Arrays x86: 0.041561
+Time taken to draw one frame: 10.528
+
+Array of Structures SSE: 0.02078
+Array of Structures x86: 0.08128
+Structure of Arrays SSE: 0.015783
+Structure of Arrays x86: 0.021043
+Time taken to draw one frame: 5.53912
+
+Array of Structures SSE: 0.049451
+Array of Structures x86: 0.150986
+Structure of Arrays SSE: 0.016571
+Structure of Arrays x86: 0.021307
+Time taken to draw one frame: 5.49387
+
+Array of Structures SSE: 0.03893
+Array of Structures x86: 0.193335
+Structure of Arrays SSE: 0.027882
+Structure of Arrays x86: 0.033933
+Time taken to draw one frame: 6.45108
+
+Array of Structures SSE: 0.048399
+Array of Structures x86: 0.113108
+Structure of Arrays SSE: 0.018413
+Structure of Arrays x86: 0.021306
+Time taken to draw one frame: 5.66011
+
+Array of Structures SSE: 0.046032
+Array of Structures x86: 0.131258
+Structure of Arrays SSE: 0.017361
+Structure of Arrays x86: 0.144935
+Time taken to draw one frame: 8.91867
+
+Array of Structures SSE: 0.02078
+Array of Structures x86: 0.079965
+Structure of Arrays SSE: 0.014993
+Structure of Arrays x86: 0.019202
+Time taken to draw one frame: 5.03987
+
+Array of Structures SSE: 0.041297
+Array of Structures x86: 0.129679
+Structure of Arrays SSE: 0.01552
+Structure of Arrays x86: 0.019728
+Time taken to draw one frame: 4.83706
+
+Array of Structures SSE: 0.046296
+Array of Structures x86: 0.2249
+Structure of Arrays SSE: 0.033669
+Structure of Arrays x86: 0.028408
+Time taken to draw one frame: 5.16008
+
+Array of Structures SSE: 0.031039
+Array of Structures x86: 0.159403
+Structure of Arrays SSE: 0.024463
+Structure of Arrays x86: 0.026567
+Time taken to draw one frame: 4.85758
+
+Array of Structures SSE: 0.054976
+Array of Structures x86: 0.199122
+Structure of Arrays SSE: 0.029987
+Structure of Arrays x86: 0.030512
+Time taken to draw one frame: 5.3129
+
+Array of Structures SSE: 0.031828
+Array of Structures x86: 0.150986
+Structure of Arrays SSE: 0.023937
+Structure of Arrays x86: 0.025515
+Time taken to draw one frame: 4.98831
+
+Array of Structures SSE: 0.041034
+Array of Structures x86: 0.168347
+Structure of Arrays SSE: 0.031038
+Structure of Arrays x86: 0.049452
+Time taken to draw one frame: 5.00251
+
+Array of Structures SSE: 0.042612
+Array of Structures x86: 0.142305
+Structure of Arrays SSE: 0.233581
+Structure of Arrays x86: 0.033406
+Time taken to draw one frame: 7.96751
+
+Array of Structures SSE: 0.04156
+Array of Structures x86: 0.106532
+Structure of Arrays SSE: 0.015256
+Structure of Arrays x86: 0.019465
+Time taken to draw one frame: 5.30291
+
+Array of Structures SSE: 0.061289
+Array of Structures x86: 0.141516
+Structure of Arrays SSE: 0.015256
+Structure of Arrays x86: 0.019728
+Time taken to draw one frame: 4.68792
+
+Array of Structures SSE: 0.043401
+Array of Structures x86: 0.164927
+Structure of Arrays SSE: 0.017887
+Structure of Arrays x86: 0.019202
+Time taken to draw one frame: 13.6276
+
+Array of Structures SSE: 0.044717
+Array of Structures x86: 0.08733
+Structure of Arrays SSE: 0.015782
+Structure of Arrays x86: 0.019728
+Time taken to draw one frame: 5.36472
+
+Array of Structures SSE: 0.042612
+Array of Structures x86: 0.157299
+Structure of Arrays SSE: 0.017624
+Structure of Arrays x86: 0.019202
+Time taken to draw one frame: 4.93228
+
+Array of Structures SSE: 0.082858
+Array of Structures x86: 0.228846
+Structure of Arrays SSE: 0.019202
+Structure of Arrays x86: 0.019465
+Time taken to draw one frame: 5.05617
+
+Array of Structures SSE: 0.042612
+Array of Structures x86: 0.15046
+Structure of Arrays SSE: 0.024199
+Structure of Arrays x86: 0.026304
+Time taken to draw one frame: 5.02513
+
+Array of Structures SSE: 0.041824
+Array of Structures x86: 0.157824
+Structure of Arrays SSE: 0.0242
+Structure of Arrays x86: 0.027356
+Time taken to draw one frame: 4.97174
+
+Array of Structures SSE: 0.034196
+Array of Structures x86: 0.147829
+Structure of Arrays SSE: 0.025778
+Structure of Arrays x86: 0.026304
+Time taken to draw one frame: 5.1172
+
+Array of Structures SSE: 0.0363
+Array of Structures x86: 0.168083
+Structure of Arrays SSE: 0.023148
+Structure of Arrays x86: 0.026304
+Time taken to draw one frame: 4.93596
+
+Array of Structures SSE: 0.042876
+Array of Structures x86: 0.150986
+Structure of Arrays SSE: 0.024199
+Structure of Arrays x86: 0.026304
+Time taken to draw one frame: 4.97647
+
+Array of Structures SSE: 0.050241
+Array of Structures x86: 0.22148
+Structure of Arrays SSE: 0.026304
+Structure of Arrays x86: 0.026568
+Time taken to draw one frame: 4.99278
+
+Array of Structures SSE: 0.041823
+Array of Structures x86: 0.15046
+Structure of Arrays SSE: 0.025778
+Structure of Arrays x86: 0.026304
+Time taken to draw one frame: 5.11194
+
+Array of Structures SSE: 0.034196
+Array of Structures x86: 0.271984
+Structure of Arrays SSE: 0.03025
+Structure of Arrays x86: 0.030513
+Time taken to draw one frame: 4.96595
+
+Array of Structures SSE: 0.020255
+Array of Structures x86: 0.082068
+Structure of Arrays SSE: 0.014731
+Structure of Arrays x86: 0.018939
+Time taken to draw one frame: 4.83206
+
+Array of Structures SSE: 0.043138
+Array of Structures x86: 0.15651
+Structure of Arrays SSE: 0.019991
+Structure of Arrays x86: 0.022095
+Time taken to draw one frame: 4.97595
+
+Array of Structures SSE: 0.043665
+Array of Structures x86: 0.15572
+Structure of Arrays SSE: 0.020517
+Structure of Arrays x86: 0.024463
+Time taken to draw one frame: 4.90756
+
+Array of Structures SSE: 0.042876
+Array of Structures x86: 0.151774
+Structure of Arrays SSE: 0.0242
+Structure of Arrays x86: 0.027357
+Time taken to draw one frame: 4.89966
+
+Array of Structures SSE: 0.061289
+Array of Structures x86: 0.147303
+Structure of Arrays SSE: 0.024199
+Structure of Arrays x86: 0.02762
+Time taken to draw one frame: 4.87441
+
+Array of Structures SSE: 0.042349
+Array of Structures x86: 0.165978
+Structure of Arrays SSE: 0.027357
+Structure of Arrays x86: 0.037352
+Time taken to draw one frame: 5.52781
+
+Array of Structures SSE: 0.04498
+Array of Structures x86: 0.140464
+Structure of Arrays SSE: 0.020517
+Structure of Arrays x86: 0.022095
+Time taken to draw one frame: 5.18454
+
+Array of Structures SSE: 0.04235
+Array of Structures x86: 0.150985
+Structure of Arrays SSE: 0.023674
+Structure of Arrays x86: 0.027356
+Time taken to draw one frame: 5.35078
+
+Array of Structures SSE: 0.042087
+Array of Structures x86: 0.17124
+Structure of Arrays SSE: 0.028408
+Structure of Arrays x86: 0.018676
+Time taken to draw one frame: 5.08616
+
+Array of Structures SSE: 0.058921
+Array of Structures x86: 0.155195
+Structure of Arrays SSE: 0.036562
+Structure of Arrays x86: 0.047611
+Time taken to draw one frame: 4.84758
+
+Array of Structures SSE: 0.039982
+Array of Structures x86: 0.168083
+Structure of Arrays SSE: 0.029987
+Structure of Arrays x86: 0.051293
+Time taken to draw one frame: 4.88967
+
+Array of Structures SSE: 0.049451
+Array of Structures x86: 0.166505
+Structure of Arrays SSE: 0.024989
+Structure of Arrays x86: 0.026567
+Time taken to draw one frame: 5.20769
+
+Array of Structures SSE: 0.044191
+Array of Structures x86: 0.167294
+Structure of Arrays SSE: 0.017887
+Structure of Arrays x86: 0.019465
+Time taken to draw one frame: 5.17349
+
+Array of Structures SSE: 0.100744
+Array of Structures x86: 0.166505
+Structure of Arrays SSE: 0.017361
+Structure of Arrays x86: 0.020254
+Time taken to draw one frame: 4.8873
+
+Array of Structures SSE: 0.049977
+Array of Structures x86: 0.155984
+Structure of Arrays SSE: 0.023673
+Structure of Arrays x86: 0.027357
+Time taken to draw one frame: 4.96858
+
+Array of Structures SSE: 0.035247
+Array of Structures x86: 0.166505
+Structure of Arrays SSE: 0.022885
+Structure of Arrays x86: 0.034984
+Time taken to draw one frame: 16.1465
+
+Array of Structures SSE: 0.056554
+Array of Structures x86: 0.154405
+Structure of Arrays SSE: 0.026041
+Structure of Arrays x86: 0.035773
+Time taken to draw one frame: 6.11281
+
+Array of Structures SSE: 0.029198
+Array of Structures x86: 0.15572
+Structure of Arrays SSE: 0.023937
+Structure of Arrays x86: 0.028408
+Time taken to draw one frame: 8.66878
+
+Array of Structures SSE: 0.043138
+Array of Structures x86: 0.123367
+Structure of Arrays SSE: 0.015256
+Structure of Arrays x86: 0.018939
+Time taken to draw one frame: 4.6745
+
+Array of Structures SSE: 0.041823
+Array of Structures x86: 0.158614
+Structure of Arrays SSE: 0.014994
+Structure of Arrays x86: 0.018938
+Time taken to draw one frame: 5.21979
+
+Array of Structures SSE: 0.042086
+Array of Structures x86: 0.181499
+Structure of Arrays SSE: 0.022621
+Structure of Arrays x86: 0.026567
+Time taken to draw one frame: 4.89519
+
+Array of Structures SSE: 0.043138
+Array of Structures x86: 0.152827
+Structure of Arrays SSE: 0.023937
+Structure of Arrays x86: 0.026567
+Time taken to draw one frame: 4.81917
+
+Array of Structures SSE: 0.045243
+Array of Structures x86: 0.150985
+Structure of Arrays SSE: 0.0242
+Structure of Arrays x86: 0.028145
+Time taken to draw one frame: 5.07827
+
+Array of Structures SSE: 0.042086
+Array of Structures x86: 0.279613
+Structure of Arrays SSE: 0.033406
+Structure of Arrays x86: 0.034984
+Time taken to draw one frame: 5.1435
+
+Array of Structures SSE: 0.04235
+Array of Structures x86: 0.152827
+Structure of Arrays SSE: 0.020254
+Structure of Arrays x86: 0.020517
+Time taken to draw one frame: 4.92202
+
+Array of Structures SSE: 0.032091
+Array of Structures x86: 0.158877
+Structure of Arrays SSE: 0.023411
+Structure of Arrays x86: 0.027356
+Time taken to draw one frame: 9.70779
+
+Array of Structures SSE: 0.064445
+Array of Structures x86: 0.118368
+Structure of Arrays SSE: 0.026305
+Structure of Arrays x86: 0.041297
+Time taken to draw one frame: 10.2694
+
+Array of Structures SSE: 0.055764
+Array of Structures x86: 0.156772
+Structure of Arrays SSE: 0.016572
+Structure of Arrays x86: 0.020254
+Time taken to draw one frame: 5.02093
+
+Array of Structures SSE: 0.0484
+Array of Structures x86: 0.169661
+Structure of Arrays SSE: 0.020255
+Structure of Arrays x86: 0.021306
+Time taken to draw one frame: 5.05591
+
+Array of Structures SSE: 0.044454
+Array of Structures x86: 0.12547
+Structure of Arrays SSE: 0.01473
+Structure of Arrays x86: 0.018939
+Time taken to draw one frame: 4.82181
+
+Array of Structures SSE: 0.041297
+Array of Structures x86: 0.16177
+Structure of Arrays SSE: 0.023148
+Structure of Arrays x86: 0.02683
+Time taken to draw one frame: 5.27239
+
+Array of Structures SSE: 0.028145
+Array of Structures x86: 0.325119
+Structure of Arrays SSE: 0.074703
+Structure of Arrays x86: 0.028146
+Time taken to draw one frame: 5.34605
+
+Array of Structures SSE: 0.038404
+Array of Structures x86: 0.16782
+Structure of Arrays SSE: 0.031038
+Structure of Arrays x86: 0.02762
+Time taken to draw one frame: 6.03021
+
+Array of Structures SSE: 0.034721
+Array of Structures x86: 0.118106
+Structure of Arrays SSE: 0.025778
+Structure of Arrays x86: 0.042086
+Time taken to draw one frame: 11.8192
+
+Array of Structures SSE: 0.036826
+Array of Structures x86: 0.127312
+Structure of Arrays SSE: 0.031828
+Structure of Arrays x86: 0.045506
+Time taken to draw one frame: 10.8568
+
+Array of Structures SSE: 0.063393
+Array of Structures x86: 0.236737
+Structure of Arrays SSE: 0.03288
+Structure of Arrays x86: 0.043928
+Time taken to draw one frame: 11.9484
+
+Array of Structures SSE: 0.052082
+Array of Structures x86: 0.098114
+Structure of Arrays SSE: 0.016309
+Structure of Arrays x86: 0.021569
+Time taken to draw one frame: 5.53123
+
+Array of Structures SSE: 0.048663
+Array of Structures x86: 0.187811
+Structure of Arrays SSE: 0.025778
+Structure of Arrays x86: 0.028409
+Time taken to draw one frame: 6.39111
+
+Array of Structures SSE: 0.044191
+Array of Structures x86: 0.176501
+Structure of Arrays SSE: 0.02946
+Structure of Arrays x86: 0.028409
+Time taken to draw one frame: 5.14219
+
+Array of Structures SSE: 0.046559
+Array of Structures x86: 0.136255
+Structure of Arrays SSE: 0.017098
+Structure of Arrays x86: 0.021043
+Time taken to draw one frame: 6.71807
+
+Array of Structures SSE: 0.041824
+Array of Structures x86: 0.153616
+Structure of Arrays SSE: 0.023147
+Structure of Arrays x86: 0.02762
+Time taken to draw one frame: 4.98962
+
+Array of Structures SSE: 0.043665
+Array of Structures x86: 0.153089
+Structure of Arrays SSE: 0.0242
+Structure of Arrays x86: 0.025515
+Time taken to draw one frame: 6.09676
+
+Array of Structures SSE: 0.034458
+Array of Structures x86: 0.119947
+Structure of Arrays SSE: 0.026041
+Structure of Arrays x86: 0.041824
+Time taken to draw one frame: 11.2489
+
+Array of Structures SSE: 0.078386
+Array of Structures x86: 0.118368
+Structure of Arrays SSE: 0.026042
+Structure of Arrays x86: 0.041823
+Time taken to draw one frame: 10.5153
+
+Array of Structures SSE: 0.034195
+Array of Structures x86: 0.12021
+Structure of Arrays SSE: 0.026304
+Structure of Arrays x86: 0.041561
+Time taken to draw one frame: 17.7942
+
+Array of Structures SSE: 0.049189
+Array of Structures x86: 0.133624
+Structure of Arrays SSE: 0.025778
+Structure of Arrays x86: 0.028672
+Time taken to draw one frame: 4.82286
+
+Array of Structures SSE: 0.043927
+Array of Structures x86: 0.14441
+Structure of Arrays SSE: 0.016045
+Structure of Arrays x86: 0.028935
+Time taken to draw one frame: 4.73184
+
+Array of Structures SSE: 0.045244
+Array of Structures x86: 0.143357
+Structure of Arrays SSE: 0.019465
+Structure of Arrays x86: 0.019465
+Time taken to draw one frame: 6.34376
+
+Array of Structures SSE: 0.041298
+Array of Structures x86: 0.168083
+Structure of Arrays SSE: 0.024726
+Structure of Arrays x86: 0.028671
+Time taken to draw one frame: 5.08984
+
+Array of Structures SSE: 0.093117
+Array of Structures x86: 0.151774
+Structure of Arrays SSE: 0.038141
+Structure of Arrays x86: 0.019992
+Time taken to draw one frame: 5.00409
+
+Array of Structures SSE: 0.042612
+Array of Structures x86: 0.156773
+Structure of Arrays SSE: 0.024463
+Structure of Arrays x86: 0.027093
+Time taken to draw one frame: 4.94806
+
+Array of Structures SSE: 0.04498
+Array of Structures x86: 0.178079
+Structure of Arrays SSE: 0.01736
+Structure of Arrays x86: 0.019465
+Time taken to draw one frame: 4.72842
+
+Array of Structures SSE: 0.043665
+Array of Structures x86: 0.174133
+Structure of Arrays SSE: 0.069443
+Structure of Arrays x86: 0.021306
+Time taken to draw one frame: 4.81155
+
+Array of Structures SSE: 0.042613
+Array of Structures x86: 0.148618
+Structure of Arrays SSE: 0.023411
+Structure of Arrays x86: 0.026567
+Time taken to draw one frame: 4.96279
+
+Array of Structures SSE: 0.045769
+Array of Structures x86: 0.140727
+Structure of Arrays SSE: 0.221744
+Structure of Arrays x86: 0.034195
+Time taken to draw one frame: 5.02855
+
+Array of Structures SSE: 0.041823
+Array of Structures x86: 0.154668
+Structure of Arrays SSE: 0.023937
+Structure of Arrays x86: 0.027093
+Time taken to draw one frame: 4.94438
+
+Array of Structures SSE: 0.043928
+Array of Structures x86: 0.159666
+Structure of Arrays SSE: 0.021569
+Structure of Arrays x86: 0.020254
+Time taken to draw one frame: 4.94885
+
+Array of Structures SSE: 0.040508
+Array of Structures x86: 0.131521
+Structure of Arrays SSE: 0.023937
+Structure of Arrays x86: 0.027093
+Time taken to draw one frame: 4.85758
+
+Array of Structures SSE: 0.038404
+Array of Structures x86: 0.120999
+Structure of Arrays SSE: 0.027093
+Structure of Arrays x86: 0.041297
+Time taken to draw one frame: 11.482
+
+Array of Structures SSE: 0.034984
+Array of Structures x86: 0.118369
+Structure of Arrays SSE: 0.026304
+Structure of Arrays x86: 0.042613
+Time taken to draw one frame: 11.4802
+
+Array of Structures SSE: 0.056554
+Array of Structures x86: 0.118105
+Structure of Arrays SSE: 0.026568
+Structure of Arrays x86: 0.04156
+Time taken to draw one frame: 11.7737
+
+Array of Structures SSE: 0.034196
+Array of Structures x86: 0.158877
+Structure of Arrays SSE: 0.027619
+Structure of Arrays x86: 0.041823
+Time taken to draw one frame: 11.2676
+
+Array of Structures SSE: 0.056028
+Array of Structures x86: 0.12021
+Structure of Arrays SSE: 0.025778
+Structure of Arrays x86: 0.041297
+Time taken to draw one frame: 11.9331
+
+Array of Structures SSE: 0.038667
+Array of Structures x86: 0.178868
+Structure of Arrays SSE: 0.047348
+Structure of Arrays x86: 0.026041
+Time taken to draw one frame: 4.88151
+
+Array of Structures SSE: 0.040771
+Array of Structures x86: 0.165979
+Structure of Arrays SSE: 0.029987
+Structure of Arrays x86: 0.051556
+Time taken to draw one frame: 5.75086
+
+Array of Structures SSE: 0.150723
+Array of Structures x86: 0.149407
+Structure of Arrays SSE: 0.01815
+Structure of Arrays x86: 0.087329
+Time taken to draw one frame: 5.05854
+
+Array of Structures SSE: 0.045506
+Array of Structures x86: 0.137571
+Structure of Arrays SSE: 0.031565
+Structure of Arrays x86: 0.030512
+Time taken to draw one frame: 5.4681
+
+Array of Structures SSE: 0.048137
+Array of Structures x86: 0.192019
+Structure of Arrays SSE: 0.022359
+Structure of Arrays x86: 0.0242
+Time taken to draw one frame: 5.17454
+
+Array of Structures SSE: 0.03893
+Array of Structures x86: 0.135203
+Structure of Arrays SSE: 0.022358
+Structure of Arrays x86: 0.026041
+Time taken to draw one frame: 4.93333
+
+Array of Structures SSE: 0.043665
+Array of Structures x86: 0.130731
+Structure of Arrays SSE: 0.015519
+Structure of Arrays x86: 0.019202
+Time taken to draw one frame: 4.83206
+
+Array of Structures SSE: 0.042613
+Array of Structures x86: 0.193335
+Structure of Arrays SSE: 0.027093
+Structure of Arrays x86: 0.026568
+Time taken to draw one frame: 5.05144
+
+Array of Structures SSE: 0.048136
+Array of Structures x86: 0.166768
+Structure of Arrays SSE: 0.024463
+Structure of Arrays x86: 0.028145
+Time taken to draw one frame: 4.91781
+
+Array of Structures SSE: 0.020254
+Array of Structures x86: 0.080228
+Structure of Arrays SSE: 0.014467
+Structure of Arrays x86: 0.018939
+Time taken to draw one frame: 5.27581
+
+Array of Structures SSE: 0.041298
+Array of Structures x86: 0.150196
+Structure of Arrays SSE: 0.022885
+Structure of Arrays x86: 0.026567
+Time taken to draw one frame: 5.02619
+
+Array of Structures SSE: 0.043402
+Array of Structures x86: 0.170451
+Structure of Arrays SSE: 0.022884
+Structure of Arrays x86: 0.027883
+Time taken to draw one frame: 4.88309
+
+Array of Structures SSE: 0.042086
+Array of Structures x86: 0.151775
+Structure of Arrays SSE: 0.021306
+Structure of Arrays x86: 0.025515
+Time taken to draw one frame: 6.8196
+
+Array of Structures SSE: 0.049189
+Array of Structures x86: 0.220691
+Structure of Arrays SSE: 0.018939
+Structure of Arrays x86: 0.019991
+Time taken to draw one frame: 7.45353
+
+Array of Structures SSE: 0.072863
+Array of Structures x86: 0.116001
+Structure of Arrays SSE: 0.025515
+Structure of Arrays x86: 0.031565
+Time taken to draw one frame: 4.93728
+
+Array of Structures SSE: 0.044191
+Array of Structures x86: 0.145462
+Structure of Arrays SSE: 0.017097
+Structure of Arrays x86: 0.020255
+Time taken to draw one frame: 4.89046
+
+Array of Structures SSE: 0.049452
+Array of Structures x86: 0.200963
+Structure of Arrays SSE: 0.023148
+Structure of Arrays x86: 0.019991
+Time taken to draw one frame: 4.94543
+
+Array of Structures SSE: 0.042087
+Array of Structures x86: 0.143094
+Structure of Arrays SSE: 0.023937
+Structure of Arrays x86: 0.02683
+Time taken to draw one frame: 4.84837
+
+Array of Structures SSE: 0.062077
+Array of Structures x86: 0.133625
+Structure of Arrays SSE: 0.026304
+Structure of Arrays x86: 0.041561
+Time taken to draw one frame: 10.202
+
+Array of Structures SSE: 0.034195
+Array of Structures x86: 0.117316
+Structure of Arrays SSE: 0.026305
+Structure of Arrays x86: 0.041297
+Time taken to draw one frame: 10.0908
+
+Array of Structures SSE: 0.048136
+Array of Structures x86: 0.140201
+Structure of Arrays SSE: 0.017098
+Structure of Arrays x86: 0.020517
+Time taken to draw one frame: 5.07353
+
+Array of Structures SSE: 0.046559
+Array of Structures x86: 0.115475
+Structure of Arrays SSE: 0.018939
+Structure of Arrays x86: 0.020254
+Time taken to draw one frame: 5.0325
+
+Array of Structures SSE: 0.043928
+Array of Structures x86: 0.150722
+Structure of Arrays SSE: 0.023937
+Structure of Arrays x86: 0.0484
+Time taken to draw one frame: 4.8339
+
+Array of Structures SSE: 0.041297
+Array of Structures x86: 0.158877
+Structure of Arrays SSE: 0.021569
+Structure of Arrays x86: 0.033406
+Time taken to draw one frame: 5.07485
+
+Array of Structures SSE: 0.042086
+Array of Structures x86: 0.152827
+Structure of Arrays SSE: 0.024726
+Structure of Arrays x86: 0.027619
+Time taken to draw one frame: 4.75736
+
+Array of Structures SSE: 0.045506
+Array of Structures x86: 0.156773
+Structure of Arrays SSE: 0.018676
+Structure of Arrays x86: 0.019728
+Time taken to draw one frame: 5.00356
+
+Array of Structures SSE: 0.049189
+Array of Structures x86: 0.15572
+Structure of Arrays SSE: 0.024726
+Structure of Arrays x86: 0.027093
+Time taken to draw one frame: 15.6465
+
+Array of Structures SSE: 0.04235
+Array of Structures x86: 0.106794
+Structure of Arrays SSE: 0.016046
+Structure of Arrays x86: 0.019465
+Time taken to draw one frame: 5.07064
+
+Array of Structures SSE: 0.048663
+Array of Structures x86: 0.087329
+Structure of Arrays SSE: 0.015257
+Structure of Arrays x86: 0.018939
+Time taken to draw one frame: 4.84679
+
+Array of Structures SSE: 0.034195
+Array of Structures x86: 0.118632
+Structure of Arrays SSE: 0.026041
+Structure of Arrays x86: 0.041297
+Time taken to draw one frame: 10.3788
+
+Array of Structures SSE: 0.034195
+Array of Structures x86: 0.117316
+Structure of Arrays SSE: 0.026041
+Structure of Arrays x86: 0.041824
+Time taken to draw one frame: 8.76532
+
+Array of Structures SSE: 0.051293
+Array of Structures x86: 0.180972
+Structure of Arrays SSE: 0.018676
+Structure of Arrays x86: 0.024463
+Time taken to draw one frame: 7.0132
+
+Array of Structures SSE: 0.023147
+Array of Structures x86: 0.087593
+Structure of Arrays SSE: 0.017098
+Structure of Arrays x86: 0.024462
+Time taken to draw one frame: 6.66362
+
+Array of Structures SSE: 0.043402
+Array of Structures x86: 0.157824
+Structure of Arrays SSE: 0.023674
+Structure of Arrays x86: 0.028145
+Time taken to draw one frame: 5.58752
+
+Array of Structures SSE: 0.043665
+Array of Structures x86: 0.154668
+Structure of Arrays SSE: 0.024462
+Structure of Arrays x86: 0.027883
+Time taken to draw one frame: 5.96025
+
+Array of Structures SSE: 0.043139
+Array of Structures x86: 0.138885
+Structure of Arrays SSE: 0.020517
+Structure of Arrays x86: 0.022885
+Time taken to draw one frame: 5.71641
+
+Array of Structures SSE: 0.047348
+Array of Structures x86: 0.194387
+Structure of Arrays SSE: 0.023411
+Structure of Arrays x86: 0.031828
+Time taken to draw one frame: 5.74271
+
+Array of Structures SSE: 0.046822
+Array of Structures x86: 0.195176
+Structure of Arrays SSE: 0.032354
+Structure of Arrays x86: 0.026304
+Time taken to draw one frame: 5.56279
+
+Array of Structures SSE: 0.043664
+Array of Structures x86: 0.12626
+Structure of Arrays SSE: 0.019465
+Structure of Arrays x86: 0.023148
+Time taken to draw one frame: 5.20505
+
+Array of Structures SSE: 0.065234
+Array of Structures x86: 0.243049
+Structure of Arrays SSE: 0.0242
+Structure of Arrays x86: 0.050767
+Time taken to draw one frame: 5.1343
+
+Array of Structures SSE: 0.043928
+Array of Structures x86: 0.153879
+Structure of Arrays SSE: 0.014993
+Structure of Arrays x86: 0.021832
+Time taken to draw one frame: 4.87625
+
+Array of Structures SSE: 0.044454
+Array of Structures x86: 0.167294
+Structure of Arrays SSE: 0.02341
+Structure of Arrays x86: 0.027094
+Time taken to draw one frame: 5.8787
+
+Array of Structures SSE: 0.046559
+Array of Structures x86: 0.17387
+Structure of Arrays SSE: 0.04761
+Structure of Arrays x86: 0.026041
+Time taken to draw one frame: 8.47544
+
+Array of Structures SSE: 0.080754
+Array of Structures x86: 0.153616
+Structure of Arrays SSE: 0.056554
+Structure of Arrays x86: 0.036562
+Time taken to draw one frame: 11.2071
+
+Array of Structures SSE: 0.043928
+Array of Structures x86: 0.130468
+Structure of Arrays SSE: 0.01552
+Structure of Arrays x86: 0.019202
+Time taken to draw one frame: 4.73684
+
+Array of Structures SSE: 0.060763
+Array of Structures x86: 0.160718
+Structure of Arrays SSE: 0.024463
+Structure of Arrays x86: 0.027093
+Time taken to draw one frame: 4.85205
+
+Array of Structures SSE: 0.04156
+Array of Structures x86: 0.133099
+Structure of Arrays SSE: 0.021832
+Structure of Arrays x86: 0.026831
+Time taken to draw one frame: 4.92386
+
+Array of Structures SSE: 0.043664
+Array of Structures x86: 0.120999
+Structure of Arrays SSE: 0.016046
+Structure of Arrays x86: 0.018939
+Time taken to draw one frame: 4.80129
+
+Array of Structures SSE: 0.04498
+Array of Structures x86: 0.155457
+Structure of Arrays SSE: 0.017887
+Structure of Arrays x86: 0.019465
+Time taken to draw one frame: 5.0225
+
+Array of Structures SSE: 0.042613
+Array of Structures x86: 0.108899
+Structure of Arrays SSE: 0.015519
+Structure of Arrays x86: 0.018939
+Time taken to draw one frame: 4.86284
+
+Array of Structures SSE: 0.044191
+Array of Structures x86: 0.116527
+Structure of Arrays SSE: 0.016571
+Structure of Arrays x86: 0.021833
+Time taken to draw one frame: 4.80839
+
+Array of Structures SSE: 0.043402
+Array of Structures x86: 0.155194
+Structure of Arrays SSE: 0.025252
+Structure of Arrays x86: 0.026304
+Time taken to draw one frame: 4.95596
+
+Array of Structures SSE: 0.041297
+Array of Structures x86: 0.144146
+Structure of Arrays SSE: 0.027357
+Structure of Arrays x86: 0.026304
+Time taken to draw one frame: 5.07274
+
+Array of Structures SSE: 0.043665
+Array of Structures x86: 0.136255
+Structure of Arrays SSE: 0.016309
+Structure of Arrays x86: 0.019202
+Time taken to draw one frame: 4.79155
+
+Array of Structures SSE: 0.042876
+Array of Structures x86: 0.148092
+Structure of Arrays SSE: 0.023674
+Structure of Arrays x86: 0.027619
+Time taken to draw one frame: 5.03618
+
+Array of Structures SSE: 0.042613
+Array of Structures x86: 0.132836
+Structure of Arrays SSE: 0.014993
+Structure of Arrays x86: 0.019202
+Time taken to draw one frame: 5.94788
+
+Array of Structures SSE: 0.019991
+Array of Structures x86: 0.078913
+Structure of Arrays SSE: 0.015519
+Structure of Arrays x86: 0.019202
+Time taken to draw one frame: 5.68221
+
+Array of Structures SSE: 0.042612
+Array of Structures x86: 0.122841
+Structure of Arrays SSE: 0.015519
+Structure of Arrays x86: 0.019202
+Time taken to draw one frame: 5.47914
+
+Array of Structures SSE: 0.043401
+Array of Structures x86: 0.170714
+Structure of Arrays SSE: 0.017098
+Structure of Arrays x86: 0.019465
+Time taken to draw one frame: 11.8808
+
+Array of Structures SSE: 0.019202
+Array of Structures x86: 0.081279
+Structure of Arrays SSE: 0.014468
+Structure of Arrays x86: 0.019202
+Time taken to draw one frame: 5.44284
+
+Array of Structures SSE: 0.044717
+Array of Structures x86: 0.156772
+Structure of Arrays SSE: 0.019991
+Structure of Arrays x86: 0.019992
+Time taken to draw one frame: 5.51045
+
+Array of Structures SSE: 0.074966
+Array of Structures x86: 0.172818
+Structure of Arrays SSE: 0.019465
+Structure of Arrays x86: 0.022359
+Time taken to draw one frame: 5.50203
+
+Array of Structures SSE: 0.050241
+Array of Structures x86: 0.162559
+Structure of Arrays SSE: 0.049452
+Structure of Arrays x86: 0.036037
+Time taken to draw one frame: 4.99962
+
+Array of Structures SSE: 0.022621
+Array of Structures x86: 0.105217
+Structure of Arrays SSE: 0.019202
+Structure of Arrays x86: 0.021832
+Time taken to draw one frame: 5.30711
+
+Array of Structures SSE: 0.041297
+Array of Structures x86: 0.193861
+Structure of Arrays SSE: 0.023674
+Structure of Arrays x86: 0.027093
+Time taken to draw one frame: 5.219
+
+Array of Structures SSE: 0.046558
+Array of Structures x86: 0.228057
+Structure of Arrays SSE: 0.02341
+Structure of Arrays x86: 0.024463
+Time taken to draw one frame: 4.90861
+
+Array of Structures SSE: 0.023147
+Array of Structures x86: 0.148619
+Structure of Arrays SSE: 0.023673
+Structure of Arrays x86: 0.025515
+Time taken to draw one frame: 5.52018
+
+Array of Structures SSE: 0.042087
+Array of Structures x86: 0.136781
+Structure of Arrays SSE: 0.020254
+Structure of Arrays x86: 0.019465
+Time taken to draw one frame: 5.86608
+
+Array of Structures SSE: 0.046821
+Array of Structures x86: 0.155457
+Structure of Arrays SSE: 0.020517
+Structure of Arrays x86: 0.035774
+Time taken to draw one frame: 5.79164
+
+Array of Structures SSE: 0.050767
+Array of Structures x86: 0.127838
+Structure of Arrays SSE: 0.023936
+Structure of Arrays x86: 0.026304
+Time taken to draw one frame: 5.81452
+
+Array of Structures SSE: 0.043138
+Array of Structures x86: 0.140464
+Structure of Arrays SSE: 0.022096
+Structure of Arrays x86: 0.021043
+Time taken to draw one frame: 5.64486
+
+Array of Structures SSE: 0.027619
+Array of Structures x86: 0.136518
+Structure of Arrays SSE: 0.0242
+Structure of Arrays x86: 0.026041
+Time taken to draw one frame: 5.3613
+
+Array of Structures SSE: 0.029198
+Array of Structures x86: 0.174659
+Structure of Arrays SSE: 0.033406
+Structure of Arrays x86: 0.031302
+Time taken to draw one frame: 8.63458
+
+Array of Structures SSE: 0.031302
+Array of Structures x86: 0.134151
+Structure of Arrays SSE: 0.028408
+Structure of Arrays x86: 0.03288
+Time taken to draw one frame: 5.32895
+
+Array of Structures SSE: 0.018676
+Array of Structures x86: 0.073651
+Structure of Arrays SSE: 0.013415
+Structure of Arrays x86: 0.018939
+Time taken to draw one frame: 5.80505
+
+Array of Structures SSE: 0.043665
+Array of Structures x86: 0.145988
+Structure of Arrays SSE: 0.024989
+Structure of Arrays x86: 0.02683
+Time taken to draw one frame: 4.98883
+
+Array of Structures SSE: 0.044454
+Array of Structures x86: 0.155458
+Structure of Arrays SSE: 0.024462
+Structure of Arrays x86: 0.019992
+Time taken to draw one frame: 5.18217
+
+Array of Structures SSE: 0.045506
+Array of Structures x86: 0.151775
+Structure of Arrays SSE: 0.020254
+Structure of Arrays x86: 0.019465
+Time taken to draw one frame: 5.11378
+
+Array of Structures SSE: 0.020254
+Array of Structures x86: 0.080228
+Structure of Arrays SSE: 0.015782
+Structure of Arrays x86: 0.019465
+Time taken to draw one frame: 12.6315
+
+Array of Structures SSE: 0.043928
+Array of Structures x86: 0.161507
+Structure of Arrays SSE: 0.044454
+Structure of Arrays x86: 0.047611
+Time taken to draw one frame: 5.45152
+
+Array of Structures SSE: 0.044191
+Array of Structures x86: 0.159139
+Structure of Arrays SSE: 0.015257
+Structure of Arrays x86: 0.019465
+Time taken to draw one frame: 5.51623
+
+Array of Structures SSE: 0.043664
+Array of Structures x86: 0.150197
+Structure of Arrays SSE: 0.040508
+Structure of Arrays x86: 0.02078
+Time taken to draw one frame: 4.75526
+
+Array of Structures SSE: 0.04235
+Array of Structures x86: 0.142042
+Structure of Arrays SSE: 0.023673
+Structure of Arrays x86: 0.042876
+Time taken to draw one frame: 4.972
+
+Array of Structures SSE: 0.043928
+Array of Structures x86: 0.123629
+Structure of Arrays SSE: 0.015782
+Structure of Arrays x86: 0.018939
+Time taken to draw one frame: 4.91597
+
+Array of Structures SSE: 0.046822
+Array of Structures x86: 0.200437
+Structure of Arrays SSE: 0.024726
+Structure of Arrays x86: 0.027093
+Time taken to draw one frame: 12.3592
+
+Array of Structures SSE: 0.044191
+Array of Structures x86: 0.153616
+Structure of Arrays SSE: 0.024989
+Structure of Arrays x86: 0.022621
+Time taken to draw one frame: 4.86599
+
+Array of Structures SSE: 0.044191
+Array of Structures x86: 0.164927
+Structure of Arrays SSE: 0.032617
+Structure of Arrays x86: 0.029987
+Time taken to draw one frame: 5.15771
+
+Array of Structures SSE: 0.041824
+Array of Structures x86: 0.151774
+Structure of Arrays SSE: 0.022359
+Structure of Arrays x86: 0.026041
+Time taken to draw one frame: 5.05775
+
+Array of Structures SSE: 0.018413
+Array of Structures x86: 0.081543
+Structure of Arrays SSE: 0.014993
+Structure of Arrays x86: 0.019465
+Time taken to draw one frame: 5.52254
+
+Array of Structures SSE: 0.045506
+Array of Structures x86: 0.154142
+Structure of Arrays SSE: 0.017097
+Structure of Arrays x86: 0.019991
+Time taken to draw one frame: 4.79129
+
+Array of Structures SSE: 0.050241
+Array of Structures x86: 0.081806
+Structure of Arrays SSE: 0.01473
+Structure of Arrays x86: 0.019728
+Time taken to draw one frame: 4.80181
+
+Array of Structures SSE: 0.019728
+Array of Structures x86: 0.079964
+Structure of Arrays SSE: 0.014994
+Structure of Arrays x86: 0.019465
+Time taken to draw one frame: 4.87652
+
+Array of Structures SSE: 0.052609
+Array of Structures x86: 0.161244
+Structure of Arrays SSE: 0.029197
+Structure of Arrays x86: 0.027357
+Time taken to draw one frame: 4.96227
+
+Array of Structures SSE: 0.04761
+Array of Structures x86: 0.129153
+Structure of Arrays SSE: 0.025778
+Structure of Arrays x86: 0.02762
+Time taken to draw one frame: 4.90387
+
+Array of Structures SSE: 0.051293
+Array of Structures x86: 0.162559
+Structure of Arrays SSE: 0.02762
+Structure of Arrays x86: 0.026304
+Time taken to draw one frame: 5.10115
+
+Array of Structures SSE: 0.020255
+Array of Structures x86: 0.192546
+Structure of Arrays SSE: 0.030775
+Structure of Arrays x86: 0.031302
+Time taken to draw one frame: 5.24898
+
+Array of Structures SSE: 0.054976
+Array of Structures x86: 0.149407
+Structure of Arrays SSE: 0.032354
+Structure of Arrays x86: 0.019728
+Time taken to draw one frame: 4.85758
+
+Array of Structures SSE: 0.07786
+Array of Structures x86: 0.154668
+Structure of Arrays SSE: 0.023148
+Structure of Arrays x86: 0.027356
+Time taken to draw one frame: 4.99541
+
+Array of Structures SSE: 0.044191
+Array of Structures x86: 0.175712
+Structure of Arrays SSE: 0.017097
+Structure of Arrays x86: 0.019465
+Time taken to draw one frame: 5.04618
+
+Array of Structures SSE: 0.041824
+Array of Structures x86: 0.1765
+Structure of Arrays SSE: 0.024726
+Structure of Arrays x86: 0.049189
+Time taken to draw one frame: 7.64081
+
+Array of Structures SSE: 0.021832
+Array of Structures x86: 0.078386
+Structure of Arrays SSE: 0.01552
+Structure of Arrays x86: 0.019728
+Time taken to draw one frame: 5.65117
+
+Array of Structures SSE: 0.042876
+Array of Structures x86: 0.11416
+Structure of Arrays SSE: 0.243049
+Structure of Arrays x86: 0.029987
+Time taken to draw one frame: 5.01172
+
+Array of Structures SSE: 0.042349
+Array of Structures x86: 0.150197
+Structure of Arrays SSE: 0.022621
+Structure of Arrays x86: 0.026304
+Time taken to draw one frame: 6.03942
+
+Array of Structures SSE: 0.040771
+Array of Structures x86: 0.160455
+Structure of Arrays SSE: 0.025252
+Structure of Arrays x86: 0.033144
+Time taken to draw one frame: 5.87081
+
+Array of Structures SSE: 0.043139
+Array of Structures x86: 0.174133
+Structure of Arrays SSE: 0.05366
+Structure of Arrays x86: 0.032091
+Time taken to draw one frame: 5.13588
+
+Array of Structures SSE: 0.019728
+Array of Structures x86: 0.078913
+Structure of Arrays SSE: 0.022884
+Structure of Arrays x86: 0.023411
+Time taken to draw one frame: 4.967
+
+Array of Structures SSE: 0.046558
+Array of Structures x86: 0.149144
+Structure of Arrays SSE: 0.026568
+Structure of Arrays x86: 0.02683
+Time taken to draw one frame: 6.55972
+
+Array of Structures SSE: 0.039456
+Array of Structures x86: 0.191494
+Structure of Arrays SSE: 0.029461
+Structure of Arrays x86: 0.03288
+Time taken to draw one frame: 5.1151
+
+Array of Structures SSE: 0.051293
+Array of Structures x86: 0.154405
+Structure of Arrays SSE: 0.022359
+Structure of Arrays x86: 0.026567
+Time taken to draw one frame: 4.93307
+
+Array of Structures SSE: 0.042087
+Array of Structures x86: 0.149407
+Structure of Arrays SSE: 0.029723
+Structure of Arrays x86: 0.029461
+Time taken to draw one frame: 5.00672
+
+Array of Structures SSE: 0.047347
+Array of Structures x86: 0.194914
+Structure of Arrays SSE: 0.023674
+Structure of Arrays x86: 0.023936
+Time taken to draw one frame: 4.80734
+
+Array of Structures SSE: 0.065761
+Array of Structures x86: 0.113633
+Structure of Arrays SSE: 0.114423
+Structure of Arrays x86: 0.019728
+Time taken to draw one frame: 4.83653
+
+Array of Structures SSE: 0.050767
+Array of Structures x86: 0.127838
+Structure of Arrays SSE: 0.026304
+Structure of Arrays x86: 0.026304
+Time taken to draw one frame: 5.44863
+
+Array of Structures SSE: 0.042612
+Array of Structures x86: 0.155721
+Structure of Arrays SSE: 0.029197
+Structure of Arrays x86: 0.025778
+Time taken to draw one frame: 4.94912
+
+Array of Structures SSE: 0.041561
+Array of Structures x86: 0.152301
+Structure of Arrays SSE: 0.02341
+Structure of Arrays x86: 0.025778
+Time taken to draw one frame: 5.89343
+
+Array of Structures SSE: 0.072862
+Array of Structures x86: 0.159403
+Structure of Arrays SSE: 0.03367
+Structure of Arrays x86: 0.027093
+Time taken to draw one frame: 4.99988
+
