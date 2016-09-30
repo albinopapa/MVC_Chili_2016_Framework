@@ -1,3 +1,8 @@
 *.suo
 *.opendb
 *.db
+/x64
+/BarycentricCoordRasterizerTest_001.zip
+/Engine/x64
+/BarycentricCoordRasterizerTest_002
+/.vs/config
