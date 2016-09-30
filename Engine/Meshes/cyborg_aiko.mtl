@@ -1,0 +1,3162 @@
+newmtl 3_SkinFoot
+d 1
+Kd 1 0.905882 0.87451
+map_Kd /Maps/diffuse_Image_1_Aiko.png
+
+newmtl 6_Eyelash
+d 1
+Ns 0.75
+Ni 1.3
+Ka 0 0 0
+Kd 0.137255 0.12549 0.113725
+Ks 1 1 1
+Km 0.02
+map_D /Maps/opacity_Image_1_Aiko.png
+
+newmtl 5_Sclera
+d 1
+Kd 1 1 1
+map_Kd /Maps/diffuse_Image_1_Aiko.png
+
+newmtl 5_Pupil
+d 1
+Kd 1 1 1
+map_Kd /Maps/diffuse_Image_1_Aiko.png
+
+newmtl 5_Iris
+d 1
+Kd 1 1 1
+map_Kd /Maps/diffuse_Image_1_Aiko.png
+
+newmtl 5_Cornea
+d 1
+Kd 0.843137 0.94902 1
+map_D /Maps/opacity_Image_1_Aiko.png
+
+newmtl 4_Tongue
+d 1
+Kd 0.8 0.8 0.8
+map_Kd /Maps/diffuse_Image_1_Aiko.png
+
+newmtl 4_Teeth
+d 1
+Kd 0.8 0.8 0.8
+map_Kd /Maps/diffuse_Image_1_Aiko.png
+
+newmtl 4_InnerMouth
+d 1
+Kd 0.8 0.8 0.8
+map_Kd /Maps/diffuse_Image_1_Aiko.png
+
+newmtl 4_Gums
+d 1
+Kd 0.8 0.8 0.8
+map_Kd /Maps/diffuse_Image_1_Aiko.png
+
+newmtl 3_SkinArm
+d 1
+Kd 1 0.905882 0.87451
+map_Kd /Maps/diffuse_Image_1_Aiko.png
+
+newmtl 2_SkinTorso
+d 1
+Kd 1 0.905882 0.87451
+map_Kd /Maps/diffuse_Image_1_Aiko.png
+
+newmtl 2_Nipple
+d 1
+Kd 1 0.905882 0.87451
+map_Kd /Maps/diffuse_Image_1_Aiko.png
+
+newmtl 2_SkinNeck
+d 1
+Kd 1 0.905882 0.87451
+map_Kd /Maps/diffuse_Image_1_Aiko.png
+
+newmtl 3_SkinForearm
+d 1
+Kd 1 0.905882 0.87451
+map_Kd /Maps/diffuse_Image_1_Aiko.png
+
+newmtl 3_SkinLeg
+d 1
+Kd 1 0.905882 0.87451
+map_Kd /Maps/diffuse_Image_1_Aiko.png
+
+newmtl 2_SkinHip
+d 1
+Kd 1 0.905882 0.87451
+map_Kd /Maps/diffuse_Image_1_Aiko.png
+
+newmtl 2_SkinHead
+d 1
+Kd 1 0.905882 0.87451
+map_Kd /Maps/diffuse_Image_1_Aiko.png
+
+newmtl 3_SkinHand
+d 1
+Kd 1 0.905882 0.87451
+map_Kd /Maps/diffuse_Image_1_Aiko.png
+
+newmtl 7_Tear
+d 0
+Ns 0.6
+Ni 1.3
+Ka 0 0 0
+Kd 0.8 0.8 0.8
+Ks 1 1 1
+Km 0.02
+
+newmtl 1_Nostril
+d 1
+Kd 1 0.905882 0.87451
+map_Kd /Maps/diffuse_Image_1_Aiko.png
+
+newmtl 1_Lip
+d 1
+Kd 1 0.905882 0.87451
+map_Kd /Maps/diffuse_Image_1_Aiko.png
+
+newmtl 5_Lacrimal
+d 1
+Kd 0.8 0.8 0.8
+map_Kd /Maps/diffuse_Image_1_Aiko.png
+
+newmtl 1_SkinFace
+d 1
+Kd 1 0.905882 0.87451
+map_Kd /Maps/diffuse_Image_1_Aiko.png
+
+newmtl 3_Fingernail
+d 1
+Kd 1 0.905882 0.87451
+map_Kd /Maps/diffuse_Image_1_Aiko.png
+
+newmtl 3_Toenail
+d 1
+Kd 1 0.905882 0.87451
+map_Kd /Maps/diffuse_Image_1_Aiko.png
+
+newmtl 3_Feet
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 2_ArmsE
+d 1
+Ns 0.628352
+Ni 0
+Ka 0 0 0
+Kd 0 0 0
+Ks 0.521569 0.654902 0.788235
+Km 0.2
+map_Ks /Maps/specular_Image_1_Aiko.png
+map_refl /Maps/reflect 1.jpg
+map_Bump /Maps/bump_Image_1_Aiko.png
+
+newmtl 2_HandsA
+d 1
+Ns 0.628352
+Ni 0
+Ka 0 0 0
+Kd 0 0 0
+Ks 0.521569 0.654902 0.788235
+Km 0.2
+map_Ks /Maps/specular_Image_1_Aiko.png
+map_refl /Maps/reflect 1.jpg
+map_Bump /Maps/bump_Image_1_Aiko.png
+
+newmtl 2_HandsB
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 2_HandsC
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 4_ShinsC
+d 1
+Ns 0.628352
+Ni 0
+Ka 0 0 0
+Kd 0 0 0
+Ks 0.521569 0.654902 0.788235
+Km 0.2
+map_Ks /Maps/specular_Image_1_Aiko.png
+map_refl /Maps/reflect 1.jpg
+map_Bump /Maps/bump_Image_1_Aiko.png
+
+newmtl 4_ShinsD
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 4_ThighsA
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 4_ThighsB
+d 1
+Ns 0.628352
+Ni 0
+Ka 0 0 0
+Kd 0 0 0
+Ks 0.521569 0.654902 0.788235
+Km 0.2
+map_Ks /Maps/specular_Image_1_Aiko.png
+map_refl /Maps/reflect 1.jpg
+map_Bump /Maps/bump_Image_1_Aiko.png
+
+newmtl 4_ThighsC
+d 1
+Ns 0.628352
+Ni 0
+Ka 0 0 0
+Kd 0 0 0
+Ks 0.521569 0.654902 0.788235
+Km 0.2
+map_Ks /Maps/specular_Image_1_Aiko.png
+map_refl /Maps/reflect 1.jpg
+map_Bump /Maps/bump_Image_1_Aiko.png
+
+newmtl 4_ThighsD
+d 1
+Ns 0.628352
+Ni 0
+Ka 0 0 0
+Kd 0 0 0
+Ks 0.521569 0.654902 0.788235
+Km 0.2
+map_Ks /Maps/specular_Image_1_Aiko.png
+map_refl /Maps/reflect 1.jpg
+map_Bump /Maps/bump_Image_1_Aiko.png
+
+newmtl 4_ThighsE
+d 1
+Ns 0.628352
+Ni 0
+Ka 0 0 0
+Kd 0 0 0
+Ks 0.521569 0.654902 0.788235
+Km 0.2
+map_Ks /Maps/specular_Image_1_Aiko.png
+map_refl /Maps/reflect 1.jpg
+map_Bump /Maps/bump_Image_1_Aiko.png
+
+newmtl 4_ThighsF
+d 1
+Ns 0.628352
+Ni 0
+Ka 0 0 0
+Kd 0 0 0
+Ks 0.521569 0.654902 0.788235
+Km 0.2
+map_Ks /Maps/specular_Image_1_Aiko.png
+map_refl /Maps/reflect 1.jpg
+map_Bump /Maps/bump_Image_1_Aiko.png
+
+newmtl 3_AbdomenD
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 3_AbdomenE
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 1_BackF
+d 1
+Ns 0.628352
+Ni 0
+Ka 0 0 0
+Kd 0 0 0
+Ks 0.521569 0.654902 0.788235
+Km 0.2
+map_Ks /Maps/specular_Image_1_Aiko.png
+map_refl /Maps/reflect 1.jpg
+map_Bump /Maps/bump_Image_1_Aiko.png
+
+newmtl 1_BackG
+d 1
+Ns 0.628352
+Ni 0
+Ka 0 0 0
+Kd 0 0 0
+Ks 0.521569 0.654902 0.788235
+Km 0.2
+map_Ks /Maps/specular_Image_1_Aiko.png
+map_refl /Maps/reflect 1.jpg
+map_Bump /Maps/bump_Image_1_Aiko.png
+
+newmtl 3_SidesH
+d 1
+Ns 0.628352
+Ni 0
+Ka 0 0 0
+Kd 0 0 0
+Ks 0.521569 0.654902 0.788235
+Km 0.2
+map_Ks /Maps/specular_Image_1_Aiko.png
+map_refl /Maps/reflect 1.jpg
+map_Bump /Maps/bump_Image_1_Aiko.png
+
+newmtl 3_SidesG
+d 1
+Ns 0.628352
+Ni 0
+Ka 0 0 0
+Kd 0 0 0
+Ks 0.521569 0.654902 0.788235
+Km 0.2
+map_Ks /Maps/specular_Image_1_Aiko.png
+map_refl /Maps/reflect 1.jpg
+map_Bump /Maps/bump_Image_1_Aiko.png
+
+newmtl 3_SidesF
+d 1
+Ns 0.628352
+Ni 0
+Ka 0 0 0
+Kd 0 0 0
+Ks 0.521569 0.654902 0.788235
+Km 0.2
+map_Ks /Maps/specular_Image_1_Aiko.png
+map_refl /Maps/reflect 1.jpg
+map_Bump /Maps/bump_Image_1_Aiko.png
+
+newmtl 3_SidesE
+d 1
+Ns 0.628352
+Ni 0
+Ka 0 0 0
+Kd 0 0 0
+Ks 0.521569 0.654902 0.788235
+Km 0.2
+map_Ks /Maps/specular_Image_1_Aiko.png
+map_refl /Maps/reflect 1.jpg
+map_Bump /Maps/bump_Image_1_Aiko.png
+
+newmtl 3_AbdomenD-E
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+
+newmtl 3_AbdomenE-HipsA
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 2_ArmsE-E
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+
+newmtl 2_ArmsE-HandsA
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+
+newmtl 1_BackF-G
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 1_BackG-HipsH
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+
+newmtl 2_HandsA-A
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+
+newmtl 2_HandsA-B
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+
+newmtl 2_HandsB-C
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+
+newmtl 4_HipsB-ThighsC
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+
+newmtl 4_HipsC-ThighsA
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 4_HipsD-ThighsB
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 4_HipsG-ThighsD
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 4_HipsI-ThighsA
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 3_ShinsC-Feet
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 1_SidesE-BackF
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 3_SidesF-AbdomenD
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 1_SidesG-BackG
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 3_SidesG-HipsE
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 3_SidesH-AbdomenE
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 3_SidesH-HipsB
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 4_ThighsE-KneesA
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+
+newmtl 4_ThighsF-KneesB
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 4_ShinsC-C
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+
+newmtl 4_ShinsC-D
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+
+newmtl 3_SidesE-F
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 3_SidesE-G
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 3_SidesF-H
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 4_ThighsA-A
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 4_ThighsA-B
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 4_ThighsA-C
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 4_ThighsA-E
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 4_ThighsA-D
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 4_ThighsB-F
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 4_ThighsE-E
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 4_ThighsE-F
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 3_SidesG-H
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 3_SidesF-H-AbdomenD-E
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 3_SidesH-AbdomenE-HipsA-B
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 3_SidesE-F-G-H
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 1_SidesE-G-BackF-G
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 3_SidesG-H-HipsB-E
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 1_SidesG-BackG-HipsE-H
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 4_HipsC-D-ThighsA-B
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 4_HipsC-G-ThighsA-D
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 4_HipsG-I-ThighsA-D
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 4_HipsB-I-ThighsA-C
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+
+newmtl 4_HipsB-C-ThighsA-C
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+
+newmtl 4_ThighsA-B-E-F
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 4_ThighsE-F-KneesA-B
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 2_ArmsC
+d 1
+Ns 0.628352
+Ni 0
+Ka 0 0 0
+Kd 0 0 0
+Ks 0.521569 0.654902 0.788235
+Km 0.2
+map_Ks /Maps/specular_Image_1_Aiko.png
+map_refl /Maps/reflect 1.jpg
+map_Bump /Maps/bump_Image_1_Aiko.png
+
+newmtl 2_ArmsD
+d 1
+Ns 0.628352
+Ni 0
+Ka 0 0 0
+Kd 0 0 0
+Ks 0.521569 0.654902 0.788235
+Km 0.2
+map_Ks /Maps/specular_Image_1_Aiko.png
+map_refl /Maps/reflect 1.jpg
+map_Bump /Maps/bump_Image_1_Aiko.png
+
+newmtl 2_ArmsC-C
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 2_ArmsC-D
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+
+newmtl 2_ArmsD-D
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+
+newmtl 2_ArmsD-E
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+
+newmtl 2_ArmsB
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 2_ArmsB-B
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 2_ArmsB-C
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 3_HipsA
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 3_HipsB
+d 1
+Ns 0.628352
+Ni 0
+Ka 0 0 0
+Kd 0 0 0
+Ks 0.521569 0.654902 0.788235
+Km 0.2
+map_Ks /Maps/specular_Image_1_Aiko.png
+map_refl /Maps/reflect 1.jpg
+map_Bump /Maps/bump_Image_1_Aiko.png
+
+newmtl 3_HipsC
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 3_HipsD
+d 1
+Ns 0.628352
+Ni 0
+Ka 0 0 0
+Kd 0 0 0
+Ks 0.521569 0.654902 0.788235
+Km 0.2
+map_Ks /Maps/specular_Image_1_Aiko.png
+map_refl /Maps/reflect 1.jpg
+map_Bump /Maps/bump_Image_1_Aiko.png
+
+newmtl 3_HipsE
+d 1
+Ns 0.628352
+Ni 0
+Ka 0 0 0
+Kd 0 0 0
+Ks 0.521569 0.654902 0.788235
+Km 0.2
+map_Ks /Maps/specular_Image_1_Aiko.png
+map_refl /Maps/reflect 1.jpg
+map_Bump /Maps/bump_Image_1_Aiko.png
+
+newmtl 3_HipsF
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 3_HipsG
+d 1
+Ns 0.628352
+Ni 0
+Ka 0 0 0
+Kd 0 0 0
+Ks 0.521569 0.654902 0.788235
+Km 0.2
+map_Ks /Maps/specular_Image_1_Aiko.png
+map_refl /Maps/reflect 1.jpg
+map_Bump /Maps/bump_Image_1_Aiko.png
+
+newmtl 1_HipsH
+d 1
+Ns 0.628352
+Ni 0
+Ka 0 0 0
+Kd 0 0 0
+Ks 0.521569 0.654902 0.788235
+Km 0.2
+map_Ks /Maps/specular_Image_1_Aiko.png
+map_refl /Maps/reflect 1.jpg
+map_Bump /Maps/bump_Image_1_Aiko.png
+
+newmtl 1_HipsI
+d 1
+Ns 0.628352
+Ni 0
+Ka 0 0 0
+Kd 0 0 0
+Ks 0.521569 0.654902 0.788235
+Km 0.2
+map_Ks /Maps/specular_Image_1_Aiko.png
+map_refl /Maps/reflect 1.jpg
+map_Bump /Maps/bump_Image_1_Aiko.png
+
+newmtl 3_HipsA-B
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 3_HipsB-C
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+
+newmtl 3_HipsB-E
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+
+newmtl 1_HipsB-I
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+
+newmtl 3_HipsC-D
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 3_HipsC-F
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 3_HipsC-G
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 1_HipsE-H
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+
+newmtl 1_HipsG-I
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 1_HipsH-I
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+
+newmtl 3_HipsE-F
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 3_HipsE-G
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 3_HipsB-C-E-F
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 1_HipsE-G-H-I
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 3_HipsC-E-F-G
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 4_KneesA
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 4_KneesB
+d 1
+Ns 0.628352
+Ni 0
+Ka 0 0 0
+Kd 0 0 0
+Ks 0.521569 0.654902 0.788235
+Km 0.2
+map_Ks /Maps/specular_Image_1_Aiko.png
+map_refl /Maps/reflect 1.jpg
+map_Bump /Maps/bump_Image_1_Aiko.png
+
+newmtl 4_ShinsA
+d 1
+Ns 0.628352
+Ni 0
+Ka 0 0 0
+Kd 0 0 0
+Ks 0.521569 0.654902 0.788235
+Km 0.2
+map_Ks /Maps/specular_Image_1_Aiko.png
+map_refl /Maps/reflect 1.jpg
+map_Bump /Maps/bump_Image_1_Aiko.png
+
+newmtl 4_ShinsB
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 4_KneesC
+d 1
+Ns 0.628352
+Ni 0
+Ka 0 0 0
+Kd 0 0 0
+Ks 0.521569 0.654902 0.788235
+Km 0.2
+map_Ks /Maps/specular_Image_1_Aiko.png
+map_refl /Maps/reflect 1.jpg
+map_Bump /Maps/bump_Image_1_Aiko.png
+
+newmtl 4_KneesD
+d 1
+Ns 0.628352
+Ni 0
+Ka 0 0 0
+Kd 0 0 0
+Ks 0.521569 0.654902 0.788235
+Km 0.2
+map_Ks /Maps/specular_Image_1_Aiko.png
+map_refl /Maps/reflect 1.jpg
+map_Bump /Maps/bump_Image_1_Aiko.png
+
+newmtl 4_KneesE
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 4_KneesA-B
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+
+newmtl 4_KneesA-C
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+
+newmtl 4_KneesA-A
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+
+newmtl 4_KneesC-D
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+
+newmtl 4_KneesC-E
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+
+newmtl 4_KneesC-ShinsA
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+
+newmtl 4_KneesC-ShinsC
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+
+newmtl 4_ShinsA-A
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+
+newmtl 4_ShinsA-B
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+
+newmtl 4_ShinsA-C
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+
+newmtl 4_KneesA-B-C-D
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+
+newmtl 4_KneesC-E-ShinsA-B
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+
+newmtl 4_ShinsA-B-C-D
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 1_NeckB
+d 1
+Ns 0.628352
+Ni 0
+Ka 0 0 0
+Kd 0 0 0
+Ks 0.521569 0.654902 0.788235
+Km 0.2
+map_Ks /Maps/specular_Image_1_Aiko.png
+map_refl /Maps/reflect 1.jpg
+map_Bump /Maps/bump_Image_1_Aiko.png
+
+newmtl 1_HeadA
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 1_HeadA-NeckA
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 1_HeadA-NeckA-B
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 1_EyesA
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 1_EyesB
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 1_EyesC
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 1_EyesD
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 1_MouthA
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 1_MouthB
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 1_MouthD
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 1_MouthC
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 1_MouthE
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 1_HeadB
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 1_HeadD
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 1_HeadE
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 1_HeadF
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 1_HeadC
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 1_HeadB-F
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 1_HeadB-EyesB
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 1_HeadF-EyesB
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 1_EyesA-B
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 1_EyesA-C
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 1_EyesA-D
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_Bump /Maps/bump_Image_1_Aiko.png
+
+newmtl 1_EyesB-C
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+
+newmtl 1_EyesC-D
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+
+newmtl 1_EyesC-MouthD
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 1_EyesD-MouthB
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+
+newmtl 1_EyesD-MouthE
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 1_HeadA-B
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 1_HeadA-C
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 1_HeadA-F
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 1_HeadA-MouthE
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 1_HeadA-NeckB
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 1_HeadB-D
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 1_HeadB-MouthD
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 1_HeadC-D
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 1_HeadE-F
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 1_MouthA-B
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 1_MouthA-C
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 1_MouthB-C
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 1_MouthC-E
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 1_MouthD-E
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 1_MouthE-NeckB
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 1_MouthE-NeckC
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 1_HeadB-F-EyesB
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 1_HeadA-B-C-D
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 1_HeadA-B-MouthD-E
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 1_HeadB-EyesB-C-MouthD
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 1_EyesA-C-D
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+
+newmtl 1_HeadA-B-E-F
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 1_EyesC-D-MouthD-E
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 1_EyesD-MouthC-E
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 1_MouthA-B-C
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 1_MouthE-NeckB-C
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 1_EyesA-B-C
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 1_NeckC
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 1_NeckA
+d 1
+Ns 0.628352
+Ni 0
+Ka 0 0 0
+Kd 0 0 0
+Ks 0.521569 0.654902 0.788235
+Km 0.2
+map_Ks /Maps/specular_Image_1_Aiko.png
+map_refl /Maps/reflect 1.jpg
+map_Bump /Maps/bump_Image_1_Aiko.png
+
+newmtl 1_NeckD
+d 1
+Ns 0.628352
+Ni 0
+Ka 0 0 0
+Kd 0 0 0
+Ks 0.521569 0.654902 0.788235
+Km 0.2
+map_Ks /Maps/specular_Image_1_Aiko.png
+map_refl /Maps/reflect 1.jpg
+map_Bump /Maps/bump_Image_1_Aiko.png
+
+newmtl 1_NeckE
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 1_HeadA-NeckD
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 1_NeckB-C
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 1_NeckB-D
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 1_NeckE-ShoulderD
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 1_NeckD-E
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 1_NeckA-B-D
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 1_NeckB-D-ShouldersA-B
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 1_NeckD-ShouldersA-C
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 1_NeckD-ShouldersA
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 1_NeckD-ShouldersC
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+
+newmtl 1_NeckD-E-ShouldersC-D
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 1_NeckB-ShouldersB
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 2_ArmsA
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 3_SidesA
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 1_ShouldersE
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 3_ShouldersB
+d 1
+Ns 0.628352
+Ni 0
+Ka 0 0 0
+Kd 0 0 0
+Ks 0.521569 0.654902 0.788235
+Km 0.2
+map_Ks /Maps/specular_Image_1_Aiko.png
+map_refl /Maps/reflect 1.jpg
+map_Bump /Maps/bump_Image_1_Aiko.png
+
+newmtl 1_ShouldersC
+d 1
+Ns 0.628352
+Ni 0
+Ka 0 0 0
+Kd 0 0 0
+Ks 0.521569 0.654902 0.788235
+Km 0.2
+map_Ks /Maps/specular_Image_1_Aiko.png
+map_refl /Maps/reflect 1.jpg
+map_Bump /Maps/bump_Image_1_Aiko.png
+
+newmtl 3_ShouldersA
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 2_ArmsA-B
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+
+newmtl 2_ShouldersA-ArmsA
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 2_ShouldersC-ArmsA
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+
+newmtl 2_ShouldersE-ArmsB
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 1_ShouldersE-SidesA
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 3_ShouldersA-B
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 1_ShouldersA-C
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 1_ShouldersC-E
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+
+newmtl 2_ShouldersA-C-ArmsA
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 2_ShouldersC-E-ArmsA-B
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+
+newmtl 2_ArmsB-SidesA
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 3_ChestA
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 3_ShouldersA-ChestA
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 3_ShouldersB-ChestD
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 3_SidesA-ChestA
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 2_ShouldersA-ArmsA-B-ChestA
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 2_ArmsB-ChestA
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 2_ArmsB-ChestA-SidesA
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 3_ShouldersA-B-ChestA-C
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 1_BackA
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 1_BackB
+d 1
+Ns 0.628352
+Ni 0
+Ka 0 0 0
+Kd 0 0 0
+Ks 0.521569 0.654902 0.788235
+Km 0.2
+map_Ks /Maps/specular_Image_1_Aiko.png
+map_refl /Maps/reflect 1.jpg
+map_Bump /Maps/bump_Image_1_Aiko.png
+
+newmtl 1_BackC
+d 1
+Ns 0.628352
+Ni 0
+Ka 0 0 0
+Kd 0 0 0
+Ks 0.521569 0.654902 0.788235
+Km 0.2
+map_Ks /Maps/specular_Image_1_Aiko.png
+map_refl /Maps/reflect 1.jpg
+map_Bump /Maps/bump_Image_1_Aiko.png
+
+newmtl 3_SidesB
+d 1
+Ns 0.628352
+Ni 0
+Ka 0 0 0
+Kd 0 0 0
+Ks 0.521569 0.654902 0.788235
+Km 0.2
+map_Ks /Maps/specular_Image_1_Aiko.png
+map_refl /Maps/reflect 1.jpg
+map_Bump /Maps/bump_Image_1_Aiko.png
+
+newmtl 3_ChestB
+d 1
+Ns 0.628352
+Ni 0
+Ka 0 0 0
+Kd 0 0 0
+Ks 0.521569 0.654902 0.788235
+Km 0.2
+map_Ks /Maps/specular_Image_1_Aiko.png
+map_refl /Maps/reflect 1.jpg
+map_Bump /Maps/bump_Image_1_Aiko.png
+
+newmtl 3_ChestE
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 1_BackA-B
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 1_BackB-C
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 3_ChestA-B
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+
+newmtl 3_ChestB-E
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+
+newmtl 3_ChestB-SidesA
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+
+newmtl 3_ChestD-E
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 1_ShouldersC-BackB
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+
+newmtl 1_ShouldersD-BackA
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 1_ShouldersE-BackC
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 1_SidesB-BackC
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 3_SidesA-B
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 3_ChestA-B-SidesA-B
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 1_ShouldersE-SidesA-B-BackC
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 1_ShouldersC-E-BackB-C
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 1_ShouldersC-D-BackA-B
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+
+newmtl 3_ChestA-B-D-E
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 3_ChestC
+d 1
+Ns 0.628352
+Ni 0
+Ka 0 0 0
+Kd 0 0 0
+Ks 0.521569 0.654902 0.788235
+Km 0.2
+map_Ks /Maps/specular_Image_1_Aiko.png
+map_refl /Maps/reflect 1.jpg
+map_Bump /Maps/bump_Image_1_Aiko.png
+
+newmtl 3_ChestD
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 3_ChestA-C
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 3_ChestA-D
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 3_ChestC-D
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 3_ChestA-C-D
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 1_BackA-E
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 1_BackB-D
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+
+newmtl 1_BackC-E
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 3_ChestB-AbdomenA
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+
+newmtl 3_ChestB-AbdomenB
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+
+newmtl 3_SidesB-C
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+
+newmtl 1_BackA-B-D-E
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 1_BackB-C-D-E
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 1_SidesB-C-BackC-E
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 3_ChestB-SidesB-C-AbdomenB
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+
+newmtl 3_ChestB-AbdomenA-B-C
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+
+newmtl 3_AbdomenA
+d 1
+Ns 0.628352
+Ni 0
+Ka 0 0 0
+Kd 0 0 0
+Ks 0.521569 0.654902 0.788235
+Km 0.2
+map_Ks /Maps/specular_Image_1_Aiko.png
+map_refl /Maps/reflect 1.jpg
+map_Bump /Maps/bump_Image_1_Aiko.png
+
+newmtl 3_AbdomenB
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 3_AbdomenC
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 1_BackD
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 1_BackE
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 3_SidesD
+d 1
+Ns 0.628352
+Ni 0
+Ka 0 0 0
+Kd 0 0 0
+Ks 0.521569 0.654902 0.788235
+Km 0.2
+map_Ks /Maps/specular_Image_1_Aiko.png
+map_refl /Maps/reflect 1.jpg
+map_Bump /Maps/bump_Image_1_Aiko.png
+
+newmtl 3_SidesC
+d 1
+Ns 0.628352
+Ni 0
+Ka 0 0 0
+Kd 0 0 0
+Ks 0.521569 0.654902 0.788235
+Km 0.2
+map_Ks /Maps/specular_Image_1_Aiko.png
+map_refl /Maps/reflect 1.jpg
+map_Bump /Maps/bump_Image_1_Aiko.png
+
+newmtl 3_AbdomenA-C
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+
+newmtl 3_AbdomenB-C
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+
+newmtl 1_BackD-E
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 3_SidesC-AbdomenB
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+
+newmtl 1_SidesC-BackE
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 3_SidesD-AbdomenC
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+
+newmtl 3_SidesC-D
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+
+newmtl 3_SidesC-D-AbdomenB-C
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+
+newmtl 1_BackE-F
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 3_SidesC-E
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 3_SidesD-F
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 3_SidesC-D-E-F
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 1_SidesC-E-Back-E-F
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 3_AbdomenC-D
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 3_SidesD-F-AbdomenC-D
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 1_ShouldersD
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 1_ShouldersC-D
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 1_NeckA-NeckB
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 4_ShinsB-D
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 4_KneesE-ShinsB
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl 3_ChestB-Ring2
+d 1
+Ns 0.628352
+Ni 0
+Ka 0 0 0
+Kd 0 0 0
+Ks 0.521569 0.654902 0.788235
+Km 0.2
+map_Ks /Maps/specular_Image_1_Aiko.png
+map_refl /Maps/reflect 1.jpg
+map_Bump /Maps/bump_Image_1_Aiko.png
+
+newmtl 3_ChestB-Ring1
+d 1
+Ns 0.628352
+Ni 0
+Ka 0 0 0
+Kd 0 0 0
+Ks 0.521569 0.654902 0.788235
+Km 0.2
+map_Ks /Maps/specular_Image_1_Aiko.png
+map_refl /Maps/reflect 1.jpg
+map_Bump /Maps/bump_Image_1_Aiko.png
+
+newmtl 3_ChestB-Ring3
+d 1
+Ns 0.628352
+Ni 0
+Ka 0 0 0
+Kd 0 0 0
+Ks 0.521569 0.654902 0.788235
+Km 0.2
+map_Ks /Maps/specular_Image_1_Aiko.png
+map_refl /Maps/reflect 1.jpg
+map_Bump /Maps/bump_Image_1_Aiko.png
+
+newmtl 4_KneesB-D
+d 1
+Ns 1
+Ni 0
+Ka 0 0.501961 1
+Kd 0.145098 0.529412 1
+Ks 0.6 0.6 0.6
+Km 0
+map_refl /Maps/reflect 1.jpg
+
+newmtl ShorterBangs2
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 0.968627 0.968627 0.968627
+Ks 0.0901961 0.0901961 0.0901961
+Km 3.6e-05
+map_Kd /Maps/diffuse_Image_1_Aiko.png
+map_D /Maps/opacity_Image_1_Aiko.png
+
+newmtl ShorterBangs1
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 0.968627 0.968627 0.968627
+Ks 0.0901961 0.0901961 0.0901961
+Km 3.6e-05
+map_Kd /Maps/diffuse_Image_1_Aiko.png
+map_D /Maps/opacity_Image_1_Aiko.png
+
+newmtl Bangs1
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 0.968627 0.968627 0.968627
+Ks 0.0901961 0.0901961 0.0901961
+Km 3.6e-05
+map_Kd /Maps/diffuse_Image_1_Aiko.png
+map_D /Maps/opacity_Image_1_Aiko.png
+
+newmtl Bangs2
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 0.968627 0.968627 0.968627
+Ks 0.0901961 0.0901961 0.0901961
+Km 3.6e-05
+map_Kd /Maps/diffuse_Image_1_Aiko.png
+map_D /Maps/opacity_Image_1_Aiko.png
+
+newmtl Cap
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 0.968627 0.968627 0.968627
+Ks 0.00784314 0.00784314 0.00784314
+Km 3.6e-05
+map_Kd /Maps/diffuse_Image_1_Aiko.png
+map_D /Maps/opacity_Image_1_Aiko.png
+
+newmtl Under
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 0.968627 0.968627 0.968627
+Ks 0.0901961 0.0901961 0.0901961
+Km 3.6e-05
+map_Kd /Maps/diffuse_Image_1_Aiko.png
+map_D /Maps/opacity_Image_1_Aiko.png
+
+newmtl Wisps
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 0.968627 0.968627 0.968627
+Ks 0.0901961 0.0901961 0.0901961
+Km 3.6e-05
+map_Kd /Maps/diffuse_Image_1_Aiko.png
+map_D /Maps/opacity_Image_1_Aiko.png
+
+newmtl Head
+d 1
+Ns 0.95
+Ni 0
+Ka 0 0 0
+Kd 0.968627 0.968627 0.968627
+Ks 0.0901961 0.0901961 0.0901961
+Km 3.6e-05
+map_Kd /Maps/diffuse_Image_1_Aiko.png
+map_D /Maps/opacity_Image_1_Aiko.png
+

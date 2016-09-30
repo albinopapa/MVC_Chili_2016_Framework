@@ -19,7 +19,7 @@
  *	along with The Chili DirectX Framework.  If not, see <http://www.gnu.org/licenses/>.  *
  ******************************************************************************************/
 #include "Mouse.h"
-
+#include <Windows.h>
 
 std::pair<int,int> Mouse::GetPos() const
 {
@@ -31,9 +31,19 @@ int Mouse::GetPosX() const
 	return x;
 }
 
+int Mouse::GetRelX() const
+{
+	return relX;
+}
+
 int Mouse::GetPosY() const
 {
 	return y;
+}
+
+int Mouse::GetRelY() const
+{
+	return relY;
 }
 
 bool Mouse::LeftIsPressed() const
@@ -70,6 +80,24 @@ void Mouse::Flush()
 	std::swap( buffer,std::queue<Event>() );
 }
 
+void Mouse::FlushRelativeData()
+{
+	relX = 0;
+	relY = 0;
+}
+
+void Mouse::EnableClipping( int MinClipX, int MinClipY, int MaxClipX, int MaxClipY )
+{
+	RECT r{ MinClipX, MinClipY, MaxClipX, MaxClipY };
+	ClipCursor( &r );
+}
+
+void Mouse::DisableClipping()
+{
+	isClipped = false;
+	ClipCursor( nullptr );
+}
+
 void Mouse::OnMouseLeave()
 {
 	isInWindow = false;
@@ -87,6 +115,17 @@ void Mouse::OnMouseMove( int newx,int newy )
 
 	buffer.push( Mouse::Event( Mouse::Event::Move,*this ) );
 	TrimBuffer();
+}
+
+void Mouse::OnMouseRelMove( int X, int Y )
+{
+	relX = X;
+	relY = Y;
+}
+
+void Mouse::OnRawInputMode( bool Enable )
+{
+	isRawInputMode = Enable;	
 }
 
 void Mouse::OnLeftPressed( int x,int y )
@@ -131,6 +170,16 @@ void Mouse::OnWheelDown( int x,int y )
 {
 	buffer.push( Mouse::Event( Mouse::Event::WheelDown,*this ) );
 	TrimBuffer();
+}
+
+bool Mouse::IsClipped() const
+{
+	return isClipped;
+}
+
+bool Mouse::IsRawInputMode() const
+{
+	return isRawInputMode;
 }
 
 void Mouse::TrimBuffer()

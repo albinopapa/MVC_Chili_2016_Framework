@@ -136,35 +136,76 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="AmbientLight.h" />
+    <ClInclude Include="Camera.h" />
     <ClInclude Include="ChiliException.h" />
     <ClInclude Include="ChiliWin.h" />
     <ClInclude Include="Colors.h" />
     <ClInclude Include="DXErr.h" />
     <ClInclude Include="Game.h" />
     <ClInclude Include="Graphics.h" />
+    <ClInclude Include="ImageLoader.h" />
+    <ClInclude Include="Includes.h" />
+    <ClInclude Include="InfiniteLight.h" />
+    <ClInclude Include="Input.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClInclude>
     <ClInclude Include="Keyboard.h" />
     <ClInclude Include="MainWindow.h" />
     <ClInclude Include="Mat3.h" />
+    <ClInclude Include="Mat4.h" />
+    <ClInclude Include="Mempool.h" />
+    <ClInclude Include="Model_Textured.h" />
     <ClInclude Include="Mouse.h" />
+    <ClInclude Include="PrimitiveFactory.h" />
     <ClInclude Include="Rasterizer.h" />
     <ClInclude Include="Resource.h" />
+    <ClInclude Include="System.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="Timer.h" />
     <ClInclude Include="Triangle.h" />
+    <ClInclude Include="Utilities.h" />
     <ClInclude Include="Vec2.h" />
     <ClInclude Include="Vec3.h" />
+    <ClInclude Include="Vec4.h" />
+    <ClInclude Include="Wic.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="AmbientLight.cpp" />
+    <ClCompile Include="Camera.cpp" />
     <ClCompile Include="DXErr.cpp" />
     <ClCompile Include="Game.cpp" />
     <ClCompile Include="Graphics.cpp" />
+    <ClCompile Include="ImageLoader.cpp" />
+    <ClCompile Include="InfiniteLight.cpp" />
+    <ClCompile Include="Input.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="Keyboard.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="MainWindow.cpp" />
     <ClCompile Include="Mat3.cpp" />
+    <ClCompile Include="Mat4.cpp" />
+    <ClCompile Include="Mempool.cpp" />
+    <ClCompile Include="Model_Textured.cpp" />
     <ClCompile Include="Mouse.cpp" />
+    <ClCompile Include="PrimitiveFactory.cpp" />
     <ClCompile Include="Rasterizer.cpp" />
+    <ClCompile Include="System.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp" />
     <ClCompile Include="Triangle.cpp" />
+    <ClCompile Include="Utilities.cpp" />
     <ClCompile Include="Vec2.cpp" />
     <ClCompile Include="Vec3.cpp" />
+    <ClCompile Include="Vec4.cpp" />
+    <ClCompile Include="Wic.cpp" />
   </ItemGroup>
   <ItemGroup>
     <FxCompile Include="FramebufferPS.hlsl">

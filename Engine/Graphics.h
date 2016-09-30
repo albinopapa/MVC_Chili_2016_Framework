@@ -23,7 +23,13 @@
 #include <wrl.h>
 #include "ChiliException.h"
 #include "Colors.h"
+
 #include "Triangle.h"
+#include "Vec4.h"
+#include "Wic.h"
+#include "InfiniteLight.h"
+#include <DirectXMath.h>
+
 
 #define CHILI_GFX_EXCEPTION( hr,note ) Graphics::Exception( hr,note,_CRT_WIDE(__FILE__),__LINE__ )
 
@@ -59,10 +65,26 @@ public:
 		PutPixel( x,y,{ unsigned char( r ),unsigned char( g ),unsigned char( b ) } );
 	}
 	void PutPixel( int x,int y,Color c );
+	void PutPixel( int X, int Y, float Z, Color C );
+	float GetZ( int X, int Y )const;
 
-	void DrawTriangle( const Triangle &T, Color C );
-
+	void DrawTriangle( const Triangle &T, const DirectX::XMMATRIX &Trans );
+	void DrawTriangle( const Triangle &T, IWICBitmap *const pImage,
+		const DirectX::XMMATRIX &Trans, InfiniteLight *const pInfLight,
+		AmbientLight *pAmbLight );
+	void DrawMesh( unsigned VertexCount, const SoaVertexBuffer &pVertices, 
+		IWICBitmap *const pImage, const DirectX::XMMATRIX &Trans, 
+		InfiniteLight *const pInfLight, AmbientLight *pAmbLight );
+	void Rasterize( unsigned VertexCount, 
+		const VertexBufferTypeAllInOne *pVertices, IWICBitmap *const pImage,
+		const DirectX::XMMATRIX &Trans );
+	
+	Vec4 BilinearSample( const Vec2 &UV, unsigned *pImage, int ImageWidth, int ImageHeight );
 	~Graphics();
+private:
+	VertexBufferTypeAllInOne TransformVertex( const VertexBufferTypeAllInOne &Vertex,
+		const DirectX::XMMATRIX &Trans );
+
 private:
 	Microsoft::WRL::ComPtr<IDXGISwapChain>				pSwapChain;
 	Microsoft::WRL::ComPtr<ID3D11Device>				pDevice;
@@ -77,6 +99,7 @@ private:
 	Microsoft::WRL::ComPtr<ID3D11SamplerState>			pSamplerState;
 	D3D11_MAPPED_SUBRESOURCE							mappedSysBufferTexture;
 	Color*                                              pSysBuffer = nullptr;
+	float*												pZBuffer = nullptr;
 public:
 	static constexpr unsigned int ScreenWidth = 800u;
 	static constexpr unsigned int ScreenHeight = 600u;

@@ -1,0 +1,5 @@
+Barycentric coordinates
+https://www.youtube.com/channel/UC4bBeUfDuoIZVmAcnCKD5Wg ( CompSci lecture with slides )
+http://gamedev.stackexchange.com/questions/23743/whats-the-most-efficient-way-to-find-barycentric-coordinates
+Bilinear filtering
+http://www.tutorialized.com/tutorial/Bilinear-Filtering-101/42364

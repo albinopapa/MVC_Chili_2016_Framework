@@ -13,8 +13,9 @@ public:
 	Mat3 operator*( const Mat3 &M )const;
 	Vec2 operator*( const Vec2 &V )const;
 
-	static Mat3 Identity();
 	Mat3 Transpose()const;
+
+	static Mat3 Identity();
 	static Mat3 Translation( const Vec2 &V );
 	static Mat3 Scale( const Vec2 &V );
 	static Mat3 Rotation( const float Theta );

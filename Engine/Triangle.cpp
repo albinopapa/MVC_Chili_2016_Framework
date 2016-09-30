@@ -1,4 +1,5 @@
 #include "Triangle.h"
+#include <math.h>
 
 BarycentricCoord Triangle::CalculateBarycentricCoordinates( const Vec2 &PixPos )const
 {
@@ -18,4 +19,33 @@ BarycentricCoord Triangle::CalculateBarycentricCoordinates( const Vec2 &PixPos )
 	float lambda2 = ( 1.f - lambda1 - lambda0 );
 	return{ lambda0, lambda1, lambda2 };
 
+}
+
+BarycentricCoord Triangle::CalculateBarycentricCoordinatesAlt( const Vec3 & PixPos ) const
+{
+	auto &p = PixPos;
+
+	auto bp = b - p;
+	auto cp = c - p;
+	auto ap = a - p;
+	auto cb = c - b;
+	auto ac = a - c;
+	auto ba = b - a;
+
+	auto cpResultBACB = ba.CrossProduct( cb );
+	float area = sqrtf( cpResultBACB.DotProduct( cpResultBACB ) );
+
+	auto cpResultCBP = bp.CrossProduct( cb );
+	auto cpResultACP = cp.CrossProduct( ac );
+	auto cpResultBAP = ap.CrossProduct( ba );
+
+	auto sqAreaCBP = sqrtf( cpResultCBP.DotProduct( cpResultCBP ) );
+	auto sqAreaACP = sqrtf( cpResultACP.DotProduct( cpResultACP ) );
+	auto sqAreaBAP = sqrtf( cpResultBAP.DotProduct( cpResultBAP ) );
+
+	auto lambdaA = static_cast<float>( copysign( sqAreaCBP, cpResultCBP.z ) / area );
+	auto lambdaB = static_cast<float>( copysign( sqAreaACP, cpResultACP.z ) / area );
+	auto lambdaC = static_cast<float>( copysign( sqAreaBAP, cpResultBAP.z ) / area );
+
+	return{ lambdaA, lambdaB, lambdaC };
 }

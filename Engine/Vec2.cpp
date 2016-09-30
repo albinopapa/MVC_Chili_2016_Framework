@@ -18,6 +18,13 @@ Vec2::Vec2( float X, float Y )
 Vec2::~Vec2()
 {}
 
+Vec2 & Vec2::operator=( const DirectX::XMFLOAT2 & V )
+{
+	x = V.x;
+	y = V.y;
+	return *this;
+}
+
 Vec2 Vec2::operator+( const Vec2 & V ) const
 {
 	return Vec2(x + V.x, y + V.y);
@@ -45,6 +52,12 @@ Vec2 & Vec2::operator*=( const float S )
 	return *this;
 }
 
+Vec2 Vec2::operator/( const float S ) const
+{
+	float inv = 1.f / S;
+	return ( *this ) * inv;
+}
+
 float Vec2::DotProduct( const Vec2 & V ) const
 {
 	return ( ( x * V.x ) + ( y * V.y ) );
@@ -61,11 +74,10 @@ Vec2 Vec2::Normalize() const
 	return *this * invLength;
 }
 
-Vec2 Vec2::CrossProduct( const Vec2 & V ) const
+float Vec2::CrossProduct( const Vec2 & V ) const
 {
 	return
 	{
-		( y * V.x ) - ( x * V.y ),
-		0.f
+		( y * V.x ) - ( x * V.y )
 	};
 }

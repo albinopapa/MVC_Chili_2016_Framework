@@ -28,6 +28,13 @@
 #include <memory>
 #include "Triangle.h"
 #include "Vec3.h"
+#include "Camera.h"
+#include "ImageLoader.h"
+#include "Model_Textured.h"
+#include "Timer.h"
+#include "InfiniteLight.h"
+#include "Rasterizer.h"
+
 
 class Game
 {
@@ -48,10 +55,34 @@ private:
 	Graphics gfx;
 	/********************************/
 	/*  User Variables              */
-	static constexpr int m_triCountWidth = 40;
-	static constexpr int m_triCountHeight = 20;
-	static constexpr int m_triangleCount = m_triCountWidth * m_triCountHeight;
-	std::unique_ptr<Triangle[]> m_pTriangles;
-	Triangle m_triangle;
+	Wic wic;
+	int m_triangleCount, m_groundTriCount, m_aikoTriCount;
+
+	//std::unique_ptr<Triangle[]> m_pTriangles;
+	//std::unique_ptr<Triangle[]> m_ground;
+	//std::unique_ptr<Triangle[]> m_aiko;	
+	Model_Textured m_bear;
+	Model_Textured m_city;
+	Model_Textured m_aiko;
+	Model_Textured m_ground;
+
+	AmbientLight m_ambLight;
+	InfiniteLight m_infLight;
+
+	Camera m_cam;
+	comptr<IWICBitmap> m_pTexture;
+	comptr<IWICBitmap> m_cityTex;
+	comptr<IWICBitmap> m_grassTex;
+
+	Rasterizer m_raster;
+	LightBuffer m_lights;
+
+	Tex2D			m_groundTex;
+	SoaVertexBuffer m_groundBuffer;
+
+	Tex2D			m_aikoTex;
+	SoaVertexBuffer m_aikoBuffer;
+
+	Timer t;
 	/********************************/
 };

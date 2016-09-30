@@ -95,9 +95,12 @@ public:
 	Mouse() = default;
 	Mouse( const Mouse& ) = delete;
 	Mouse& operator=( const Mouse& ) = delete;
+
 	std::pair<int,int> GetPos() const;
 	int GetPosX() const;
+	int GetRelX()const;
 	int GetPosY() const;
+	int GetRelY()const;
 	bool LeftIsPressed() const;
 	bool RightIsPressed() const;
 	bool IsInWindow() const;
@@ -107,6 +110,9 @@ public:
 		return buffer.empty();
 	}
 	void Flush();
+	void FlushRelativeData();
+	void EnableClipping( int MinClipX, int MinClipY, int MaxClipX, int MaxClipY );
+	void DisableClipping();
 private:
 	void OnMouseMove( int x,int y );
 	void OnMouseLeave();
@@ -118,12 +124,21 @@ private:
 	void OnWheelUp( int x,int y );
 	void OnWheelDown( int x,int y );
 	void TrimBuffer();
+
+	bool IsClipped()const;
+	bool IsRawInputMode()const;
+	void OnMouseRelMove( int X, int Y );
+	void OnRawInputMode(bool Enable);
 private:
 	static constexpr unsigned int bufferSize = 4u;
-	int x;
-	int y;
+	int x = 400;
+	int y = 300;
+	int relX = 0;
+	int relY = 0;
 	bool leftIsPressed = false;
 	bool rightIsPressed = false;
 	bool isInWindow = false;
+	bool isClipped = false;
+	bool isRawInputMode = false;
 	std::queue<Event> buffer;
 };

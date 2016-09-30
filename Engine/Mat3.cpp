@@ -84,8 +84,8 @@ Mat3 Mat3::Rotation( const float Theta )
 	float sine = sinf( Theta );
 		
 	return{
-		{ cosine, -sine, 0.f },
-		{ sine, cosine, 0.f },
+		{ cosine, sine, 0.f },
+		{ -sine, cosine, 0.f },
 		{ 0.f, 0.f, 1.f }
 	};
 }
