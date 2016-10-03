@@ -248,7 +248,7 @@ Graphics::Graphics( HWNDKey& key )
 Vec4 Graphics::BilinearSample( const Vec2 & UV, unsigned * pImage, int ImageWidth, int ImageHeight )
 {
 	float colorToFloat = 1.f / 255.f;
-
+										
 	float ftx = UV.x * static_cast<float>( ImageWidth  );
 	float fty = UV.y * static_cast<float>( ImageHeight );
 

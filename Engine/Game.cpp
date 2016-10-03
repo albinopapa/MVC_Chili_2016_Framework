@@ -136,9 +136,9 @@ void Game::ComposeFrame()
 		m_raster.SetTransforms( trans );
 		m_raster.SetVertexBuffer( m_aikoBuffer );
 		m_raster.Rasterize( gfx );*/
-		/*auto view = XMLoadFloat4x4( reinterpret_cast<XMFLOAT4X4*>( &trans.view ) );
+		auto view = XMLoadFloat4x4( reinterpret_cast<XMFLOAT4X4*>( &trans.view ) );
 		auto proj = XMLoadFloat4x4( reinterpret_cast<XMFLOAT4X4*>( &trans.proj ) );
-		m_aiko.Draw( view, proj, m_pTexture.Get(), &m_ambLight, &m_infLight, gfx );*/
+		m_aiko.Draw( view, proj, m_pTexture.Get(), &m_ambLight, &m_infLight, gfx );
 	}
 
 	// Render city
