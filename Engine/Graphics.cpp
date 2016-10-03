@@ -26,6 +26,7 @@
 #include <string>
 #include <array>
 #include <random>
+#include <future>
 
 // Ignore the intellisense error "cannot open source file" for .shh files.
 // They will be created during the build sequence before the preprocessor runs.
@@ -626,10 +627,11 @@ void Graphics::DrawTriangle( const Triangle & T, IWICBitmap * const pImage,
 		pTexture = reinterpret_cast<unsigned*>( pUCharTexture );
 	}	
 
-	auto RasterTriangle = [ & ]( const Vec3 &P, int X, int Y )
+	auto RasterTriangle = [ & ]( int X, int Y )
 	{
+		const Vec3 p( X, Y, 0 );
 		// Calculate vector PA
-		auto pa( P - sA );
+		auto pa( p - sA );
 
 		// Calculate vector
 		float d20 = pa.DotProduct( ba );
@@ -711,6 +713,48 @@ void Graphics::DrawTriangle( const Triangle & T, IWICBitmap * const pImage,
 			}
 		}
 	};
+	auto FlatBottom = [ & ]( const Vec3 &A, const Vec3 &B, const Vec3 &C )
+	{
+		float slope0 = ( ( B - A ) / ( B.y - A.y ) ).x;
+		float slope1 = ( ( C - A ) / ( C.y - A.y ) ).x;
+
+		int yStart = std::max( 0.f, ceil( A.y ) );
+		int yEnd = std::min( static_cast<float>( Graphics::ScreenHeight - 1 ), ceil( B.y ) );
+
+		for( int y = yStart; y <= yEnd; ++y )
+		{
+			int xStart = ceil( A.x + ( ( static_cast<float>( y ) - A.y ) * slope0 ) );
+			int xEnd = ceil( A.x + ( ( static_cast<float>( y ) - A.y ) * slope1 ) );
+
+			xStart = std::max<float>( xStart, 0.f );
+			xEnd = std::min<float>( xEnd, Graphics::ScreenWidth - 1 );
+			for( int x = xStart; x <= xEnd; ++x )
+			{
+				RasterTriangle( x, y );
+			}
+		}
+	};
+	auto FlatTop = [ & ]( const Vec3 &A, const Vec3 &B, const Vec3 &C )
+	{
+		float slope0 = ( ( C - A ) / ( C.y - A.y ) ).x;
+		float slope1 = ( ( C - B ) / ( C.y - B.y ) ).x;
+
+		int yStart = std::max( 0.f, ceil( A.y ) );
+		int yEnd = std::min( static_cast<float>( Graphics::ScreenHeight - 1 ), ceil( C.y ) );
+
+		for( int y = yStart; y <= yEnd; ++y )
+		{
+			int xStart = ceil( A.x + ( ( static_cast<float>( y ) - A.y ) * slope0 ) );
+			int xEnd = ceil( B.x + ( ( static_cast<float>( y ) - B.y ) * slope1 ) );
+
+			xStart = std::max<float>( xStart, 0.f );
+			xEnd = std::min<float>( xEnd, Graphics::ScreenWidth - 1 );
+			for( int x = xStart; x <= xEnd; ++x )
+			{
+				RasterTriangle( x, y );
+			}
+		}
+	};
 
 	Vec2 top( sA.x, sA.y ),
 		middle( sB.x, sB.y ),
@@ -728,57 +772,41 @@ void Graphics::DrawTriangle( const Triangle & T, IWICBitmap * const pImage,
 		std::swap( top, middle );
 	}
 
-	float slope0 = ( ( middle - top ) / ( ( middle.y == top.y ) ? 1.f : ( middle.y - top.y ) ) ).x;
-	float slope1 = ( ( bottom - top ) / ( ( bottom.y == top.y ) ? 1.f : ( bottom.y - top.y ) ) ).x;
-	float slope2 = ( ( bottom - middle ) / ( ( bottom.y == middle.y ) ? 1.f : ( bottom.y - middle.y ) ) ).x;
-
-	int yStart0 = static_cast<int>( std::max( 0.f, ceilf( top.y ) ) );
-	int yEnd0 = static_cast<int>( std::min<float>( Graphics::ScreenHeight - 1, ceilf( middle.y ) ) );
-
-	for( int y = yStart0; y <= yEnd0; ++y )
-	{		
-		int xStart = static_cast<int>( 
-			std::max( 
-				top.x + ( ( y - yStart0 ) * slope0 ), 0.f ) );
-		int xEnd = static_cast<int>(
-			std::min<float>(
-				static_cast<float>( Graphics::ScreenWidth - 1 ),
-				top.x + ( static_cast<float>( ( y - yStart0 ) ) * slope1 )
-				)
-			);
-
-		if( xStart > xEnd )
-		{
-			std::swap( xStart, xEnd );
-		}
-		for( int x = xStart; x <= xEnd; ++x )
-		{
-			Vec3 p( 
-				static_cast<float>(x) + .5f, 
-				static_cast<float>(y) + .5f, 1.f );
-
-			RasterTriangle( p, x, y );
-		}
-	}
-
-	int yStart1 = static_cast<int>( std::max( 0.f, ceilf( middle.y ) ) );
-	int yEnd1 = static_cast<int>( std::min<float>( Graphics::ScreenHeight - 1, ceilf( bottom.y ) ) );
-
-	for( int y = yStart1; y <= yEnd1; ++y )
+	if( top.y == middle.y )
 	{
-		int xStart = static_cast<int>( std::max<float>( 0.f, middle.x + ( ( y - yStart1 ) * slope2 ) ) );
-		int xEnd = static_cast<int>( std::min<float>( Graphics::ScreenWidth - 1, top.x + ( ( y - yStart1 )* slope1 ) ) );
-		if( xStart > xEnd )
+		if( top.x > middle.x )
 		{
-			std::swap( xStart, xEnd );
+			std::swap( top, middle );
 		}
-		for( int x = xStart; x <= xEnd; ++x )
-		{
-			Vec3 p(
-				static_cast<float>( x ) + .5f,
-				static_cast<float>( y ) + .5f, 1.f );
 
-			RasterTriangle( p, x, y );
+		FlatTop( top, middle, bottom );
+	}
+	else if( middle.y == bottom.y )
+	{
+		if( middle.x > bottom.x )
+		{
+			std::swap( middle, bottom );
+		}
+		FlatBottom( top, middle, bottom );
+	}
+	else
+	{
+		Vec3 p3{};
+		float xDif = ( bottom.x - top.x );
+		float yDifLong = ( bottom.y - top.y );
+		float yDifShort = ( middle.y - top.y );
+		p3.x = top.x + ( ( xDif / yDifLong ) * yDifShort );
+		p3.y = middle.y;
+
+		if( middle.x > p3.x )
+		{
+			FlatBottom( top, p3, middle );
+			FlatTop( p3, middle, bottom );
+		}
+		else
+		{
+			FlatBottom( top, middle, p3 );
+			FlatTop( middle, p3, bottom );
 		}
 	}
 }
